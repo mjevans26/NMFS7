@@ -103,12 +103,12 @@ new$Action.Work.Type <- str_to_lower(new$Action.Work.Type)
 #select(comb, species.x, species.y)%>%
   #right_join(new, by = c("Species.Involved...Evaluated" = "species.x"))
 
-test <- group_by(new, Activity.Code)%>%
-  summarise(activity_code = first(Activity.Code),
-            region = first(Lead.Region),
-            ESOffice = first(Lead.Office),
-            title = first(Activity.Title),
-            lead_agency = first(Lead.Agency...Tribe),
+test <- group_by(new, NMFS.Tracking.Number)%>%
+  summarise(activity_code = first(NMFS.Tracking.Number),
+            region = first(NMFS.Lead.Region),
+            ESOffice = first(NMFS.Office),
+            title = first(TITLE),
+            lead_agency = first(Lead.Federal.Action.Agency),
             FY = first(Fiscal.Year),
             FY_start = first(Start.Date.Fiscal.Year),
             FY_concl = first(Conclusion.Date.FY),
@@ -128,7 +128,7 @@ test <- group_by(new, Activity.Code)%>%
             datum = first(Datum),
             lat = first(Latitude),
             long = first(Longitude),
-            spp_ev_ls = list(unique(Species.Involved...Evaluated)),
+            spp_ev_ls = list(unique(paste(Common.Name, Population, sep = ", "))),
             #spp_BO_ls = paste(Biological.Opinion.Species[Biological.Opinion.Species!=""],": BO = ",Biological.Conclusion.Determination[Biological.Opinion.Species!=""],"; CH = ",Critical.Habitat.Biological.Conclusion.Determination[Biological.Opinion.Species!=""], sep = "", collapse = ", "),
             spp_BO_ls = paste0(unique(paste(Biological.Opinion.Species[Biological.Opinion.Species!=""], ": BO = ", Biological.Conclusion.Determination[Biological.Opinion.Species!=""], "; CH = ", sep = "")), collapse = ", "),
             n_spp_eval = length(unique(Species.Involved...Evaluated)),
@@ -140,7 +140,7 @@ test <- group_by(new, Activity.Code)%>%
             n_admo = length(grep("[^No] Adverse Modification", Critical.Habitat.Biological.Conclusion.Determination)) + length(grep("[^No] Adverse Modification", Biological.Conclusion.Determination)),
             n_rpa = length(grep("with RPA", Critical.Habitat.Biological.Conclusion.Determination)) + length(grep("with RPA", Biological.Conclusion.Determination)),
             n_tech = length(grep("Technical Assistance", Critical.Habitat.Biological.Conclusion.Determination)) + length(grep("Technical Assistance", Biological.Conclusion.Determination)),
-            staff_lead_hash = digest(first(Staff.Lead), algo = "md5"),
+            staff_lead_hash = digest(first(NMFS.Project.Lead), algo = "md5"),
             staff_support_hash = digest(first(Supporting.Staff), algo = "md5"))
 
 #create boolean formal_consult
@@ -219,3 +219,7 @@ new$Population.Name[grepl("coral", new$Common.Name, ignore.case = TRUE) & new$Po
 #two species of right whale were occassionally distinguished in the population.name field
 new[new$Common.Name == "Whale, right" & new$Population.Name == "North Atlantic",c(17,18)]<- c("Whale, North Atlantic right", "")
 new[new$Common.Name == "Whale, right" & new$Population.Name == "North Pacific",c(17,18)]<- c("Whale, North Pacific right", "")
+
+new$Population <- new$Population.Name
+new$Population[is.na(new$Population)] <- "Range-wide"
+new$Population[new$Population == ""] <- "Range-wide"
