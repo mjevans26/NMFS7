@@ -100,6 +100,25 @@ new$Critical.Habitat.Biological.Conclusion.Determination <- str_replace(new$Crit
 new$Biological.Opinion.Species <- str_to_lower(new$Biological.Opinion.Species)
 new$Action.Work.Type <- str_to_lower(new$Action.Work.Type)
 
+new$FY.Start <- str_extract(new$Date.Request.for.Consultation.Received, "[0-9]{4}")
+new$FY.End <- str_extract(new$NMFS.Response.Date, "[0-9]{4}")
+new$Type <- str_replace(new$Profile, "ESA-S7(, |-)", "")
+new$Complex <- vapply(1:new$Consultation.Type, function(x){
+  text <- str_split(x, " ", simplify = TRUE)
+  if(length(text) < 2) {comp <- x}
+  else {comp <- paste(text[1, -1], collapse = " ")}
+  return(comp)
+}, FUN.VALUE = character(1), USE.NAMES = FALSE)
+
+new$Timely <- vapply(1:nrow(new), function(x){
+  if(as.Date(new$Estimated.Response.Date[1], format = "%Y-%m-%d") >
+       as.Date(new$NMFS.Response.Date[1], format = "%Y-%m-%d"))
+    {"Yes"}
+  else if (as.Date(new$Estimated.Response.Date[1], format = "%Y-%m-%d") <
+             as.Date(new$NMFS.Response.Date[1], format = "%Y-%m-%d"))
+  {"No"}
+  }, FUN.VALUE = character(1), USE.NAMES = FALSE)
+
 #select(comb, species.x, species.y)%>%
   #right_join(new, by = c("Species.Involved...Evaluated" = "species.x"))
 
@@ -110,26 +129,26 @@ test <- group_by(new, NMFS.Tracking.Number)%>%
             title = first(TITLE),
             lead_agency = first(Lead.Federal.Action.Agency),
             FY = first(Fiscal.Year),
-            FY_start = first(Start.Date.Fiscal.Year),
-            FY_concl = first(Conclusion.Date.FY),
-            start_date = first(Start.Received.Date),
-            date_formal_consult = first(Formal.Consultation.Initiated.Date),
-            due_date = first(Due.Date),
+            FY_start = first(FY.Start),
+            FY_concl = first(FY.End),
+            start_date = first(Date.Request.for.Consultation.Received),
+            date_formal_consult = first(Consultation.Initiation.Date),
+            due_date = first(Estimated.Repsonse.Date),
             FWS_concl_date = first(FWS.Response...Conclusion.Date),
             elapsed = first(Elapsed.Days),
-            date_active_concl = str_extract(first(Active.Concluded), "[0-9]{4}-[0-9]{2}-[0-9]{2}"),
-            timely_concl = first(Concluded.in.Timely.Manner),
-            hours_logged = first(Staff.Hours.Logged.Current.FY),
-            events_logged = first(Events.Logged.Current.FY),
-            consult_type = first(Consultation.Type),
-            consult_complex = first(Consultation.Complexity),
-            work_type = paste(unique(Action.Work.Type), collapse = " - "),
-            ARRA = first(ARRA.Fund),
+            date_active_concl = first(NMFS.Response.Date)
+            #date_active_concl = str_extract(first(Active.Concluded), "[0-9]{4}-[0-9]{2}-[0-9]{2}"),
+            timely_concl = first(Timely),
+            #hours_logged = first(Staff.Hours.Logged.Current.FY),
+            #events_logged = first(Events.Logged.Current.FY),
+            consult_type = first(Type),
+            consult_complex = first(Copmlex),
+            #work_type = paste(unique(Action.Work.Type), collapse = " - "),
+            #ARRA = first(ARRA.Fund),
             datum = first(Datum),
             lat = first(Latitude),
             long = first(Longitude),
             spp_ev_ls = list(unique(paste(Common.Name, Population, sep = ", "))),
-            #spp_BO_ls = paste(Biological.Opinion.Species[Biological.Opinion.Species!=""],": BO = ",Biological.Conclusion.Determination[Biological.Opinion.Species!=""],"; CH = ",Critical.Habitat.Biological.Conclusion.Determination[Biological.Opinion.Species!=""], sep = "", collapse = ", "),
             spp_BO_ls = paste0(unique(paste(Biological.Opinion.Species[Biological.Opinion.Species!=""], ": BO = ", Biological.Conclusion.Determination[Biological.Opinion.Species!=""], "; CH = ", sep = "")), collapse = ", "),
             n_spp_eval = length(unique(Species.Involved...Evaluated)),
             n_spp_BO = length(unique(Biological.Opinion.Species)),
