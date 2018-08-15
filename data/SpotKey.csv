@@ -1,0 +1,822 @@
+TrackingNumber,Common.Name,Population.Name,Jeopardy,CriticalHabitat,CH,Spp,CH_cons,Spp_cons
+NER-2005-5574,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2005-5574,"Whale, North Atlantic right",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NER-2005-5574,"Sturgeon, shortnose",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Effect,No Effect,No Effect
+NER-2005-5574,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NER-2005-5574,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2005-5574,"Whale, humpback",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NER-2005-5574,"Turtle, green sea",Florida Breeding Populations,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1754,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1754,"Whale, fin",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-1754,"Whale, North Atlantic right",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1754,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-1754,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1754,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-1754,"Whale, humpback",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-1754,"Whale, sei",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-1757,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1757,"Whale, humpback",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1757,"Whale, fin",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1757,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1757,"Whale, sei",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1757,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-1757,"Whale, North Atlantic right",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NER-2008-1757,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2008-9091,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-9091,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-9091,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2008-9091,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2009-7486,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2009-7486,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2009-7486,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2009-7486,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2010-5732,"Sturgeon, shortnose",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2010-5732,"Turtle, leatherback sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2010-5732,"Turtle, green sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2010-5732,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2012-1175,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NER-2012-1456,"Whale, fin",NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2012-1456,"Whale, sei",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2012-1456,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NER-2012-1456,"Whale, North Atlantic right",NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NER-2012-1456,"Whale, humpback",NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-1994-172,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-1997-38,Steelhead,Oregon Coast DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-1998-1411,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-1999-1017,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-1999-1150,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-1999-875,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2000-1356,"Salmon, coho",Oregon Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2000-1421,"Salmon, Chinook",Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2000-616,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-1385,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2001-2848,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-287,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-291,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-51,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-594,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2001-699,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-759,"Salmon, Chinook",Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-930,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2001-933,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2001-990,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2002-1193,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2002-1254,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2002-1967,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2002-390,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2002-941,"Salmon, coho",Oregon Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2002-948,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-1657,"Salmon, coho",Oregon Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2003-285,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-357,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2003-627,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-676,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-682,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-682,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-729,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-806,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2004-103,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2004-1043,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2004-1634,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2004-1812,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2004-278,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2004-867,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-125,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-3522,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-3695,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-4455,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-4497,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-4541,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-5248,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2005-5754,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-5834,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2006-1972,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2006-4251,"Salmon, coho",Southern Oregon/Northern California Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2006-471,"Whale, killer",Southern Resident,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2006-6530,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2007-2388,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2007-5347,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2007-7040,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-3994,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-6811,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-7033,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-7706,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-7858,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-3020,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2009-4136,"Salmon, coho",Oregon Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2009-5539,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2009-5649,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-6523,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-2701,"Salmon, coho",Oregon Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-3196,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-521,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-5409,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-5410,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-6293,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-6828,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-1543,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2011-2380,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, coho",Southern Oregon/Northern California Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,Eulachon,Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Salmon, coho",Oregon Coast ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5585,"Sea lion, Steller",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2011-5585,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5917,"Rockfish, canary",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2011-5917,Bocaccio,Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2011-5917,"Whale, killer",Southern Resident,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2011-5917,Steelhead,Puget Sound DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5917,"Rockfish, yelloweye",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2011-5917,"Salmon, Chinook",Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-654,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-654,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-654,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-654,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-654,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2011-945,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-945,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-945,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-945,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-1984,"Salmon, chum",Hood Canal summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-1984,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-1984,"Rockfish, yelloweye",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-1984,"Salmon, Chinook",Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-1984,"Rockfish, canary",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9437,"Turtle, leatherback sea",NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9437,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9437,"Sea lion, Steller",Eastern US DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9437,Eulachon,NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NWR-2012-9437,"Whale, humpback",NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NWR-2012-9493,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,Eulachon,NA,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9493,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9524,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-9524,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,Eulachon,Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9572,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9954,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9954,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9954,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9954,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9954,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2007-5760,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5760,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2007-5760,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2007-5760,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2007-5760,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2007-5762,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Whale, sperm",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Whale, fin",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Whale, North Pacific right",Eastern North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Whale, humpback",Central North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Whale, blue",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+PIR-2007-5762,"Seal, Hawaiian monk",Hawaiian Islands Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+PIR-2007-5762,"Whale, sei",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2007-5762,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2008-2747,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-2747,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-2747,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-2747,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-2747,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-2747,"Whale, humpback",Central North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-7326,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2008-7326,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2010-153,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2010-153,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2010-3251,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2010-3251,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2010-5209,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2010-5209,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2011-4465,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-4465,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-4465,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-4465,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-4465,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+PIR-2011-4465,"Whale, humpback",Central North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-4465,"Turtle, green sea",Mexican Breeding Population,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-4465,"Turtle, olive ridley sea",Mexican Breeding Population,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+PIR-2011-6432,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2011-6432,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2011-6432,"Whale, humpback",Central North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2011-6432,"Seal, Hawaiian monk",Hawaiian Islands Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2012-245,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+PIR-2012-245,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-1997-27,"Whale, fin",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Turtle, loggerhead sea",Northwest Atlantic Ocean DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Whale, humpback",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-1997-27,"Whale, North Atlantic right",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-1997-27,"Whale, sei",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2000-411,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2000-411,"Turtle, Kemp's ridley sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2000-411,"Sturgeon, shortnose",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2000-411,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2000-411,"Turtle, hawksbill sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2001-1080,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2001-1080,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2001-1080,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2001-1080,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2001-1080,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2005-5045,"Turtle, green sea",Florida Breeding Populations,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-5045,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-5045,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2005-5045,"Whale, North Atlantic right",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2005-5045,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2006-5026,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2007-6521,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No Ch,No Jeopardy
+SER-2007-6521,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2007-6521,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2007-6521,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Effect,No Effect,No Effect
+SER-2007-6521,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Effect,No Effect,No Effect
+SER-2007-6521,"Turtle, green sea",Florida Breeding Populations,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2007-6521,"Whale, North Atlantic right",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Effect,No CH,No Effect
+SER-2008-3032,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2008-3032,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-3032,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-3032,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-3032,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-3032,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-6857,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-6857,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-6857,"Turtle, green sea",Florida Breeding Populations,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-6857,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-6857,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-6857,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-6857,"Seagrass, Johnson's",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-7473,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-7473,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-7473,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-7473,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-7473,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2008-8000,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2009-277,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2009-277,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2009-277,"Coral, staghorn",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2009-277,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2009-277,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2009-277,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2009-277,"Coral, elkhorn",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2009-3886,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2009-3886,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2009-3886,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2009-3886,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2009-3886,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2010-114,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2010-114,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-114,"Seagrass, Johnson's",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2010-114,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-114,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-114,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-1441,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-1441,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-1441,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2010-1441,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-1441,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2010-2378,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-3921,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-3921,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-3921,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-3921,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-3921,"Seagrass, Johnson's",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2010-3921,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2010-3921,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2011-1079,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-1079,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-1079,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-1079,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2011-1079,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2011-1079,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-1079,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-1933,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-1933,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2011-1933,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2011-1933,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2011-1933,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2011-1933,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2011-260,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-260,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2011-260,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-260,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-260,"Seagrass, Johnson's",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2011-260,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-260,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-3241,"Turtle, green sea",Florida Breeding Populations,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-3241,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-3241,"Seagrass, Johnson's",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2011-3241,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-3241,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2011-3241,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2012-736,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2012-736,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2012-736,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2012-736,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2012-736,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2012-736,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2012-948,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Effect,No Effect,No Effect
+SER-2012-948,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Effect,No CH,No Effect
+SER-2012-948,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Effect,No CH,No Effect
+SER-2012-948,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Effect,No CH,No Effect
+SER-2012-948,"Sturgeon, shortnose",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-948,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Effect,No CH,No Effect
+SWR-2013-9541,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2013-9541,"Salmon, Chinook",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2013-9541,Steelhead,,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2013-9728,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2013-9728,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2013-9728,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1377,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1377,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1377,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1377,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-1997,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2015-1997,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2015-1997,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2015-1997,Steelhead,Central California Coast DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2015-2725,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-2725,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-2725,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-2725,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3218,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3218,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3218,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3218,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2013-12718,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,Adverse Modification,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-663,Steelhead,,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-680,Steelhead,Snake River Basin DPS,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-680,"Salmon, Chinook",Snake River fall-run ESU,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-4082,Steelhead,California Central Valley DPS,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-4082,"Sturgeon, green",,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5673,"Salmon, Chinook",Central Valley spring-run ESU,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5673,"Sturgeon, green",,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5673,Steelhead,California Central Valley DPS,"Adverse Mod, No Jeopardy",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5673,"Salmon, Chinook",Sacramento River winter-run ESU,"Adverse Mod, No Jeopardy",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2017-6480,"Salmon, Chinook Lower",Columbia River ESU,"Adverse Mod, No Jeopardy",No Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2017-6480,"Sturgeon, green",,"Adverse Mod, No Jeopardy",No Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2015-16542,"Coral, Mountainous Star",Range-wide,"Adverse Mod, No Jeopardy",No Effect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+WCR-2013-76,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,No Effect,No Adverse Modification,Jeopardy,No Adverse Modification,Jeopardy
+WCR-2015-2794,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,No Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-10562,"Salmon, Chinook",Puget Sound ESU,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2010-3497,"Sturgeon, Gulf",Range-wide,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,Jeopardy,No Adverse Modification,Jeopardy
+SER-2010-3497,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,Jeopardy,No Adverse Modification,Jeopardy
+SER-2010-3497,"Turtle, green sea",Range-wide,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,Jeopardy,No Adverse Modification,Jeopardy
+SER-2010-3497,"Turtle, loggerhead sea",,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,Jeopardy,No Adverse Modification,Jeopardy
+WCR-2014-467,"Salmon, Chinook",Sacramento River winter-run ESU,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-467,Steelhead,California Central Valley DPS,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-682,"Salmon, sockeye", Snake River ESU,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3915,Steelhead,Lower Columbia River DPS,"Jeopardy, No Adverse Mod",No Effect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3915,"Salmon, coho",,"Jeopardy, No Adverse Mod",No Effect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-682,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-1999-1903,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Jeopardy,No Adverse Modification,Jeopardy
+NWR-1999-1903,Steelhead,Lower Columbia River DPS,"Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,Jeopardy,No Effect,Jeopardy
+SWR-2012-3549,"Salmon, coho",Southern Oregon/Northern California Coast ESU,"No Jeopardy, No Adverse Mod",Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2012-3549,"Salmon, Chinook",California Coastal ESU,"No Jeopardy, No Adverse Mod",Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2012-3549,Steelhead,Northern California DPS,"No Jeopardy, No Adverse Mod",Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+AKR-2015-9442,"Whale, beluga",Cook Inlet,"No Jeopardy, No Adverse Mod",May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5014,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5014,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5014,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5014,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13020,"Seagrass, Johnson's",,Not Likely to Adversely Affect,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13067,"Seagrass, Johnson's",,Not Likely to Adversely Affect,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13108,"Seagrass, Johnson's",,Not Likely to Adversely Affect,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13109,"Seagrass, Johnson's",,Not Likely to Adversely Affect,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13455,"Seagrass, Johnson's",,Not Likely to Adversely Affect,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-15068,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-440,"Salmon, Chinook",California Coastal ESU,Not Likely to Adversely Affect,May Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-440,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Not Likely to Adversely Affect,May Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-440,Steelhead,Northern California DPS,Not Likely to Adversely Affect,May Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+AKR-2015-9415,"Whale, humpback",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2003-1143,"Whale, fin",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2003-1143,"Whale, North Atlantic right",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NER-2003-1143,"Whale, humpback",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2003-961,"Turtle, loggerhead sea",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2003-961,"Turtle, green sea",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NER-2003-961,"Turtle, leatherback sea",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2003-961,"Turtle, Kemp's ridley sea",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2007-3720,"Turtle, leatherback sea",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2007-3720,"Turtle, Kemp's ridley sea",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NER-2007-3720,"Whale, North Atlantic right",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NER-2016-13077,"Sturgeon, Atlantic",Chesapeake Bay DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2013-10124,Bocaccio,NA,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2012-2282,"Sturgeon, Gulf",NA,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2012-3177,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2012-3181,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2012-3777,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2012-9303,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-10503,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-10836,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11069,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11209,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11452,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11502,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11547,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11655,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11848,"Coral, elkhorn",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11937,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11961,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11983,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11984,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11989,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-11990,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12140,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12184,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12382,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12432,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12458,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12613,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-12933,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13011,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2014-13099,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13282,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13308,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13456,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13457,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13486,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13911,"Seagrass, Johnson's",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-15668,"Turtle, loggerhead sea",Northwest Atlantic Ocean DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-16724,"Sawfish, smalltooth",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2015-16737,"Whale, North Atlantic right",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-16914,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-17195,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-17277,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-17457,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-17551,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-17611,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2015-17631,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-17660,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-17661,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-18081,"Sturgeon, Gulf",Range-wide,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-18105,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-18138,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-18158,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-18160,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2016-18192,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2017-18380,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2017-18386,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2017-18392,"Sawfish, smalltooth",U.S. DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SWR-2012-3420,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SWR-2012-3420,"Sturgeon, green",Southern DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SWR-2012-3420,Steelhead,Northern California DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SWR-2012-3420,"Salmon, Chinook",California Coastal ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2013-106,Steelhead,Middle Columbia River DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2013-52,Steelhead,Puget Sound DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+WCR-2014-1657,"Salmon, Chinook",Snake River spring/summer-run ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1814,"Sturgeon, green",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1814,Steelhead,California Central Valley DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1814,"Salmon, Chinook",Central Valley spring-run ESU,Not Likely to Adversely Affect,No Effect,No Effect,No Jeopardy,No Effect,No Jeopardy
+WCR-2014-1814,"Salmon, Chinook",Sacramento River winter-run ESU,Not Likely to Adversely Affect,No Effect,No Effect,No Jeopardy,No Effect,No Jeopardy
+WCR-2014-243,"Salmon, Chinook",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-394,"Salmon, Chinook",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-504,"Salmon, Chinook",,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-744,Steelhead,,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-876,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-876,"Salmon, Chinook",California Coastal ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-876,Steelhead,Northern California DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2015-3248,"Salmon, Chinook",Lower Columbia River ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2016-4022,Steelhead,California Central Valley DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2016-4536,Steelhead,California Central Valley DPS,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-5168,"Salmon, Chinook",Puget Sound ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2016-5574,"Salmon, Chinook",Central Valley spring-run ESU,Not Likely to Adversely Affect,May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12486,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2013-12565,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2013-12620,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-12893,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-12927,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-12935,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13050,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13373,"Seagrass, Johnson's",,Withdrawn,May Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-15068,"Coral, staghorn",NA,Withdrawn,May Affect,No Effect,No Effect,No Effect,No Effect
+SER-2015-16999,"Turtle, hawksbill sea",Range-wide,Withdrawn,May Affect,No Effect,No Effect,No Effect,No Effect
+SER-2013-11380,"Seagrass, Johnson's",,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-13370,"Seagrass, Johnson's",,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-14478,"Seagrass, Johnson's",,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-14479,"Seagrass, Johnson's",,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-14480,"Seagrass, Johnson's",,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-14568,"Seagrass, Johnson's",,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2015-16287,"Seagrass, Johnson's",Range-wide,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2016-17794,"Seagrass, Johnson's",Range-wide,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2016-17809,"Seagrass, Johnson's",Range-wide,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2016-17893,"Seagrass, Johnson's",Range-wide,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2016-17903,"Seagrass, Johnson's",Range-wide,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2016-17928,"Seagrass, Johnson's",Range-wide,Withdrawn,May Affect - Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+AKR-2001-21,"Whale, bowhead",Western Arctic Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+AKR-2001-21,"Whale, fin",Northeast Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+AKR-2001-21,"Whale, humpback",Western North Pacific DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+AKR-2008-4550,"Whale, bowhead",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+AKR-2008-4550,"Whale, fin",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+AKR-2008-4550,"Whale, humpback",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2012-9296,"Seagrass, Johnson's",,Withdrawn,No Adverse Modification,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2013-10880,"Seagrass, Johnson's",NA,Withdrawn,No Adverse Modification,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2013-11894,"Seagrass, Johnson's",,Withdrawn,No Adverse Modification,No Adverse Modification,No Effect,No Adverse Modification,No Effect
+SER-2013-12257,"Coral, staghorn",,Withdrawn,No Adverse Modification,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+SER-2013-12257,"Coral, elkhorn",,Withdrawn,No Adverse Modification,No Adverse Modification,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+FPR-2015-9110,Bocaccio,Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+FPR-2015-9110,"Rockfish, canary",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+FPR-2015-9110,"Rockfish, yelloweye",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+FPR-2015-9110,"Salmon, chum",,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+FPR-2015-9110,Eulachon,Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NER-2013-10537,"Whale, North Atlantic right",,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NER-2013-9613,"Salmon, Atlantic",Gulf of Maine DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NER-2015-12532,"Salmon, Atlantic",Gulf of Maine DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NER-2015-12532,"Turtle, loggerhead sea",Northwest Atlantic Ocean DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-2688,"Rockfish, canary",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Ch,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2012-2688,"Sea lion, Steller",,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NWR-2012-293,Steelhead,,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-841,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9991,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2013-9991,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-15303,"Sturgeon, Atlantic",,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Ch,No Jeopardy,No CH,No Jeopardy
+SER-2014-15303,"Sturgeon, shortnose",,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Ch,No Jeopardy,No CH,No Jeopardy
+SER-2015-15985,"Turtle, loggerhead sea",Northwest Atlantic Ocean DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2015-16862,"Turtle, loggerhead sea",Northwest Atlantic Ocean DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2012-4612,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2012-4612,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2012-4612,"Sturgeon, green",,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SWR-2012-4612,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1476,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1476,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1476,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1476,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1476,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1476,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1846,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-1846,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-6015 ,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+WCR-2016-4675,"Salmon, sockeye",Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2016-4675,Steelhead,Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3759,Steelhead,Southern California DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3118,Steelhead,California Central Valley DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3118,"Salmon, Chinook",Sacramento River winter-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2015-3118,"Salmon, Chinook",Central Valley spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,No CH,No Jeopardy,No CH,No Jeopardy
+WCR-2014-484,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-484,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,Eulachon,Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+WCR-2014-484,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,Steelhead,Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,Steelhead,Upper Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2014-484,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2014-15058,"Coral, Mountainous Star",,"Jeopardy, No Adverse Mod",No Effect,No CH,No Jeopardy,No CH,No Jeopardy
+WCR-2015-3915,Steelhead,Lower Columbia River DPS,"Jeopardy, No Adverse Mod",No Effect,No Effect,No Jeopardy,No Effect,No Jeopardy
+WCR-2015-3915,"Salmon, coho",,"Jeopardy, No Adverse Mod",No Effect,No Effect,No Jeopardy,No Effect,No Jeopardy
+NWR-2009-66,"Salmon, Chinook",Lower Columbia River ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, Chinook",Snake River fall-run ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, Chinook",Snake River spring/summer-run ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, Chinook",Upper Willamette River ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, Chinook",Upper Columbia River spring-run ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, Chinook",Upper Columbia River summer/fall-run ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, chum",Columbia River ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, sockeye",Snake River ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, coho",Lower Columbia River ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, coho",Oregon Coast ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,Steelhead,Upper Columbia River DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,Steelhead,Snake River Basin DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,Steelhead,Middle Columbia River DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,Steelhead,Lower Columbia River DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,Steelhead,Upper Willamette River DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Sea lion, Steller",Eastern US DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-66,"Whale, killer",Southern Resident,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2009-66,Eulachon,Southern DPS,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2000-1313,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2000-1313,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2000-1313,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2000-1313,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2000-1313,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2003-1071,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2003-1071,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2003-1071,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2004-80,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2004-80,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2004-80,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2004-80,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2004-80,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-536,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-536,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-536,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-536,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-536,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2006-7001,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2006-7001,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2006-7001,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2006-7001,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2006-7001,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-9073,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-9073,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-9073,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-9073,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-9073,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2008-9073,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Turtle, hawksbill sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Turtle, loggerhead sea",Northeast Atlantic Ocean DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Turtle, Kemp's ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Sturgeon, Atlantic",Carolina DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Sturgeon, Atlantic",Chesapeake Bay DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Sturgeon, Atlantic",Gulf of Maine DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Sturgeon, Atlantic",New York Bight DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Sturgeon, Atlantic",South Atlantic DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2012-4507,"Sturgeon, Gulf",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2012-4507,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2005-587,"Turtle, green sea",Range-wide,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2005-587,"Turtle, hawksbill sea",Range-wide,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+SER-2005-587,"Turtle, leatherback sea",Range-wide,Not Likely to Adversely Affect,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2003-1386,"Salmon, Chinook",Puget Sound ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2005-404,Steelhead,Snake River Basin DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-7161,"Salmon, Chinook",Puget Sound ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-7161,Steelhead,Puget Sound DPS,,,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2009-6531,"Salmon, Chinook",Lower Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Salmon, Chinook",Snake River fall-run ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Salmon, Chinook",Snake River spring/summer-run ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Salmon, Chinook",Upper Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Salmon, chum",Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Salmon, coho",Lower Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Salmon, sockeye",Snake River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,Steelhead,Lower Columbia River DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,Steelhead,Middle Columbia River DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,Steelhead,Snake River Basin DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,Steelhead,Upper Columbia River DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Sturgeon, green",Southern DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2009-6531,"Sea lion, Steller",Eastern US DPS,,,No Effect,No Jeopardy,No Effect,No Jeopardy
+NWR-2010-4057,"Salmon, Chinook",Puget Sound ESU,,,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-4057,Steelhead,Puget Sound DPS,,,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2010-4057,"Salmon, chum",Hood Canal summer-run ESU,,,Not Likely to Adversely Affect,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2010-4057,Bocaccio,Puget Sound/Georgia Basin DPS,,,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2010-4057,"Rockfish, yelloweye",Puget Sound/Georgia Basin DPS,,,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2010-4057,"Rockfish, canary",Puget Sound/Georgia Basin DPS,,,No CH,No Jeopardy,No CH,No Jeopardy
+NWR-2010-4057,"Whale, killer",Southern Resident,,,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2010-4057,"Sea lion, Steller",Range-wide,,,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+NWR-2011-5371,"Salmon, Chinook",Lower Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5371,Steelhead,Lower Columbia River DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5371,"Salmon, coho",Lower Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5873,"Salmon, Chinook",Lower Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5873,Steelhead,Lower Columbia River DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-5873,"Salmon, coho",Lower Columbia River ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-115,"Salmon, Chinook",Puget Sound ESU,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2012-115,Steelhead,Puget Sound DPS,,,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2011-3509,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3509,Eulachon,Columbia River,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2011-3509,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Adverse Modification,No Jeopardy
+NWR-2011-3790,Bocaccio,Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2011-3790,"Rockfish, canary",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2011-3790,"Rockfish, yelloweye",Puget Sound/Georgia Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SWR-2012-4129,Steelhead,,Withdrawn,May Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SWR-2013-9398,Steelhead,,Withdrawn,May Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SWR-2013-9399,Steelhead,,Withdrawn,May Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Coral, elkhorn",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Coral, staghorn",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Seagrass, Johnson's",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Turtle, hawksbill sea",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Turtle, Kemp's ridley sea",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Turtle, leatherback sea",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Turtle, green sea",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2013-11060,"Sawfish, smalltooth",,Withdrawn,May Affect - Not Likely to Adversely Affect,Not Likely to Adversely Affect,No Effect,No Adverse Modification,No Effect
+SER-2007-5044,"Turtle, green sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2007-5044,"Turtle, hawksbill sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2007-5044,"Turtle, Kemp's ridley sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2007-5044,"Turtle, leatherback sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2007-5044,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+SER-2007-5044,"Sawfish, smalltooth",U.S. DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No Effect,No Jeopardy,No Effect,No Jeopardy
+WCR-2017-6480,Bocaccio,,"Adverse Mod, No Jeopardy",Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2017-6480,"Rockfish, canary",,"Adverse Mod, No Jeopardy",Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+WCR-2017-6480,"Rockfish, yelloweye",,"Adverse Mod, No Jeopardy",Adverse Modification,No Adverse Modification,No Jeopardy,No Adverse Modification,No Jeopardy
+NWR-2008-148,"Whale, sperm",California/Oregon/Washington Stock,Jeopardy & Adverse Modification,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-148,"Whale, sei",Eastern North Pacific Stock,Jeopardy & Adverse Modification,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-148,"Whale, humpback",Western North Pacific DPS,Jeopardy & Adverse Modification,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-148,"Whale, fin",Range-wide,Jeopardy & Adverse Modification,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-148,"Whale, blue",Range-wide,Jeopardy & Adverse Modification,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-148,"Sea lion, Steller",Eastern US DPS,Jeopardy & Adverse Modification,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-148,Eulachon,Columbia River,Jeopardy & Adverse Modification,,Adverse Modification,Jeopardy,Adverse Modification,Jeopardy
+FPR-2010-5328,"Whale, fin",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Whale, humpback",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Whale, sei",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Whale, sperm",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Turtle, Kemp's ridley sea",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Turtle, loggerhead sea",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Abalone, white",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Sea lion, Steller",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Seal, Guadalupe fur",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Whale, bowhead",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Whale, blue",,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,Vaquita,Gulf of California,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2010-5328,"Turtle, olive ridley sea",Range-wide,Jeopardy & Adverse Modification,,No CH,Jeopardy,No CH,Jeopardy
+FPR-2014-9084,"Turtle, Kemp's ridley sea",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2014-9084,"Turtle, green sea",Florida Breeding Populations,"Adverse Mod, No Jeopardy",,Adverse Modification,No Jeopardy,Adverse Modification,No Jeopardy
+FPR-2014-9084,"Turtle, loggerhead sea",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2014-9084,"Whale, blue",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2014-9084,"Whale, sei",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2014-9084,"Whale, sperm",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2014-9084,"Whale, fin",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2014-9084,"Whale, humpback",,"Adverse Mod, No Jeopardy",,No CH,No Jeopardy,No CH,No Jeopardy
+FPR-2003-2432,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2003-2433,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2003-2434,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2003-2435,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2003-2436,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2004-2637,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2004-2641,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2004-2643,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+FPR-2004-2639,"Salmon, Chinook",Oregon Coast ESU,,Jeopardy & Adverse Modification,NA,NA,NA,NA
+NWR-2002-1959,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2002-1959,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2002-1959,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2002-1959,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Whale, humpback",Eastern North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Whale, fin",California/Oregon/Washington Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Turtle, green sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Turtle, loggerhead sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Whale, killer",Southern Resident,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Whale, sei",Eastern North Pacific Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Whale, sperm",California/Oregon/Washington Stock,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Whale, blue",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Turtle, leatherback sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2009-4536,"Sea lion, Steller",Eastern US DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-4151,"Salmon, Chinook",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,"Salmon, Chinook",Puget Sound ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,"Salmon, sockeye",Snake River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Sea lion, Steller",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,Steelhead,Lower Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,Steelhead,Middle Columbia River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,Steelhead,Puget Sound DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+NWR-2008-4151,Steelhead,Snake River Basin DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,Steelhead,Upper Willamette River DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Sturgeon, green",Southern DPS,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,"Turtle, loggerhead sea",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,"Turtle, olive ridley sea",Range-wide,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,"Whale, humpback",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Whale, killer",,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, Chinook",Snake River fall-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, Chinook",Snake River spring/summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, Chinook",Upper Willamette River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, chum",Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,"Salmon, chum",Hood Canal summer-run ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, coho",Lower Columbia River ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, sockeye",Ozette Lake ESU,"No Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect,,,,
+NWR-2008-4151,Steelhead,Upper Columbia River DPS,"No Jeopardy, No Adverse Mod",No Adverse Modification,,Not Likely to Adversely Affect,,No Jeopardy
+NWR-2008-4151,"Salmon, Chinook",Upper Columbia River spring-run ESU,"No Jeopardy, No Adverse Mod",No Adverse Modification,,Not Likely to Adversely Affect,,No Jeopardy
+SER-2008-4302,"Sawfish, smalltooth",U.S. DPS,,,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-4302,"Turtle, green sea",Florida Breeding Populations,,,No CH,No Jeopardy,No CH,No Jeopardy
+SER-2008-4302,"Turtle, leatherback sea",,,,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-4302,"Turtle, Kemp's ridley sea",,,,No CH,Not Likely to Adversely Affect,No CH,No Jeopardy
+SER-2008-4302,"Turtle, hawksbill sea",,,,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy
+SER-2008-4302,"Turtle, loggerhead sea",,,,No Effect,Not Likely to Adversely Affect,No Effect,No Jeopardy

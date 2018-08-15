@@ -1,0 +1,795 @@
+Entity ID,Common Name,Scientific Name,Species Group,FWS Lead Region,FWS Listing Status,Critical Habitat Type,Federal Register Publication,Critical Habitat Shapefile,tsn,Acres and Miles
+193,"Coqui, golden",Eleutherodactylus jasperi,Amphibians,Region 4,Threatened,Final,Federal Register (1977-11-11),Download,173563,329.0 acres
+9378,"Coqui, Llanero",Eleutherodactylus juanariveroi,Amphibians,Region 4,Endangered,Final,Federal Register (2012-10-04),,774192,
+205,"Frog, California red-legged",Rana draytonii,Amphibians,Region 8,Threatened,Final,Federal Register (2010-03-17),Download,207009,1641246.1 acres
+206,"Frog, Chiricahua leopard",Rana chiricahuensis,Amphibians,Region 2,Threatened,Final,Federal Register (2012-03-20),Download,173451,601.4 acres
+208,"Frog, dusky gopher",Rana sevosa,Amphibians,Region 4,Endangered,Final,Federal Register (2012-06-12),Download,665414,5538.8 acres
+207,"Frog, mountain yellow-legged",Rana muscosa,Amphibians,Region 8,Endangered,Final,Federal Register (2006-09-14),Download,173454,7954.3 acres
+1740,"Frog, mountain yellow-legged",Rana muscosa,Amphibians,Region 8,Endangered,Final,Federal Register (2016-08-26),Download,173454,220547.3 acres
+4090,"Frog, Oregon spotted",Rana pretiosa,Amphibians,Region 1,Threatened,Final,Federal Register (2016-05-11),Download,173458,66000.4 acres
+10517,"Frog, Sierra Nevada Yellow-legged",Rana sierrae,Amphibians,Region 8,Endangered,Final,Federal Register (2016-08-26),Download,775211,1089453.8 acres
+196,Guajon,Eleutherodactylus cooki,Amphibians,Region 4,Threatened,Final,Federal Register (2007-10-23),Download,173558,170.3 acres
+6346,"Salamander, Austin blind",Eurycea waterlooensis,Amphibians,Region 2,Endangered,Final,Federal Register (2013-08-20),Download,668294,76.0 acres
+203,"Salamander, California tiger",Ambystoma californiense,Amphibians,Region 8,Endangered,Final,Federal Register (2011-08-31),Download,173595,47267.5 acres
+4773,"Salamander, California tiger",Ambystoma californiense,Amphibians,Region 8,Threatened,Final,Federal Register (2005-08-23),Download,173595,196948.3 acres
+8395,"Salamander, California tiger",Ambystoma californiense,Amphibians,Region 8,Endangered,Final,Federal Register (2004-11-24),Download,173595,10973.1 acres
+199,"Salamander, frosted flatwoods",Ambystoma cingulatum,Amphibians,Region 4,Threatened,Final,Federal Register (2009-02-10),Download,173596,21380.3 acres
+5434,"Salamander, Georgetown",Eurycea naufragia,Amphibians,Region 2,Threatened,Proposed,Federal Register (2013-01-25),Download,668291,658.8 acres
+3849,"Salamander, Jemez Mountains",Plethodon neomexicanus,Amphibians,Region 2,Endangered,Final,Federal Register (2013-11-20),Download,173663,90554.7 acres
+8231,"Salamander, Jollyville Plateau",Eurycea tonkawae,Amphibians,Region 2,Threatened,Final,Federal Register (2013-08-20),Download,668293,3305.2 acres
+9943,"salamander, Reticulated flatwoods",Ambystoma bishopi,Amphibians,Region 4,Endangered,Final,Federal Register (2009-02-10),Download,775866,3820.7 acres
+7610,"Salamander, Salado",Eurycea chisholmensis,Amphibians,Region 2,Threatened,Proposed,Federal Register (2013-01-25),Download,668290,279.8 acres
+194,"Salamander, San Marcos",Eurycea nana,Amphibians,Region 2,Threatened,Final,Federal Register (1980-07-14),Download,173693,18.5 acres
+204,"Toad, arroyo (=arroyo southwestern)",Anaxyrus californicus,Amphibians,Region 8,Endangered,Final,Federal Register (2011-02-09),Download,773514,98556.0 acres
+190,"Toad, Houston",Bufo houstonensis,Amphibians,Region 2,Endangered,Final,Federal Register (1978-01-31),Download,173488,84166.4 acres
+1707,"toad, Yosemite",Anaxyrus canorus,Amphibians,Region 8,Threatened,Final,Federal Register (2016-08-26),Download,773515,748697.2 acres
+5065,"Waterdog, black warrior (=Sipsey Fork)",Necturus alabamensis,Amphibians,Region 4,Proposed Endangered,Proposed,Federal Register (2016-10-06),,173628,
+469,"Harvestman, Cokendolpher Cave",Texella cokendolpheri,Arachnids,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,-50,203.1 acres
+474,"Meshweaver, Braken Bat Cave",Cicurina venii,Arachnids,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,876262,148.1 acres
+473,"Meshweaver, Government Canyon Bat Cave",Cicurina vespera,Arachnids,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,876263,64.5 acres
+471,"Meshweaver, Madla's Cave",Cicurina madla,Arachnids,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,876193,1564.6 acres
+472,"Meshweaver, Robber Baron Cave",Cicurina baronia,Arachnids,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,876148,323.0 acres
+470,"Spider, Government Canyon Bat Cave",Neoleptoneta microps,Arachnids,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,862424,64.5 acres
+463,"Spider, Kauai cave wolf or pe'e pe'e maka 'ole",Adelocosa anops,Arachnids,Region 1,Endangered,Final,Federal Register (2003-04-09),Download,849993,232.0 acres
+468,"Spider, spruce-fir moss",Microhexura montivaga,Arachnids,Region 4,Endangered,Final,Federal Register (2001-07-06),Download,861657,9516.0 acres
+6522,Akekee,Loxops caeruleirostris,Birds,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,554341,17261.3 acres
+4136,Akikiki,Oreomystis bairdi,Birds,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,179584,17261.3 acres
+117,"Blackbird, yellow-shouldered",Agelaius xanthomus,Birds,Region 4,Endangered,Final,Federal Register (1977-09-22),Download,179062,16969.6 acres
+66,"Condor, California",Gymnogyps californianus,Birds,Region 8,Endangered,Final,Federal Register (1977-09-22),Download,175274,604322.1 acres
+110,"Crane, Mississippi sandhill",Grus canadensis pulla,Birds,Region 4,Endangered,Final,Federal Register (1977-08-08),Download,202247,26484.7 acres
+67,"Crane, whooping",Grus americana,Birds,Region 2,Endangered,Final,Federal Register (1978-05-15),Download,176176,371927.9 acres
+118,"Crow, Mariana (=aga)",Corvus kubaryi,Birds,Region 1,Endangered,Final,Federal Register (2004-10-28),,179744,
+6901,"Cuckoo, yellow-billed",Coccyzus americanus,Birds,Region 8,Threatened,Proposed,Federal Register (2014-08-15),Download,177831,550563.1 acres
+146,"Eider, spectacled",Somateria fischeri,Birds,Region 7,Threatened,Final,Federal Register (2001-02-06),Download,175161,24926667.2 acres
+147,"Eider, Steller's",Polysticta stelleri,Birds,Region 7,Threatened,Final,Federal Register (2001-02-02),Download,175153,1819463.2 acres
+150,"elepaio, Oahu",Chasiempis ibidis,Birds,Region 1,Endangered,Final,Federal Register (2001-12-10),Download,-1327,65775.6 acres
+149,"Flycatcher, southwestern willow",Empidonax traillii extimus,Birds,Region 2,Endangered,Final,Federal Register (2013-01-03),Download,712529,210961.0 acres
+145,"Gnatcatcher, coastal California",Polioptila californica californica,Birds,Region 8,Threatened,Final,Federal Register (2007-12-19),Download,-278,197480.9 acres
+74,"honeycreeper, (Akohekohe) crested",Palmeria dolei,Birds,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,179587,108852.0 acres
+4296,"Horned lark, streaked",Eremophila alpestris strigata,Birds,Region 1,Threatened,Final,Federal Register (2013-10-03),Download,178412,4432.9 acres
+119,"Kingfisher, Guam",Todiramphus cinnamominus,Birds,Region 1,Endangered,Final,Federal Register (2004-10-28),,692702,
+1221,"Kite, Everglade snail",Rostrhamus sociabilis plumbeus,Birds,Region 4,Endangered,Final,Federal Register (1977-09-22),Download,175296,840153.6 acres
+143,"Murrelet, marbled",Brachyramphus marmoratus,Birds,Region 1,Threatened,Final,Federal Register (2016-08-04),Download,176996,3786936.4 acres
+129,"Owl, Mexican spotted",Strix occidentalis lucida,Birds,Region 2,Threatened,Final,Federal Register (2004-08-31),Download,177928,9874150.8 acres
+142,"Owl, northern spotted",Strix occidentalis caurina,Birds,Region 1,Threatened,Final,Federal Register (2012-12-04),Download,177926,9565750.5 acres
+79,Palila (honeycreeper),Loxioides bailleui,Birds,Region 1,Endangered,Final,Federal Register (1977-09-22),Download,179578,96598.8 acres
+81,"parrotbill, Maui (Kiwikiu)",Pseudonestor xanthophrys,Birds,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,179593,108852.0 acres
+131,"Plover, piping",Charadrius melodus,Birds,Region 5,Threatened,Final,Federal Register (2009-05-19),Download,176507,1387694.3 acres
+130,"Plover, piping",Charadrius melodus,Birds,Region 3,Endangered,Final,Federal Register (2001-05-07),Download,176507,43720.9 acres
+132,"Plover, western snowy",Charadrius alexandrinus nivosus,Birds,Region 8,Threatened,Final,Federal Register (2012-06-19),Download,176511,24871.3 acres
+4064,"sage-grouse, Gunnison",Centrocercus minimus,Birds,Region 6,Threatened,Final,Federal Register (2014-11-20),Download,677540,1426831.5 acres
+85,"Sparrow, Cape Sable seaside",Ammodramus maritimus mirabilis,Birds,Region 4,Endangered,Final,Federal Register (2007-11-06),Download,202311,84165.7 acres
+137,"Towhee, Inyo California",Pipilo crissalis eremophilus,Birds,Region 8,Threatened,Final,Federal Register (1987-08-03),Download,202309,1921.6 acres
+123,"Vireo, least Bell's",Vireo bellii pusillus,Birds,Region 8,Endangered,Final,Federal Register (1994-02-02),Download,179007,37066.0 acres
+4237,"Warbler, elfin-woods",Setophaga angelae,Birds,Region 4,Threatened,Proposed,Federal Register (2016-06-22),Download,-1332,27222.3 acres
+1241,"White-eye, Rota bridled",Zosterops rotensis,Birds,Region 1,Endangered,Final,Federal Register (2006-09-12),Download,-408,5447.6 acres
+365,"Acornshell, southern",Epioblasma othcaloogensis,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80328,397.1 miles
+366,"Bankclimber, purple (mussel)",Elliptoideus sloatianus,Clams,Region 4,Threatened,Final,Federal Register (2007-11-15),Download,80298,821.4 miles
+4042,"Bean, Choctaw",Villosa choctawensis,Clams,Region 4,Endangered,Final,Federal Register (2012-10-10),Download,80205,1201.2 miles
+318,"Bean, purple",Villosa perpurpurea,Clams,Region 5,Endangered,Final,Federal Register (2004-08-31),Download,80219,292.6 miles
+377,"Clubshell, ovate",Pleurobema perovatum,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80120,899.1 miles
+378,"Clubshell, southern",Pleurobema decisum,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80097,792.6 miles
+353,"Combshell, Cumberlandian",Epioblasma brevidens,Clams,Region 4,Endangered,Final,Federal Register (2004-08-31),Download,80304,467.1 miles
+367,"Combshell, upland",Epioblasma metastriata,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80321,457.9 miles
+7363,"Ebonyshell, round",Fusconaia rotulata,Clams,Region 4,Endangered,Final,Federal Register (2012-10-10),Download,-1165,303.6 miles
+354,"Elktoe, Appalachian",Alasmidonta raveneliana,Clams,Region 4,Endangered,Final,Federal Register (2002-09-27),Download,79924,2738.4 acres
+355,"Elktoe, Cumberland",Alasmidonta atropurpurea,Clams,Region 4,Endangered,Final,Federal Register (2004-08-31),Download,79928,147.5 miles
+370,"Heelsplitter, Carolina",Lasmigona decorata,Clams,Region 4,Endangered,Final,Federal Register (2002-07-02),Download,80140,85.8 miles
+1559,"Kidneyshell, fluted",Ptychobranchus subtentum,Clams,Region 4,Endangered,Final,Federal Register (2013-09-26),Download,80162,1109.5 miles
+7949,"Kidneyshell, southern",Ptychobranchus jonesi,Clams,Region 4,Endangered,Final,Federal Register (2012-10-10),Download,80160,1072.8 miles
+379,"Kidneyshell, triangular",Ptychobranchus greenii,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80159,630.1 miles
+380,"Moccasinshell, Alabama",Medionidus acutissimus,Clams,Region 4,Threatened,Final,Federal Register (2004-07-01),Download,80262,736.1 miles
+381,"Moccasinshell, Coosa",Medionidus parvulus,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80265,357.3 miles
+384,"Moccasinshell, Gulf",Medionidus penicillatus,Clams,Region 4,Endangered,Final,Federal Register (2007-11-15),Download,80266,746.4 miles
+385,"Moccasinshell, Ochlockonee",Medionidus simpsonianus,Clams,Region 4,Endangered,Final,Federal Register (2007-11-15),Download,80267,90.0 miles
+4086,"Mucket, Neosho",Lampsilis rafinesqueana,Clams,Region 4,Endangered,Final,Federal Register (2015-04-30),,80022,
+357,"Mucket, orangenacre",Lampsilis perovalis,Clams,Region 4,Threatened,Final,Federal Register (2004-07-01),Download,80020,618.6 miles
+358,"Mussel, oyster",Epioblasma capsaeformis,Clams,Region 4,Endangered,Final,Federal Register (2004-08-31),Download,80306,467.1 miles
+4411,"Pearlshell, Alabama",Margaritifera marrianae,Clams,Region 4,Endangered,Final,Federal Register (2012-10-10),Download,80374,125.0 miles
+6841,"Pearlymussel, slabside",Pleuronaia dolabelloides,Clams,Region 4,Endangered,Final,Federal Register (2013-09-26),Download,-1179,908.0 miles
+382,"Pigtoe, dark",Pleurobema furvum,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80099,182.3 miles
+1369,"Pigtoe, fuzzy",Pleurobema strodeanum,Clams,Region 4,Threatened,Final,Federal Register (2012-10-10),Download,80113,1201.2 miles
+3833,"Pigtoe, Georgia",Pleurobema hanleyianum,Clams,Region 4,Endangered,Final,Federal Register (2010-11-02),Download,80101,87.2 miles
+7177,"Pigtoe, narrow",Fusconaia escambia,Clams,Region 4,Threatened,Final,Federal Register (2012-10-10),Download,80047,2334.8 acres; 591.2 miles
+371,"Pigtoe, oval",Pleurobema pyriforme,Clams,Region 4,Endangered,Final,Federal Register (2007-11-15),Download,80111,896.2 miles
+383,"Pigtoe, southern",Pleurobema georgianum,Clams,Region 4,Endangered,Final,Federal Register (2004-07-01),Download,80100,357.3 miles
+6534,"Pigtoe, tapered",Fusconaia burkei,Clams,Region 4,Threatened,Final,Federal Register (2012-10-10),Download,-1163,1201.2 miles
+372,"Pocketbook, finelined",Lampsilis altilis,Clams,Region 4,Threatened,Final,Federal Register (2004-07-01),Download,79997,8506.1 acres
+373,"Pocketbook, shinyrayed",Lampsilis subangulata,Clams,Region 4,Endangered,Final,Federal Register (2007-11-15),Download,80014,854.5 miles
+3645,Rabbitsfoot,Quadrula cylindrica cylindrica,Clams,Region 4,Threatened,Final,Federal Register (2015-04-30),Download,80068,1353.9 miles
+344,"Rabbitsfoot, rough",Quadrula cylindrica strigillata,Clams,Region 5,Endangered,Final,Federal Register (2004-08-31),Download,80069,262.4 miles
+7349,"sandshell, Southern",Hamiota australis,Clams,Region 4,Threatened,Final,Federal Register (2012-10-10),Download,-1162,562.2 miles
+386,"Slabshell, Chipola",Elliptio chipolaensis,Clams,Region 4,Threatened,Final,Federal Register (2007-11-15),Download,79956,130.0 miles
+4210,"Spinymussel, Altamaha",Elliptio spinosa,Clams,Region 4,Endangered,Final,Federal Register (2011-10-11),Download,79969,136.2 miles
+375,"Threeridge, fat (mussel)",Amblema neislerii,Clams,Region 4,Endangered,Final,Federal Register (2007-11-15),Download,80038,443.9 miles
+9384,"Coral, elkhorn",Acropora palmata,Corals,NOAA,Threatened,Final,Federal Register (2008-11-26),Download,52861,1905062.3 acres
+9382,"Coral, staghorn",Acropora cervicornis,Corals,NOAA,Threatened,Final,Federal Register (2008-11-26),Download,52862,1905062.3 acres
+8172,"Amphipod, diminutive",Gammarus hyalleloides,Crustaceans,Region 2,Endangered,Final,Federal Register (2013-07-09),Download,656840,19.2 acres
+485,"Amphipod, Kauai cave",Spelaeorchestia koloana,Crustaceans,Region 1,Endangered,Final,Federal Register (2003-04-09),Download,185829,232.0 acres
+1261,"Amphipod, Noel's",Gammarus desperatus,Crustaceans,Region 2,Endangered,Final,Federal Register (2011-06-07),Download,656839,64.4 acres
+477,"Amphipod, Peck's cave",Stygobromus (=Stygonectes) pecki,Crustaceans,Region 2,Endangered,Final,Federal Register (2013-10-23),Download,93919,74.1 acres
+6596,"Amphipod, Pecos",Gammarus pecos,Crustaceans,Region 2,Endangered,Final,Federal Register (2013-07-09),Download,93792,463.0 acres
+490,"Fairy shrimp, Conservancy",Branchinecta conservatio,Crustaceans,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,624021,161522.7 acres
+491,"Fairy shrimp, longhorn",Branchinecta longiantenna,Crustaceans,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,624022,13618.2 acres
+492,"Fairy shrimp, Riverside",Streptocephalus woottoni,Crustaceans,Region 8,Endangered,Final,Federal Register (2012-12-04),Download,624020,2655.7 acres
+495,"Fairy shrimp, San Diego",Branchinecta sandiegonensis,Crustaceans,Region 8,Endangered,Final,Federal Register (2007-12-12),Download,624043,12218.3 acres
+493,"Fairy shrimp, vernal pool",Branchinecta lynchi,Crustaceans,Region 8,Threatened,Final,Federal Register (2005-08-11),Download,624023,596541.4 acres
+482,"Shrimp, Kentucky cave",Palaemonias ganteri,Crustaceans,Region 4,Endangered,Final,Federal Register (1983-10-12),Download,97245,45.1 acres
+494,"Tadpole shrimp, vernal pool",Lepidurus packardi,Crustaceans,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,684669,228826.5 acres
+9963,"aumakua, Palapalai",Dryopteris crinalis var. podosorus,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,897629,14384.1 acres
+1196,"diellia, Asplenium-leaved",Asplenium dielerectum,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,17496,37668.2 acres
+1193,"Fern, pendant kihi",Adenophorus periens,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,17844,26250.6 acres
+1200,Ihi`ihi,Marsilea villosa,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,18001,3849.0 acres
+1197,No common name,Asplenium dielfalcatum,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,897132,9454.4 acres
+7529,No common name,Asplenium dielmannii,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,897130,2868.1 acres
+1194,No common name,Asplenium peruvianum var. insulare,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,17403,57973.6 acres
+1211,No common name,Asplenium unisorum,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,897129,9454.4 acres
+1198,No common name,Diplazium molokaiense,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,17517,48427.2 acres
+9962,No common name,Doryopteris angelica,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,897685,2549.4 acres
+2268,No common name,Doryopteris takeuchii,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,897683,705.7 acres
+1202,No common name,Pteris lidgatei,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,897692,15820.3 acres
+1205,Pauoa,Ctenitis squamigera,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,17473,40029.6 acres
+1207,Wawae`iole,Huperzia mannii,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,202453,55562.3 acres
+1208,Wawae`iole,Huperzia nutans,Ferns and Allies,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,503080,31073.3 acres
+259,"Catfish, Yaqui",Ictalurus pricei,Fishes,Region 2,Threatened,Final,Federal Register (1984-08-31),Download,164000,19.5 acres
+236,"Cavefish, Alabama",Speoplatyrhinus poulsoni,Fishes,Region 4,Endangered,Final,Federal Register (1977-09-09),Download,164397,0.1 acres
+249,"Chub, bonytail",Gila elegans,Fishes,Region 6,Endangered,Final,Federal Register (1994-03-21),Download,163553,58213.7 acres
+253,"Chub, Borax Lake",Gila boraxobius,Fishes,Region 1,Endangered,Final,Federal Register (1982-10-05),Download,163547,631.4 acres
+6297,"Chub, Gila",Gila intermedia,Fishes,Region 2,Endangered,Final,Federal Register (2005-11-02),Download,163560,9758.5 acres
+209,"Chub, humpback",Gila cypha,Fishes,Region 6,Endangered,Final,Federal Register (1994-03-21),Download,163551,13754.3 acres
+262,"Chub, Owens Tui",Gila bicolor ssp. snyderi,Fishes,Region 8,Endangered,Final,Federal Register (1985-08-05),Download,201920,114.3 acres
+246,"Chub, slender",Erimystax cahni,Fishes,Region 4,Threatened,Final,Federal Register (1977-09-22),Download,163820,221.1 miles
+255,"Chub, Sonora",Gila ditaenia,Fishes,Region 2,Threatened,Final,Federal Register (1986-04-30),Download,163552,70.9 acres
+237,"Chub, spotfin",Erimonax monachus,Fishes,Region 4,Threatened,Final,Federal Register (1977-09-22),Download,689041,269.2 miles
+256,"Chub, Virgin River",Gila seminuda (=robusta),Fishes,Region 6,Endangered,Final,Federal Register (2000-01-26),Download,553395,2973.1 acres
+263,"Chub, Yaqui",Gila purpurea,Fishes,Region 2,Endangered,Final,Federal Register (1984-08-31),Download,163557,19.5 acres
+264,"Dace, Ash Meadows speckled",Rhinichthys osculus nevadensis,Fishes,Region 8,Endangered,Final,Federal Register (1983-09-02),Download,201906,64.7 acres
+266,"Dace, desert",Eremichthys acros,Fishes,Region 8,Threatened,Final,Federal Register (1985-12-10),Download,163540,2494.6 acres
+9220,"dace, Laurel",Chrosomus saylori,Fishes,Region 4,Endangered,Final,Federal Register (2012-10-16),Download,-1153,23.7 miles
+293,"Darter, amber",Percina antesella,Fishes,Region 4,Endangered,Final,Federal Register (1985-08-05),Download,168476,395.9 acres
+5719,"Darter, Cumberland",Etheostoma susanae,Fishes,Region 4,Endangered,Final,Federal Register (2012-10-16),,-1008,
+6557,"Darter, diamond",Crystallaria cincotta,Fishes,Region 5,Endangered,Final,Federal Register (2013-08-22),Download,-1154,117.9 miles
+228,"Darter, fountain",Etheostoma fonticola,Fishes,Region 2,Endangered,Final,Federal Register (1980-07-14),Download,168395,126.4 acres
+10060,"Darter, Kentucky arrow",Etheostoma spilotum,Fishes,Region 4,Threatened,Final,Federal Register (2016-10-05),,-1174,
+238,"Darter, leopard",Percina pantherina,Fishes,Region 2,Threatened,Final,Federal Register (1978-01-27),Download,168493,2618.3 acres
+212,"Darter, Maryland",Etheostoma sellare,Fishes,Region 5,Endangered,Final,Federal Register (1984-08-29),Download,168361,3.2 miles
+257,"Darter, Niangua",Etheostoma nianguae,Fishes,Region 3,Threatened,Final,Federal Register (1985-06-12),Download,168414,1290.5 acres
+3525,"Darter, rush",Etheostoma phytophilum,Fishes,Region 4,Endangered,Final,Federal Register (2012-10-16),Download,650190,13.6 acres
+239,"Darter, slackwater",Etheostoma boschungi,Fishes,Region 4,Threatened,Final,Federal Register (1977-09-22),Download,168377,46.4 miles
+316,"Darter, vermilion",Etheostoma chermocki,Fishes,Region 4,Endangered,Final,Federal Register (2010-12-07),Download,201984,11.0 miles
+6662,"Darter, yellowcheek",Etheostoma moorei,Fishes,Region 4,Endangered,Final,Federal Register (2012-10-16),Download,168412,85.9 miles
+250,"Gambusia, San Marcos",Gambusia georgei,Fishes,Region 2,Endangered,Final,Federal Register (1980-07-14),Download,165886,44.5 acres
+306,"Goby, tidewater",Eucyclogobius newberryi,Fishes,Region 8,Endangered,Final,Federal Register (2013-02-06),Download,171916,12060.9 acres
+294,"Logperch, Conasauga",Percina jenkinsi,Fishes,Region 4,Endangered,Final,Federal Register (1985-08-05),Download,168502,178.6 acres
+7150,"Madtom, chucky",Noturus crypticus,Fishes,Region 4,Endangered,Final,Federal Register (2012-10-16),Download,-420,17.6 miles
+258,"Madtom, smoky",Noturus baileyi,Fishes,Region 4,Endangered,Final,Federal Register (1984-10-26),Download,164007,5.7 miles
+247,"Madtom, yellowfin",Noturus flavipinnis,Fishes,Region 4,Threatened,Final,Federal Register (1977-09-22),Download,164012,167.1 miles
+272,"Minnow, Devils River",Dionda diaboli,Fishes,Region 2,Threatened,Final,Federal Register (2008-08-12),Download,163514,14.8 miles
+273,"Minnow, loach",Tiaroga cobitis,Fishes,Region 2,Endangered,Final,Federal Register (2012-02-23),Download,163389,559.3 miles
+309,"Minnow, Rio Grande Silvery",Hybognathus amarus,Fishes,Region 2,Endangered,Final,Federal Register (2003-02-19),Download,163365,15113.3 acres
+215,"Pikeminnow (=squawfish), Colorado",Ptychocheilus lucius,Fishes,Region 6,Endangered,Final,Federal Register (1994-03-21),Download,163525,65546.2 acres
+274,"Pupfish, Ash Meadows Amargosa",Cyprinodon nevadensis mionectes,Fishes,Region 8,Endangered,Final,Federal Register (1983-09-02),Download,201970,134.5 acres
+275,"Pupfish, desert",Cyprinodon macularius,Fishes,Region 2,Endangered,Final,Federal Register (1986-03-31),Download,165637,3.9 acres
+251,"Pupfish, Leon Springs",Cyprinodon bovinus,Fishes,Region 2,Endangered,Final,Federal Register (1980-08-15),Download,165632,27.8 acres
+10151,"rockfish, canary",Sebastes pinniger,Fishes,NOAA,Threatened,Final,Federal Register (2016-11-02),,166734,
+10153,"rockfish, yelloweye",Sebastes ruberrimus,Fishes,NOAA,Threatened,Final,Federal Register (2016-11-02),,166740,
+10077,"Salmon, Atlantic",Salmo salar,Fishes,Region 5,Endangered,Final,Federal Register (2009-06-19),Download,161996,6081655.7 acres
+3398,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (1999-10-25),,161980,
+8241,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161980,748541.7 acres; 4921.9 miles
+7590,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Endangered,Final,Federal Register (2000-02-16),Download,161980,748541.7 acres; 4921.9 miles
+7855,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Endangered,Final,Federal Register (1999-03-23),,161980,
+7834,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161980,748541.7 acres; 4921.9 miles
+2514,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (2005-09-02),Download,161980,2481.2 miles
+4992,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (2005-09-02),Download,161980,2481.2 miles
+4799,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161980,748541.7 acres; 4921.9 miles
+4300,"Salmon, Chinook",Oncorhynchus (=Salmo) tshawytscha,Fishes,NOAA,Threatened,Final,Federal Register (1999-03-23),,161980,
+1509,"Salmon, chum",Oncorhynchus keta,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161976,662.8 miles
+5180,"Salmon, chum",Oncorhynchus keta,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161976,662.8 miles
+6578,"Salmon, coho",Oncorhynchus (=Salmo) kisutch,Fishes,NOAA,Threatened,Final,Federal Register (1999-05-05),,161977,
+9021,"Salmon, coho",Oncorhynchus (=Salmo) kisutch,Fishes,NOAA,Threatened,Final,Federal Register (2016-11-02),Download,161977,2088.8 miles
+6966,"Salmon, coho",Oncorhynchus (=Salmo) kisutch,Fishes,NOAA,Endangered,Final,Federal Register (1999-05-05),,161977,
+8278,"Salmon, sockeye",Oncorhynchus (=Salmo) nerka,Fishes,NOAA,Endangered,Final,Federal Register (1999-03-23),,161979,
+6843,"Salmon, sockeye",Oncorhynchus (=Salmo) nerka,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161979,38.9 miles
+4248,"Sculpin, Grotto",Cottus specus,Fishes,Region 3,Endangered,Final,Federal Register (2013-09-25),0 Acres or Miles Designated,-548,0 Acres or Miles
+299,"Shiner, Arkansas River",Notropis girardi,Fishes,Region 2,Threatened,Final,Federal Register (2005-10-13),Download,163442,30266.4 acres
+276,"Shiner, beautiful",Cyprinella formosa,Fishes,Region 2,Threatened,Final,Federal Register (1984-08-31),Download,163780,19.5 acres
+242,"Shiner, Cape Fear",Notropis mekistocholas,Fishes,Region 4,Endangered,Final,Federal Register (1987-09-25),Download,163455,262.5 acres
+279,"Shiner, Pecos bluntnose",Notropis simus pecosensis,Fishes,Region 2,Threatened,Final,Federal Register (1987-02-20),Download,201913,2379.6 acres
+3596,"Shiner, sharpnose",Notropis oxyrhynchus,Fishes,Region 2,Endangered,Final,Federal Register (2014-08-04),Download,163415,583.3 miles
+7670,"Shiner, smalleye",Notropis buccula,Fishes,Region 2,Endangered,Final,Federal Register (2014-08-04),Download,163432,583.3 miles
+311,"Shiner, Topeka",Notropis topeka (=tristis),Fishes,Region 6,Endangered,Final,Federal Register (2004-07-27),Download,163471,6573026.1 acres
+243,"Silverside, Waccamaw",Menidia extensa,Fishes,Region 4,Threatened,Final,Federal Register (1987-04-08),Download,165997,8681.0 acres
+305,"Smelt, delta",Hypomesus transpacificus,Fishes,Region 8,Threatened,Final,Federal Register (1994-12-19),Download,162032,818614.4 acres
+296,Spikedace,Meda fulgida,Fishes,Region 2,Endangered,Final,Federal Register (2012-02-23),Download,163583,581.1 miles
+280,"Spinedace, Big Spring",Lepidomeda mollispinis pratensis,Fishes,Region 8,Threatened,Final,Federal Register (1985-03-28),Download,201925,36.2 acres
+281,"Spinedace, Little Colorado",Lepidomeda vittata,Fishes,Region 2,Threatened,Final,Federal Register (1987-09-16),Download,163574,200.2 acres
+282,"Spinedace, White River",Lepidomeda albivallis,Fishes,Region 8,Endangered,Final,Federal Register (1985-09-12),Download,163571,17.6 acres
+283,"Springfish, Hiko White River",Crenichthys baileyi grandis,Fishes,Region 8,Endangered,Final,Federal Register (1985-09-27),Download,201976,22.4 acres
+284,"Springfish, Railroad Valley",Crenichthys nevadae,Fishes,Region 8,Threatened,Final,Federal Register (1986-03-31),Download,165688,474.6 acres
+285,"Springfish, White River",Crenichthys baileyi baileyi,Fishes,Region 8,Endangered,Final,Federal Register (1985-09-27),Download,201975,6.7 acres
+5815,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161989,17209.2 miles
+2448,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2005-09-02),Download,161989,8211.6 miles
+4274,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2005-09-02),Download,161989,8211.6 miles
+7989,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161989,17209.2 miles
+3654,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2005-09-02),Download,161989,8211.6 miles
+6220,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161989,17209.2 miles
+2842,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2005-09-02),Download,161989,8211.6 miles
+2528,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161989,17209.2 miles
+5658,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Endangered,Final,Federal Register (2005-09-02),Download,161989,8211.6 miles
+4112,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2000-02-16),Download,161989,17209.2 miles
+9432,Steelhead,Oncorhynchus (=Salmo) mykiss,Fishes,NOAA,Threatened,Final,Federal Register (2016-11-02),,161989,
+252,"Sturgeon, Alabama",Scaphirhynchus suttkusi,Fishes,Region 4,Endangered,Final,Federal Register (2009-06-02),Download,201895,316.1 miles
+286,"Sturgeon (Gulf subspecies), Atlantic",Acipenser oxyrinchus (=oxyrhynchus) desotoi,Fishes,Region 4,Threatened,Final,Federal Register (2003-03-19),Download,624005,1488872.0 acres
+314,"Sturgeon, white",Acipenser transmontanus,Fishes,Region 1,Endangered,Final,Federal Register (2008-07-09),Download,161068,1631.0 acres
+287,"Sucker, June",Chasmistes liorus,Fishes,Region 6,Endangered,Final,Federal Register (1986-03-31),Download,163963,4.4 miles
+288,"Sucker, Lost River",Deltistes luxatus,Fishes,Region 8,Endangered,Final,Federal Register (2012-12-11),Download,163970,117775.1 acres
+290,"Sucker, razorback",Xyrauchen texanus,Fishes,Region 6,Endangered,Final,Federal Register (1994-03-21),Download,163968,285427.4 acres
+312,"Sucker, Santa Ana",Catostomus santaanae,Fishes,Region 8,Threatened,Final,Federal Register (2010-12-14),Download,163912,9273.0 acres
+291,"Sucker, shortnose",Chasmistes brevirostris,Fishes,Region 8,Endangered,Final,Federal Register (2012-12-11),Download,163961,123657.4 acres
+292,"Sucker, Warner",Catostomus warnerensis,Fishes,Region 1,Threatened,Final,Federal Register (1985-09-27),Download,163915,912.4 acres
+3280,"Sucker, Zuni bluehead",Catostomus discobolus yarrowi,Fishes,Region 2,Endangered,Final,Federal Register (2016-06-07),Download,-304,31.0 miles
+7332,"Sunfish, spring pygmy",Elassoma alabamae,Fishes,Region 4,Threatened,Proposed,Federal Register (2012-10-02),,202001,
+301,"Trout, bull",Salvelinus confluentus,Fishes,Region 1,Threatened,Final,Federal Register (2010-10-18),Download,162004,512265.8 acres; 20542.0 miles
+248,"Trout, Little Kern golden",Oncorhynchus aguabonita whitei,Fishes,Region 8,Threatened,Final,Federal Register (1978-04-13),Download,-1152,82421.9 acres
+234,Woundfin,Plagopterus argentissimus,Fishes,Region 6,Endangered,Final,Federal Register (2000-01-26),Download,163600,2973.1 acres
+1159,A`e,Zanthoxylum dipetalum var. tomentosum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,530907,4162.6 acres
+869,A`e,Zanthoxylum hawaiiense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,28853,81361.6 acres
+7979,A`e,Zanthoxylum oahuense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,28857,25740.9 acres
+635,`Ahinahina,Argyroxiphium sandwicense ssp. macrocephalum,Flowering Plants,Region 1,Threatened,Final,Federal Register (2016-03-30),Download,185198,40587.6 acres
+833,"`Aiakeakua, popolo",Solanum sandwicense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,30485,7747.3 acres
+780,`Aiea,Nothocestrum breviflorum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,503963,12886.1 acres
+781,`Aiea,Nothocestrum peltatum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-02-27),Download,30631,5271.2 acres
+662,`Akoko,Euphorbia celastroides var. kaenana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,535318,9787.7 acres
+1223,`Akoko,Euphorbia deppeana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,28157,5241.9 acres
+1502,`Akoko,Euphorbia eleanoriae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,845511,3274.5 acres
+549,`Akoko,Euphorbia haeleeleana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,28159,8453.1 acres
+1179,`Akoko,Euphorbia herbstii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,513383,9454.4 acres
+1094,`Akoko,Euphorbia kuwaleana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,28162,2964.1 acres
+3871,`Akoko,Euphorbia remyi var. kauaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,535386,25752.4 acres
+1607,`Akoko,Euphorbia remyi var. remyi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,845670,25752.4 acres
+1180,`Akoko,Euphorbia rockii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,501457,31073.3 acres
+665,"`Akoko, Ewa Plains",Euphorbia skottsbergii var. skottsbergii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,28166,705.7 acres
+916,`aku`aku,Cyanea platyphylla,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34731,7232.4 acres
+2683,`Ala `ala wai nui,Peperomia subpetiolata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,18277,21140.5 acres
+1132,Alani,Melicope adscendens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196014,24508.5 acres
+765,Alani,Melicope balloui,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196016,37219.4 acres
+3472,Alani,Melicope christophersenii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196018,5571.6 acres
+1609,Alani,Melicope degeneri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,196022,14384.1 acres
+4377,Alani,Melicope hiiakae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,516975,25740.9 acres
+767,Alani,Melicope knudsenii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196031,3524.4 acres
+768,Alani,Melicope lydgatei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196032,33692.4 acres
+3728,Alani,Melicope makahae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196034,9454.4 acres
+769,Alani,Melicope mucronulata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196036,29951.8 acres
+770,Alani,Melicope munroi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196037,8770.3 acres
+771,Alani,Melicope ovalis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196042,39538.0 acres
+772,Alani,Melicope pallida,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196044,7747.3 acres
+8357,Alani,Melicope paniculata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,196045,4913.8 acres
+3753,Alani,Melicope puberula,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,196048,19266.4 acres
+774,Alani,Melicope reflexa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196051,21998.2 acres
+575,Alani,Melicope saint-johnii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196053,9454.4 acres
+775,Alani,Melicope zahlbruckneri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,196059,2295.4 acres
+500,"Ambrosia, San Diego",Ambrosia pumila,Flowering Plants,Region 8,Endangered,Final,Federal Register (2010-11-30),Download,36517,832.5 acres
+528,"amole, purple",Chlorogalum purpureum,Flowering Plants,Region 8,Threatened,Final,Federal Register (2002-10-24),Download,42900,5915.7 acres
+567,`Anaunau,Lepidium arbuscula,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,22983,1637.0 acres
+1151,`Anunu,Sicyos albus,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,505200,15548.9 acres
+952,Aupaka,Isodendrion hosakae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,22197,501.0 acres
+563,Aupaka,Isodendrion laurifolium,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,22199,9454.4 acres
+564,Aupaka,Isodendrion longifolium,Flowering Plants,Region 1,Threatened,Final,Federal Register (2012-09-18),Download,22200,25740.9 acres
+654,`Awikiwiki,Canavalia molokaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,501184,24973.9 acres
+2118,`Awikiwiki,Canavalia napaliensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,501185,2549.4 acres
+7805,`Awikiwiki,Canavalia pubescens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,501187,16841.2 acres
+1093,Awiwi,Schenkia sebaeoides,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,30047,4198.2 acres
+514,"Barberry, Nevin's",Berberis nevinii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2008-02-13),Download,18826,1.9 acres
+10229,"bean, sea",Mucuna sloanei persericea,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,820993,16078.8 acres
+1283,"beardtongue, Parachute",Penstemon debilis,Flowering Plants,Region 6,Threatened,Final,Federal Register (2012-08-13),Download,504208,15190.5 acres
+534,"Bird's-beak, soft",Cordylanthus mollis ssp. mollis,Flowering Plants,Region 8,Endangered,Final,Federal Register (2007-04-12),Download,523891,2362.9 acres
+958,"Bladderpod, San Bernardino Mountains",Lesquerella kingii ssp. bernardina,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-12-24),Download,23196,1045.3 acres
+1831,"Bladderpod, Short's",Physaria globosa,Flowering Plants,Region 4,Endangered,Final,Federal Register (2014-08-26),Download,823242,708.7 acres
+4565,"Bladderpod, White Bluffs",Physaria douglasii ssp. tuplashensis,Flowering Plants,Region 1,Threatened,Final,Federal Register (2013-12-20),Download,823381,1808.9 acres
+569,"Bladderpod, Zapata",Lesquerella thamnophila,Flowering Plants,Region 2,Endangered,Final,Federal Register (2000-12-22),Download,23231,5316.5 acres
+776,"Blazingstar, Ash Meadows",Mentzelia leucophylla,Flowering Plants,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,202471,1247.7 acres
+594,"Bluegrass, San Bernardino",Poa atropurpurea,Flowering Plants,Region 8,Endangered,Final,Federal Register (2008-08-14),Download,41110,2411.1 acres
+4420,"Brickell-bush, Florida",Brickellia mosieri,Flowering Plants,Region 4,Endangered,Final,Federal Register (2015-08-17),,36887,
+516,"Brodiaea, thread-leaved",Brodiaea filifolia,Flowering Plants,Region 8,Threatened,Final,Federal Register (2011-02-08),Download,42806,3211.9 acres
+710,"Buckwheat, cushenbury",Eriogonum ovalifolium var. vineum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-12-24),Download,528014,6385.2 acres
+6490,"Buckwheat, Umtanum Desert",Eriogonum codium,Flowering Plants,Region 1,Threatened,Final,Federal Register (2013-12-20),Download,565176,313.8 acres
+554,"Butterfly plant, Colorado",Gaura neomexicana var. coloradensis,Flowering Plants,Region 6,Threatened,Final,Federal Register (2005-01-11),Download,27659,2842.4 acres
+7054,"Cactus, Acuna",Echinomastus erectocentrus var. acunensis,Flowering Plants,Region 2,Endangered,Final,Federal Register (2016-08-18),Download,534770,17354.2 acres
+4179,"Cactus, Fickeisen plains",Pediocactus peeblesianus fickeiseniae,Flowering Plants,Region 2,Endangered,Final,Federal Register (2016-08-18),Download,195354,16183.7 acres
+1525,"Cactus, Florida semaphore",Consolea corallicola,Flowering Plants,Region 4,Endangered,Final,Federal Register (2016-01-22),,511287,
+1166,"Ceanothus, Vail Lake",Ceanothus ophiochilus,Flowering Plants,Region 8,Threatened,Final,Federal Register (2007-09-27),Download,506889,192.8 acres
+660,"Centaury, spring-loving",Centaurium namophilum,Flowering Plants,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,30033,1848.0 acres
+874,"Chaff-flower, round-leaved",Achyranthes splendens var. rotundata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,181935,2040.4 acres
+610,"Checker-mallow, Keck's",Sidalcea keckii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2003-03-18),Download,505212,1000.7 acres
+611,"Checkermallow, Wenatchee Mountains",Sidalcea oregana var. calva,Flowering Plants,Region 1,Endangered,Final,Federal Register (2001-09-06),Download,566794,6190.8 acres
+1090,"Crownscale, San Jacinto Valley",Atriplex coronata var. notatior,Flowering Plants,Region 8,Endangered,Final,Federal Register (2013-04-16),0 Acres or Miles Designated,192235,0 Acres or Miles
+928,"Daisy, Parish's",Erigeron parishii,Flowering Plants,Region 8,Threatened,Final,Federal Register (2002-12-24),Download,35919,3962.3 acres
+1233,"Daisy, Willamette",Erigeron decumbens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2006-10-31),Download,35848,642.9 acres
+784,"Evening-primrose, Antioch Dunes",Oenothera deltoides ssp. howellii,Flowering Plants,Region 8,Endangered,Final,Federal Register (1978-08-31),Download,27392,315.2 acres
+6782,"Fescue, Guadalupe",Festuca ligulata,Flowering Plants,Region 2,Proposed Endangered,Proposed,Federal Register (2016-09-09),Download,40803,7803.9 acres
+626,"Fiddleneck, large-flowered",Amsinckia grandiflora,Flowering Plants,Region 8,Endangered,Final,Federal Register (1985-05-08),Download,31708,159.8 acres
+1027,"Flannelbush, Mexican",Fremontodendron mexicanum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2007-09-27),Download,21581,176.1 acres
+7206,"Flax, Carter's small-flowered",Linum carteri carteri,Flowering Plants,Region 4,Endangered,Final,Federal Register (2015-08-17),,528813,
+717,"Geranium, Hawaiian red-flowered",Geranium arboreum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,29140,40357.5 acres
+1710,"Gladecress, Fleshy-fruit",Leavenworthia crassa,Flowering Plants,Region 4,Endangered,Final,Federal Register (2014-08-26),Download,503348,18.0 acres
+7167,"Glade cress, Kentucky",Leavenworthia exigua laciniata,Flowering Plants,Region 4,Threatened,Final,Federal Register (2014-05-06),Download,528701,1846.2 acres
+1400,"Gladecress, Texas golden",Leavenworthia texana,Flowering Plants,Region 2,Endangered,Final,Federal Register (2013-09-11),Download,515727,1179.4 acres
+566,"Goldfields, Contra Costa",Lasthenia conjugens,Flowering Plants,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,37837,14518.1 acres
+580,"Grass, Colusa",Neostapfia colusana,Flowering Plants,Region 8,Threatened,Final,Federal Register (2005-08-11),Download,41958,151878.2 acres
+859,"Grass, Solano",Tuctoria mucronata,Flowering Plants,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,202499,436.1 acres
+941,"Gumplant, Ash Meadows",Grindelia fraxinipratensis,Flowering Plants,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,780681,2088.4 acres
+1224,haha,Cyanea crispa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507713,38877.7 acres
+1101,haha,Cyanea dunbariae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,501860,17704.2 acres
+10222,haha,Cyanea duvalliorum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,845357,37219.4 acres
+1052,haha,Cyanea gibsonii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Not Prudent Determination,196209,N/A
+10224,haha,Cyanea magnicalyx,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,845368,7013.8 acres
+10225,haha,Cyanea maritae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,845369,37219.4 acres
+10226,haha,Cyanea mauiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),0 Acres or Miles Designated,565112,0 Acres or Miles
+10227,haha,Cyanea munroi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,565113,4236.7 acres
+1175,Haha,Cyanea acuminata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34673,39203.3 acres
+7892,Haha,Cyanea asplenifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34677,21430.5 acres
+3540,Haha,Cyanea calycina,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,565107,39203.3 acres
+1185,Haha,Cyanea copelandii ssp. haleakalaensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,523919,41420.0 acres
+9951,Haha,Cyanea dolichopoda,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,507714,963.0 acres
+1278,Haha,Cyanea eleeleensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,506924,4913.8 acres
+1102,Haha,Cyanea glabra,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,501863,38586.0 acres
+684,Haha,Cyanea grimesiana ssp. grimesiana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,523923,12354.6 acres
+1049,Haha,Cyanea grimesiana ssp. obatae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,523924,35316.3 acres
+1050,Haha,Cyanea hamatiflora ssp. carlsonii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,523925,4848.7 acres
+1186,Haha,Cyanea hamatiflora ssp. hamatiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,523926,48191.3 acres
+535,Haha,Cyanea humboldtiana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507715,31073.3 acres
+9952,Haha,Cyanea kolekoleensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,506925,4913.8 acres
+1181,Haha,Cyanea koolauensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507716,25740.9 acres
+4961,Haha,Cyanea kuhihewa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,565111,4913.8 acres
+1968,Haha,Cyanea kunthiana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34709,53140.1 acres
+6019,Haha,Cyanea lanceolata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507717,33692.4 acres
+1051,Haha,Cyanea lobata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34714,6473.6 acres
+1182,Haha,Cyanea longiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507718,7747.3 acres
+1103,Haha,Cyanea mannii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34718,14696.3 acres
+685,Haha,Cyanea mceldowneyi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34721,48191.3 acres
+2860,Haha,Cyanea obtusa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34727,14869.8 acres
+915,Haha,Cyanea pinnatifida,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34730,7747.3 acres
+1104,Haha,Cyanea procera,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34732,14696.3 acres
+686,Haha,Cyanea shipmanii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34744,6063.3 acres
+917,Haha,Cyanea stictophylla,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34748,5247.2 acres
+687,Haha,Cyanea st.-johnii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507721,31073.3 acres
+688,Haha,Cyanea superba,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34750,7747.3 acres
+1106,Haha,Cyanea truncata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34753,38877.7 acres
+10228,haiwale,Cyrtandra ferripilosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,828696,32112.4 acres
+9953,Haiwale,Cyrtandra paliku,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,828426,963.0 acres
+536,Ha`iwale,Cyrtandra dentata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34136,35316.3 acres
+2085,Ha`iwale,Cyrtandra filipes,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34142,23361.8 acres
+919,Ha`iwale,Cyrtandra giffardii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34151,15606.5 acres
+4201,Ha`iwale,Cyrtandra kaulantha,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34179,31073.3 acres
+1230,Ha`iwale,Cyrtandra munroi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34207,6473.6 acres
+6679,Ha`iwale,Cyrtandra oenobarba,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,34213,963.0 acres
+1349,Ha`iwale,Cyrtandra oxybapha,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,501955,12451.0 acres
+690,Ha`iwale,Cyrtandra polyantha,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34228,33692.4 acres
+2273,Ha`iwale,Cyrtandra sessilis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34241,31073.3 acres
+691,Ha`iwale,Cyrtandra subumbellata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34248,31073.3 acres
+1111,Ha`iwale,Cyrtandra tintinnabula,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34250,6612.3 acres
+1112,Ha`iwale,Cyrtandra viridiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34259,31073.3 acres
+1497,Hala pepe,Pleomele fernaldii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),0 Acres or Miles Designated,43188,0 Acres or Miles
+3737,Hala pepe,Pleomele forbesii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,43189,10160.2 acres
+1141,Hala pepe,Pleomele hawaiiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,504448,31766.1 acres
+560,Hau kuahiwi,Hibiscadelphus giffardianus,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,21971,292.4 acres
+561,Hau kuahiwi,Hibiscadelphus hualalaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,21972,10891.3 acres
+1058,"Heather, mountain golden",Hudsonia montana,Flowering Plants,Region 4,Threatened,Final,Federal Register (1980-10-20),Download,22276,1304.6 acres
+3154,Ho`awa,Pittosporum napaliense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,24086,2549.4 acres
+1693,Hulumoa,Korthalsella degeneri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,27915,1637.0 acres
+951,"Ischaemum, Hilo",Ischaemum byrone,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,41800,4882.5 acres
+743,"Ivesia, Ash Meadows",Ivesia kingii var. eremica,Flowering Plants,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,195880,907.3 acres
+2458,"ivesia, Webber's",Ivesia webberi,Flowering Plants,Region 8,Threatened,Final,Federal Register (2014-06-03),Download,25241,1750.7 acres
+954,Kamakahala,Labordia cyrtandrae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,29952,39203.3 acres
+2778,Kamakahala,Labordia helleri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,29934,24688.3 acres
+3832,Kamakahala,Labordia pumila,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,29946,14384.1 acres
+1232,Kamakahala,Labordia tinifolia var. lanaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),0 Acres or Miles Designated,528653,0 Acres or Miles
+565,Kamakahala,Labordia triflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,29948,8770.3 acres
+659,Kamanomano,Cenchrus agrimonioides,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,40579,20739.1 acres
+674,Kauila,Colubrina oppositifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,28528,18465.6 acres
+2265,Kaulu,Pteralyxia macrocarpa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,30206,40596.0 acres
+725,Kio`ele,Kadua coriacea,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,846013,3897.9 acres
+1136,Kiponapona,Phyllostegia racemosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,196172,7074.1 acres
+1187,Kohe malama malama o kanaloa,Kanaloa kahoolawensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,507828,6141.4 acres
+746,Koki`o,Kokia drynarioides,Flowering Plants,Region 1,Endangered,Final,Federal Register (1984-12-04),Download,21976,2355.3 acres
+745,"Koki`o, Cooke's",Kokia cookei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,21975,612.9 acres
+947,Koki`o ke`oke`o,Hibiscus arnottianus ssp. immaculatus,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,524140,8085.7 acres
+1133,Kolea,Myrsine juddii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,23911,25740.9 acres
+9959,Kolea,Myrsine knudsenii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,23913,2868.1 acres
+1521,Kolea,Myrsine mezii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,23919,17261.3 acres
+2970,Kolea,Myrsine vaccinioides,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,503916,1479.1 acres
+2278,Ko`oko`olau,Bidens amplectens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,35735,2040.4 acres
+7617,Ko`oko`olau,Bidens campylotheca pentamera,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,523679,44914.6 acres
+8277,Ko`oko`olau,Bidens campylotheca waihoiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,523680,39538.0 acres
+8338,Ko`oko`olau,Bidens conjuncta,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,35742,7952.7 acres
+4589,Ko`oko`olau,Bidens micrantha ctenophylla,Flowering Plants,Region 1,Endangered,Proposed,Federal Register (2012-10-17),Download,523687,12886.5 acres
+645,Ko`oko`olau,Bidens micrantha ssp. kalealaha,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196220,59101.4 acres
+646,Ko`oko`olau,Bidens wiebkei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,35778,17892.9 acres
+1118,kopa,Kadua cordata remyi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),0 Acres or Miles Designated,528340,0 Acres or Miles
+2619,Kopiko,Psychotria grandiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,35098,17261.3 acres
+6536,Kopiko,Psychotria hobdyi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,35104,2549.4 acres
+1140,Kuahiwi laukahi,Plantago hawaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,32916,7113.3 acres
+800,Kuahiwi laukahi,Plantago princeps,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,32922,16213.7 acres
+741,Kula wahine noho,Isodendrion pyrifolium,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,22204,16821.0 acres
+782,Kulu`i,Nototrichium humile,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20827,16841.2 acres
+539,"Larkspur, Baker's",Delphinium bakeri,Flowering Plants,Region 8,Endangered,Final,Federal Register (2003-03-18),Download,18538,1748.4 acres
+540,"Larkspur, yellow",Delphinium luteum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2003-03-18),Download,18475,2423.8 acres
+7170,lehua makanoe,Lysimachia daphnoides,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,24003,14384.1 acres
+619,Liliwai,Acaena exigua,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,182028,1479.1 acres
+1263,"Lomatium, Cook's",Lomatium cookii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-07-21),Download,503533,6164.5 acres
+598,Lo`ulu,Pritchardia remota,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-05-22),Download,42490,185.1 acres
+545,"Love grass, Fosberg's",Eragrostis fosbergii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,40730,9454.4 acres
+1126,"Lupine, Kincaid's",Lupinus sulphureus ssp. kincaidii,Flowering Plants,Region 1,Threatened,Final,Federal Register (2006-10-31),Download,526095,538.6 acres
+621,Mahoe,Alectryon macrococcus,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,28659,45943.5 acres
+795,Makou,Peucedanum sandwicense,Flowering Plants,Region 1,Threatened,Final,Federal Register (2016-03-30),Download,504266,16470.1 acres
+9929,"mallow, Gierisch",Sphaeralcea gierischii,Flowering Plants,Region 2,Endangered,Final,Federal Register (2013-08-13),Download,845826,12453.9 acres
+2823,"Manzanita, Franciscan",Arctostaphylos franciscana,Flowering Plants,Region 8,Endangered,Final,Federal Register (2013-12-20),Download,184509,203.5 acres
+736,"Ma`o hau hele, (=native yellow hibiscus)",Hibiscus brackenridgei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,21641,29626.4 acres
+603,Ma`oli`oli,Schiedea kealiae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,20212,2040.4 acres
+1081,"Meadowfoam, Butte County",Limnanthes floccosa ssp. californica,Flowering Plants,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,196069,16575.6 acres
+1262,"meadowfoam, large-flowered woolly",Limnanthes pumila grandiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-07-21),Download,196070,5500.5 acres
+1117,Mehamehame,Flueggea neowawraea,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,502636,25611.5 acres
+641,"Milk-vetch, Ash meadows",Astragalus phoenix,Flowering Plants,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,25631,1212.1 acres
+507,"Milk-vetch, Braunton's",Astragalus brauntonii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2006-11-14),Download,25443,2875.8 acres
+886,"Milk-vetch, Coachella Valley",Astragalus lentiginosus var. coachellae,Flowering Plants,Region 8,Endangered,Final,Federal Register (2013-02-13),Download,192556,9371.0 acres
+1086,"Milk-vetch, Cushenbury",Astragalus albens,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-12-24),Download,25406,4110.6 acres
+887,"Milk-vetch, Fish Slough",Astragalus lentiginosus var. piscinensis,Flowering Plants,Region 8,Threatened,Final,Federal Register (2005-06-09),Download,192582,8009.1 acres
+888,"Milk-vetch, heliotrope",Astragalus montii,Flowering Plants,Region 6,Threatened,Final,Federal Register (1987-11-06),Download,25592,56.1 acres
+1020,"Milk-vetch, Holmgren",Astragalus holmgreniorum,Flowering Plants,Region 6,Endangered,Final,Federal Register (2006-12-27),Download,25535,6193.6 acres
+510,"Milk-vetch, Lane Mountain",Astragalus jaegerianus,Flowering Plants,Region 8,Endangered,Final,Federal Register (2011-05-19),Download,25550,14156.5 acres
+1021,"Milk-vetch, Peirson's",Astragalus magdalenae var. peirsonii,Flowering Plants,Region 8,Threatened,Final,Federal Register (2008-02-14),Download,192607,11869.2 acres
+1088,"Milk-vetch, Shivwits",Astragalus ampullarioides,Flowering Plants,Region 6,Endangered,Final,Federal Register (2006-12-27),Download,820304,2239.3 acres
+511,"Milk-vetch, Ventura Marsh",Astragalus pycnostachyus var. lanosissimus,Flowering Plants,Region 8,Endangered,Final,Federal Register (2004-05-20),Download,192732,361.5 acres
+884,"Milkweed, Welsh's",Asclepias welshii,Flowering Plants,Region 6,Threatened,Final,Federal Register (1987-10-28),Download,30325,3239.0 acres
+576,"Monardella, willowy",Monardella viminea,Flowering Plants,Region 8,Endangered,Final,Federal Register (2012-03-06),Download,833060,80.1 acres
+10076,"Monkeyflower, Vandenberg",Diplacus vandenbergensis,Flowering Plants,Region 8,Endangered,Final,Federal Register (2015-08-11),,-1271,
+9954,Naenae,Dubautia kalalauensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,780679,14384.1 acres
+9955,Naenae,Dubautia kenwoodii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,780292,2549.4 acres
+1054,Na`ena`e,Dubautia herbstobatae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196318,9454.4 acres
+4858,Na`ena`e,Dubautia imbricata imbricata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,523992,4913.8 acres
+3049,Na`ena`e,Dubautia plantaginea magnifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,524004,963.0 acres
+1114,Na`ena`e,Dubautia plantaginea ssp. humilis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,524003,3003.8 acres
+2154,Na`ena`e,Dubautia waialealae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,38767,14384.1 acres
+1183,Nanu,Gardenia mannii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,35161,33692.4 acres
+972,"Navarretia, spreading",Navarretia fossalis,Flowering Plants,Region 8,Threatened,Final,Federal Register (2010-10-07),Download,31328,7562.9 acres
+961,nehe,Melanthera kamolensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,38797,16841.2 acres
+756,Nehe,Lipochaeta lobata var. leptophylla,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196321,1637.0 acres
+963,Nehe,Melanthera tenuifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,780449,10160.2 acres
+1116,Nioi,Eugenia koolauensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,27194,612.9 acres
+973,"Niterwort, Amargosa",Nitrophila mohavensis,Flowering Plants,Region 8,Endangered,Final,Federal Register (1985-05-20),Download,20704,1051.0 acres
+616,No common name,Abutilon eremitopetalum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Not Prudent Determination,21678,N/A
+618,No common name,Abutilon sandwicense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,21681,9454.4 acres
+497,No common name,Achyranthes mutica,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,20758,1245.4 acres
+3671,No common name,Agave eggersiana,Flowering Plants,Region 4,Endangered,Final,Federal Register (2014-09-09),,182671,
+499,No common name,Amaranthus brownii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-05-22),Download,181924,185.1 acres
+648,No common name,Bonamia menziesii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,30828,30805.3 acres
+1092,No common name,Catesbaea melanocarpa,Flowering Plants,Region 4,Endangered,Final,Federal Register (2007-08-28),Download,34956,6.6 acres
+6303,No common name,Cyanea profuga,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34733,13880.3 acres
+1636,No common name,Cyanea purpurellifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,507720,31073.3 acres
+1131,No common name,Cyperus fauriei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,516776,9586.3 acres
+1032,No common name,Cyperus pennatiformis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,39987,1033.5 acres
+8347,No common name,Cyrtandra gracilis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34153,25740.9 acres
+5991,No common name,Cyrtandra waiolani,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34263,25740.9 acres
+538,No common name,Delissea undulata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34765,3026.2 acres
+10235,No common name,Festuca molokaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,-517,8770.3 acres
+3990,No common name,Gonocalyx concolor,Flowering Plants,Region 4,Endangered,Final,Federal Register (2014-09-09),,502817,
+719,No common name,Gouania hillebrandii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,28543,17093.7 acres
+720,No common name,Gouania meyenii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,28546,10160.2 acres
+721,No common name,Gouania vitifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,28551,3003.8 acres
+731,No common name,Hesperomannia arborescens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,38772,15820.3 acres
+732,No common name,Hesperomannia arbuscula,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,38776,11948.6 acres
+726,No common name,Kadua degeneri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,846014,9454.4 acres
+728,No common name,Kadua parvula,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,515426,9454.4 acres
+4487,No common name,Keysseria (=Lagenifera) erici,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,38781,14384.1 acres
+8254,No common name,Keysseria (=Lagenifera) helenae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,38782,14384.1 acres
+572,No common name,Lobelia koolauensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,845375,25740.9 acres
+965,No common name,Lobelia monostachya,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,503518,7747.3 acres
+758,No common name,Lobelia niihauensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196205,9454.4 acres
+759,No common name,Lobelia oahuensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,503519,31408.4 acres
+968,No common name,Lysimachia filifolia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,24004,5241.9 acres
+9956,No common name,Lysimachia iniki,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,836182,963.0 acres
+1128,No common name,Lysimachia lydgatei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,24010,7442.1 acres
+1129,No common name,Lysimachia maxima,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,195806,13227.9 acres
+9957,No common name,Lysimachia pendens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,836171,963.0 acres
+9958,No common name,Lysimachia scopulensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,836172,745.4 acres
+5104,No common name,Lysimachia venosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,195809,963.0 acres
+1226,No common name,Neraudia angulata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,19174,10160.2 acres
+581,No common name,Neraudia ovata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,19179,7341.8 acres
+779,No common name,Neraudia sericea,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,19180,47299.8 acres
+2934,No common name,Phyllostegia bracteata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196152,65241.1 acres
+10230,No common name,Phyllostegia haliakalae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,832855,48308.3 acres
+589,No common name,Phyllostegia hirsuta,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196163,39203.3 acres
+7229,No common name,Phyllostegia hispida,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196164,17464.7 acres
+1184,No common name,Phyllostegia kaalaensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,565402,9454.4 acres
+1163,No common name,Phyllostegia mannii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196170,54110.7 acres
+981,No common name,Phyllostegia mollis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196171,93242.5 acres
+591,No common name,Phyllostegia parviflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,196181,38989.2 acres
+10231,No common name,Phyllostegia pilosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,832860,35020.9 acres
+9960,No common name,Phyllostegia renovans,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,832862,19266.4 acres
+1137,No common name,Phyllostegia velutina,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,504364,8973.0 acres
+1138,No common name,Phyllostegia warshaueri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,504365,8862.8 acres
+4740,No common name,Pittosporum halophilum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,24080,3849.0 acres
+983,No common name,Platanthera holochila,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196422,30733.6 acres
+8303,No common name,Platydesma cornuta cornuta,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,529719,25740.9 acres
+7046,No common name,Platydesma cornuta decurrens,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,529720,9454.4 acres
+7886,No common name,Polyscias bisattenuata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,29402,7463.2 acres
+9961,No common name,Polyscias flynnii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,822361,22143.7 acres
+7367,No common name,Polyscias lydgatei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,-1269,7747.3 acres
+1146,No common name,Sanicula mariversa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,202478,9454.4 acres
+601,No common name,Sanicula purpurea,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,505005,1479.1 acres
+2404,No common name,Schiedea attenuata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,507732,745.4 acres
+1066,No common name,Schiedea haleakalensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20206,27818.6 acres
+602,No common name,Schiedea hookeri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,20209,41275.4 acres
+10232,No common name,Schiedea jacobii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,823581,21140.5 acres
+822,No common name,Schiedea kaalae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,20211,38877.7 acres
+10233,No common name,Schiedea laui,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,823603,5110.1 acres
+1068,No common name,Schiedea lydgatei,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20215,8770.3 acres
+1148,No common name,Schiedea nuttallii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,20219,7747.3 acres
+622,No common name,Schiedea obovata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,823600,9454.4 acres
+4030,No common name,Schiedea salicaria,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20222,3897.9 acres
+605,No common name,Schiedea sarmentosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20223,8770.3 acres
+623,No common name,Schiedea trinervis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,823599,7195.8 acres
+606,No common name,Schiedea verticillata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-05-22),Download,20225,185.1 acres
+829,No common name,Silene alexandri,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20145,8770.3 acres
+1001,No common name,Silene hawaiiensis,Flowering Plants,Region 1,Threatened,Final,Federal Register (2003-07-02),Download,505230,6755.2 acres
+830,No common name,Silene lanceolata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20148,8770.3 acres
+1152,No common name,Silene perlmanii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,195408,9454.4 acres
+1154,No common name,Spermolepis hawaiiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,505318,30325.4 acres
+1155,No common name,Stenogyne bifida,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,32834,27050.9 acres
+839,No common name,Stenogyne kanehoana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,32847,7747.3 acres
+10234,No common name,Stenogyne kauaulaensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,832912,540.3 acres
+2517,No common name,Stenogyne kealiae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,32848,8527.8 acres
+847,No common name,Tetramolopium filiforme,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,38828,1637.0 acres
+848,No common name,Tetramolopium lepidotum ssp. lepidotum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,202492,9454.4 acres
+849,No common name,Tetramolopium remyi,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,38832,3897.9 acres
+850,No common name,Tetramolopium rockii,Flowering Plants,Region 1,Threatened,Final,Federal Register (2016-03-30),Download,38833,3849.0 acres
+1157,No common name,Trematolobelia singularis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,505567,31073.3 acres
+3267,No common name,Varronia rupicola,Flowering Plants,Region 4,Threatened,Final,Federal Register (2014-09-09),,523159,
+862,No common name,Vigna o-wahuensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,899036,15945.2 acres
+866,No common name,Viola lanaiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Not Prudent Determination,195692,N/A
+867,No common name,Viola oahuensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,22189,31073.3 acres
+4238,No common name,Wikstroemia villosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,27161,51661.0 acres
+2758,Nohoanu,Geranium hanaense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,502758,21140.5 acres
+3653,Nohoanu,Geranium hillebrandii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,895178,2019.4 acres
+4630,Nohoanu,Geranium kauaiense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,502760,14384.1 acres
+939,Nohoanu,Geranium multiflorum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,29143,59931.0 acres
+10223,"nui, haha",Cyanea horrida,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34707,34431.0 acres
+693,Oha,Delissea subcordata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,34764,7747.3 acres
+999,Ohai,Sesbania tomentosa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,505189,40461.9 acres
+533,`Oha wai,Clermontia drepanomorpha,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34634,4656.7 acres
+671,`Oha wai,Clermontia lindseyana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34647,10971.9 acres
+1097,`Oha wai,Clermontia oblongifolia ssp. brevipes,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,523875,26235.0 acres
+1098,`Oha wai,Clermontia oblongifolia ssp. mauiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,196207,40689.1 acres
+672,`Oha wai,Clermontia peleana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34658,16078.8 acres
+673,`Oha wai,Clermontia pyrularia,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,34660,6715.4 acres
+1188,`Oha wai,Clermontia samuelii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34664,37219.4 acres
+851,`Ohe`ohe,Polyscias gymnocarpa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,822364,38877.7 acres
+1074,"Onion, Munz's",Allium munzii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2013-04-16),Download,506825,80.3 acres
+860,Opuhe,Urera kaalae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,19206,33692.4 acres
+582,"Orcutt grass, hairy",Orcuttia pilosa,Flowering Plants,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,41973,79503.2 acres
+787,"Orcutt grass, Sacramento",Orcuttia viscida,Flowering Plants,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,504052,33266.4 acres
+786,"Orcutt grass, San Joaquin",Orcuttia inaequalis,Flowering Plants,Region 8,Threatened,Final,Federal Register (2005-08-11),Download,504051,136090.9 acres
+583,"Orcutt grass, slender",Orcuttia tenuis,Flowering Plants,Region 8,Threatened,Final,Federal Register (2005-08-11),Download,41974,94020.0 acres
+522,"Owl's-clover, fleshy",Castilleja campestris ssp. succulenta,Flowering Plants,Region 8,Threatened,Final,Federal Register (2005-08-11),Download,524899,175717.0 acres
+1134,"oxytheca, Cushenbury",Oxytheca parishii var. goodmaniana,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-12-24),Download,529318,1302.5 acres
+6845,Pa`iniu,Astelia waialealae,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,43181,14384.1 acres
+523,"Paintbrush, ash-grey",Castilleja cinerea,Flowering Plants,Region 8,Threatened,Final,Federal Register (2007-12-26),Download,33058,1513.5 acres
+846,Pamakani,Tetramolopium capillare,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,38825,8478.9 acres
+863,Pamakani,Viola chamissoniana ssp. chamissoniana,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,195689,9454.4 acres
+3388,Papala,Charpentiera densiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,20788,7463.2 acres
+1010,"Penny-cress, Kneeland Prairie",Thlaspi californicum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-10-09),Download,508155,66.7 acres
+871,"Pennyroyal, Todsen's",Hedeoma todsenii,Flowering Plants,Region 2,Endangered,Final,Federal Register (1981-01-19),Download,32509,475.5 acres
+586,"Pentachaeta, Lyon's",Pentachaeta lyonii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2006-11-14),Download,504234,3092.2 acres
+2810,"Peppergrass, Slickspot",Lepidium papilliferum,Flowering Plants,Region 1,Threatened,Proposed,Federal Register (2011-05-10),Download,503383,61293.2 acres
+7220,"Phacelia, DeBeque",Phacelia submutica,Flowering Plants,Region 6,Threatened,Final,Federal Register (2012-08-13),Download,31601,24048.3 acres
+727,pilo,Kadua laxiflora,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,35023,17637.0 acres
+3387,Pilo kea lau li`i,Platydesma rostrata,Flowering Plants,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,28996,25752.4 acres
+1171,"Piperia, Yadon's",Piperia yadonii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2007-10-24),Download,507115,1748.5 acres
+806,Po`e,Portulaca sclerocarpa,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,20437,757.0 acres
+1267,"Polygonum, Scotts Valley",Polygonum hickmanii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2003-04-08),Download,565425,278.2 acres
+5956,Popolo,Cyanea solanacea,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34745,22814.2 acres
+832,Popolo ku mai,Solanum incompletum,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,505266,18723.1 acres
+2211,"Prickly-apple, aboriginal",Harrisia (=Cereus) aboriginum (=gracilis),Flowering Plants,Region 4,Endangered,Final,Federal Register (2016-01-22),,195400,
+650,Pua `ala,Brighamia rockii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,34624,9468.4 acres
+1108,Pu`uka`a,Cyperus trachysanthos,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,39990,612.9 acres
+827,"Ragwort, San Francisco Peaks",Packera franciscana,Flowering Plants,Region 2,Threatened,Final,Federal Register (1983-11-22),Download,565356,745.4 acres
+6632,"Reedgrass, Hillegrand's",Calamagrostis hillebrandii,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,40568,1479.1 acres
+815,"Remya, Maui",Remya mauiensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,38818,12536.2 acres
+630,"Rock-cress, Braun's",Arabis perstellata,Flowering Plants,Region 4,Endangered,Final,Federal Register (2004-06-03),Download,22721,1052.0 acres
+6672,"Rockcress, Georgia",Arabis georgiana,Flowering Plants,Region 4,Threatened,Final,Federal Register (2014-09-12),Download,22694,510.4 acres
+6617,"Rose-mallow, Neches River",Hibiscus dasycalyx,Flowering Plants,Region 2,Threatened,Final,Federal Register (2013-09-11),Download,21627,120.7 acres
+993,"Sandalwood, Lanai (=`iliahi)",Santalum haleakalae var. lanaiense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,895619,53459.9 acres
+506,"Sandwort, Bear Valley",Arenaria ursina,Flowering Plants,Region 8,Threatened,Final,Federal Register (2007-12-26),Download,20272,1214.7 acres
+8181,"Seagrass, Johnson's",Halophila johnsonii,Flowering Plants,NOAA,Threatened,Final,Federal Register (2000-04-05),Download,502870,20902.6 acres
+1189,"Sedge, golden",Carex lutea,Flowering Plants,Region 4,Endangered,Final,Federal Register (2011-03-01),Download,507766,139.0 acres
+656,"Sedge, Navajo",Carex specuicola,Flowering Plants,Region 2,Threatened,Final,Federal Register (1985-05-08),Download,39811,0.1 acres
+634,"Silversword, Mauna Loa (=Ka'u)",Argyroxiphium kauense,Flowering Plants,Region 1,Endangered,Final,Federal Register (2003-07-02),Download,38728,35479.2 acres
+4724,"Skyrocket, Pagosa",Ipomopsis polyantha,Flowering Plants,Region 6,Endangered,Final,Federal Register (2012-08-13),Download,31215,9427.5 acres
+903,"Spineflower, Monterey",Chorizanthe pungens var. pungens,Flowering Plants,Region 8,Threatened,Final,Federal Register (2008-01-09),Download,527354,11148.3 acres
+10290,"spineflower, Robust",Chorizanthe robusta var. robusta,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-05-28),Download,527356,414.1 acres
+1378,"spineflower, Scotts Valley",Chorizanthe robusta var. hartwegii,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-05-29),Download,527355,278.2 acres
+527,"Spurge, Hoover's",Chamaesyce hooveri,Flowering Plants,Region 8,Threatened,Final,Federal Register (2005-08-11),Download,501427,114942.0 acres
+558,"Sunflower, Pecos (=puzzle, =paradox)",Helianthus paradoxus,Flowering Plants,Region 2,Threatened,Final,Federal Register (2008-04-01),Download,36670,1094.3 acres
+1881,"Sunflower, whorled",Helianthus verticillatus,Flowering Plants,Region 4,Endangered,Final,Federal Register (2014-08-26),Download,36692,1524.3 acres
+926,"Sunray, Ash Meadows",Enceliopsis nudicaulis var. corrugata,Flowering Plants,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,196274,1800.4 acres
+614,"Taraxacum, California",Taraxacum californicum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2008-08-14),Download,36203,1701.1 acres
+1119,"Tarplant, Gaviota",Deinandra increscens ssp. villosa,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-11-07),Download,780726,9932.1 acres
+559,"Tarplant, Otay",Deinandra (=Hemizonia) conjugens,Flowering Plants,Region 8,Threatened,Final,Federal Register (2002-12-10),Download,780273,6490.1 acres
+562,"Tarplant, Santa Cruz",Holocarpha macradenia,Flowering Plants,Region 8,Threatened,Final,Federal Register (2002-10-16),Download,37739,2753.8 acres
+531,"Thistle, La Graciosa",Cirsium loncholepis,Flowering Plants,Region 8,Endangered,Final,Federal Register (2009-11-03),Download,36383,23672.2 acres
+530,"Thistle, Suisun",Cirsium hydrophilum var. hydrophilum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2007-04-12),Download,527372,2054.5 acres
+496,"Thornmint, San Diego",Acanthomintha ilicifolia,Flowering Plants,Region 8,Threatened,Final,Federal Register (2008-08-26),Download,32426,1302.5 acres
+8336,"Thoroughwort, Cape Sable",Chromolaena frustrata,Flowering Plants,Region 4,Endangered,Final,Federal Register (2014-01-08),Download,37032,10231.4 acres
+858,"Tuctoria, Greene's",Tuctoria greenei,Flowering Plants,Region 8,Endangered,Final,Federal Register (2005-08-11),Download,202500,144757.4 acres
+518,Uhi uhi,Mezoneuron kavaiense,Flowering Plants,Region 1,Endangered,Proposed,Federal Register (2012-10-17),Download,195912,12886.5 acres
+712,"Wallflower, Contra Costa",Erysimum capitatum var. angustatum,Flowering Plants,Region 8,Endangered,Final,Federal Register (1978-08-31),Download,528069,315.2 acres
+1030,"Water-umbel, Huachuca",Lilaeopsis schaffneriana var. recurva,Flowering Plants,Region 2,Endangered,Final,Federal Register (1999-07-12),Download,182174,689.4 acres
+930,"wild buckwheat, clay-loving",Eriogonum pelinophilum,Flowering Plants,Region 6,Endangered,Final,Federal Register (1984-07-13),Download,21219,104.8 acres
+709,"Wild-buckwheat, gypsum",Eriogonum gypsophilum,Flowering Plants,Region 2,Threatened,Final,Federal Register (1981-01-19),Download,21146,558.1 acres
+548,"Wild-buckwheat, southern mountain",Eriogonum kennedyi var. austromontanum,Flowering Plants,Region 8,Threatened,Final,Federal Register (2007-12-26),Download,528003,789.1 acres
+3084,"wild coffee, Oahu (=kopiko)",Psychotria hexandra ssp. oahuensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,35103,31073.3 acres
+870,"Wild-rice, Texas",Zizania texana,Flowering Plants,Region 2,Endangered,Final,Federal Register (1980-07-14),Download,41321,119.3 acres
+840,"Wire-lettuce, Malheur",Stephanomeria malheurensis,Flowering Plants,Region 1,Endangered,Final,Federal Register (1982-11-10),Download,196298,109.6 acres
+1174,"Yellowhead, desert",Yermo xanthocephalus,Flowering Plants,Region 6,Threatened,Final,Federal Register (2004-03-16),Download,507242,356.4 acres
+546,"Yerba santa, Lompoc",Eriodictyon capitatum,Flowering Plants,Region 8,Endangered,Final,Federal Register (2002-11-07),Download,31366,6347.0 acres
+8503,"Beetle, Casey's June",Dinacoma caseyi,Insects,Region 8,Endangered,Final,Federal Register (2011-09-22),Download,-861,678.9 acres
+454,"Beetle, Comal Springs dryopid",Stygoparnus comalensis,Insects,Region 2,Endangered,Final,Federal Register (2013-10-23),Download,193697,75.6 acres
+453,"Beetle, Comal Springs riffle",Heterelmis comalensis,Insects,Region 2,Endangered,Final,Federal Register (2013-10-23),Download,193733,28.2 acres
+435,"Beetle, delta green ground",Elaphrus viridis,Insects,Region 8,Threatened,Final,Federal Register (1980-08-08),Download,109570,969.4 acres
+460,"Beetle, Helotes mold",Batrisodes venyivi,Insects,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,691442,546.7 acres
+461,"Beetle, [no common name]",Rhadine exilis,Insects,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,-92,1938.5 acres
+459,"Beetle, [no common name]",Rhadine infernalis,Insects,Region 2,Endangered,Final,Federal Register (2012-02-14),Download,-979,2331.7 acres
+436,"Beetle, valley elderberry longhorn",Desmocerus californicus dimorphus,Insects,Region 8,Threatened,Final,Federal Register (1980-08-08),Download,201258,478.8 acres
+5067,"Butterfly, Bartram's hairstreak",Strymon acis bartrami,Insects,Region 4,Endangered,Final,Federal Register (2014-08-12),,778794,
+438,"Butterfly, bay checkerspot",Euphydryas editha bayensis,Insects,Region 8,Threatened,Final,Federal Register (2008-08-26),Download,201292,17759.1 acres
+450,"Butterfly, Fender's blue",Icaricia icarioides fenderi,Insects,Region 1,Endangered,Final,Federal Register (2006-10-31),Download,779712,2885.0 acres
+8083,"Butterfly, Florida leafwing",Anaea troglodyta floridalis,Insects,Region 4,Endangered,Final,Federal Register (2014-08-12),,779461,
+9001,"Butterfly, Mount Charleston blue",Icaricia (Plebejus) shasta charlestonensis,Insects,Region 8,Endangered,Final,Federal Register (2015-06-30),Download,-1266,5270.3 acres
+431,"Butterfly, Oregon silverspot",Speyeria zerene hippolyta,Insects,Region 1,Threatened,Final,Federal Register (1980-07-02),Download,201287,361.4 acres
+432,"Butterfly, Palos Verdes blue",Glaucopsyche lygdamus palosverdesensis,Insects,Region 8,Endangered,Final,Federal Register (1980-07-02),Download,201264,74.7 acres
+426,"Butterfly, Quino checkerspot",Euphydryas editha quino (=E. e. wrighti),Insects,Region 8,Endangered,Final,Federal Register (2009-06-17),Download,779299,61973.8 acres
+7495,"Checkerspot, Taylor's (=whulge)",Euphydryas editha taylori,Insects,Region 1,Endangered,Final,Federal Register (2013-10-03),Download,201295,1633.7 acres
+1361,"Damselfly, blackline Hawaiian",Megalagrion nigrohamatum nigrolineatum,Insects,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,722170,31073.3 acres
+4326,"Damselfly, crimson Hawaiian",Megalagrion leptodemas,Insects,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,722005,31073.3 acres
+6231,"Damselfly, oceanic Hawaiian",Megalagrion oceanicum,Insects,Region 1,Endangered,Final,Federal Register (2012-09-18),Download,722011,38877.7 acres
+445,"Dragonfly, Hine's emerald",Somatochlora hineana,Insects,Region 3,Endangered,Final,Federal Register (2010-04-23),Download,101968,25890.5 acres
+1248,"fly, Hawaiian picture-wing",Drosophila aglaia,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,146380,295.2 acres
+1259,"fly, Hawaiian picture-wing",Drosophila differens,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-1020,988.2 acres
+1257,"fly, Hawaiian picture-wing",Drosophila hemipeza,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-811,933.3 acres
+1249,"fly, Hawaiian picture-wing",Drosophila heteroneura,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-781,4571.8 acres
+1251,"fly, Hawaiian picture-wing",Drosophila mulli,Insects,Region 1,Threatened,Final,Federal Register (2008-12-04),Download,-760,691.4 acres
+1252,"fly, Hawaiian picture-wing",Drosophila musaphilia,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,146515,793.6 acres
+1254,"fly, Hawaiian picture-wing",Drosophila obatai,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-872,109.5 acres
+1258,"fly, Hawaiian picture-wing",Drosophila ochrobasis,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-832,438.0 acres
+1255,"fly, Hawaiian picture-wing",Drosophila substenoptera,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-460,324.0 acres
+1256,"fly, Hawaiian picture-wing",Drosophila tarphytrichia,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,146579,821.8 acres
+7261,"Fly, Hawaiian picture-wing",Drosophila sharpi,Insects,Region 1,Endangered,Final,Federal Register (2010-04-13),Download,146570,17261.3 acres
+458,"Grasshopper, Zayante band-winged",Trimerotropis infantilis,Insects,Region 8,Endangered,Final,Federal Register (2001-02-07),Download,658800,11151.5 acres
+446,"Moth, Blackburn's sphinx",Manduca blackburni,Insects,Region 1,Endangered,Final,Federal Register (2003-06-10),Download,-840,3172.1 acres
+439,"Naucorid, Ash Meadows",Ambrysus amargosus,Insects,Region 8,Threatened,Final,Federal Register (1985-05-20),Download,103618,0.3 acres
+1250,"picture-wing fly, Hawaiian",Drosophila montgomeryi,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-45,821.8 acres
+1253,"picture-wing fly, Hawaiian",Drosophila neoclavisetae,Insects,Region 1,Endangered,Final,Federal Register (2008-12-04),Download,-689,137.2 acres
+3412,"Skipper, Dakota",Hesperia dacotae,Insects,Region 3,Threatened,Final,Federal Register (2015-10-01),Download,706618,19976.5 acres
+451,"Skipper, Laguna Mountains",Pyrgus ruralis lagunae,Insects,Region 8,Endangered,Final,Federal Register (2006-12-12),Download,707413,6250.7 acres
+10147,"skipperling, Poweshiek",Oarisma poweshiek,Insects,Region 3,Endangered,Final,Federal Register (2015-10-01),Download,706688,25933.8 acres
+4910,"Tiger beetle, Salt Creek",Cicindela nevadica lincolniana,Insects,Region 6,Endangered,Final,Federal Register (2014-05-06),Download,697848,852.3 acres
+1,"Bat, Indiana",Myotis sodalis,Mammals,Region 3,Endangered,Final,Federal Register (1977-09-22),Download,180001,9763890.9 acres
+8962,"Bat, Mariana fruit (=Mariana flying fox)",Pteropus mariannus mariannus,Mammals,Region 1,Threatened,Final,Federal Register (2004-10-28),Download,-257,363.4 acres
+27,"Bat, Virginia big-eared",Corynorhinus (=Plecotus) townsendii virginianus,Mammals,Region 5,Endangered,Final,Federal Register (1979-11-30),Download,203454,1150.2 acres
+33,"Caribou, woodland",Rangifer tarandus caribou,Mammals,Region 1,Endangered,Final,Federal Register (2012-11-28),Download,202411,29578.9 acres
+1237,"Fox, Santa Catalina Island",Urocyon littoralis catalinae,Mammals,Region 8,Threatened,Final,Federal Register (2005-11-09),No critical habitat designated due to exemption and/or exclusion.  See Federal Register publication for details.,726904,0 Acres or Miles
+18,Jaguar,Panthera onca,Mammals,Region 2,Endangered,Final,Federal Register (2014-03-05),Download,180593,756339.1 acres
+37,"Kangaroo rat, Fresno",Dipodomys nitratoides exilis,Mammals,Region 8,Endangered,Final,Federal Register (1985-01-30),Download,202362,911.7 acres
+16,"Kangaroo rat, Morro Bay",Dipodomys heermanni morroensis,Mammals,Region 8,Endangered,Final,Federal Register (1977-09-22),Download,202360,675.4 acres
+63,"Kangaroo rat, San Bernardino Merriam's",Dipodomys merriami parvus,Mammals,Region 8,Endangered,Final,Federal Register (2002-04-23),Download,625244,33350.7 acres
+24,"Lynx, Canada",Lynx canadensis,Mammals,Region 6,Threatened,Final,Federal Register (2014-09-12),Download,180585,26191537.7 acres
+7,"Manatee, West Indian",Trichechus manatus,Mammals,Region 4,Threatened,Final,Federal Register (1977-09-22),Download,180684,1233515.0 acres
+41,"Mouse, Alabama beach",Peromyscus polionotus ammobates,Mammals,Region 4,Endangered,Final,Federal Register (2007-01-30),Download,202367,865.7 acres
+34,"Mouse, Choctawhatchee beach",Peromyscus polionotus allophrys,Mammals,Region 4,Endangered,Final,Federal Register (2006-10-12),Download,202369,2396.1 acres
+5210,"Mouse, New Mexico meadow jumping",Zapus hudsonius luteus,Mammals,Region 2,Endangered,Final,Federal Register (2016-03-16),Download,609782,12415.8 acres
+35,"Mouse, Perdido Key beach",Peromyscus polionotus trissyllepsis,Mammals,Region 4,Endangered,Final,Federal Register (2006-10-12),Download,202370,1237.6 acres
+52,"Mouse, Preble's meadow jumping",Zapus hudsonius preblei,Mammals,Region 6,Threatened,Final,Federal Register (2010-12-15),Download,609781,31615.0 acres
+54,"Mouse, St. Andrew beach",Peromyscus polionotus peninsularis,Mammals,Region 4,Endangered,Final,Federal Register (2006-10-12),Download,203502,2137.4 acres
+5232,"Otter, Northern Sea",Enhydra lutris kenyoni,Mammals,Region 7,Threatened,Final,Federal Register (2009-10-08),Download,622038,3805530.6 acres
+8683,"Pocket gopher, Olympia",Thomomys mazama pugetensis,Mammals,Region 1,Threatened,Final,Federal Register (2014-04-09),Download,900463,658.1 acres
+3194,"Pocket gopher, Roy Prairie",Thomomys mazama glacialis,Mammals,Region 1,Threatened,Final,Federal Register (2014-04-09),No critical habitat designated due to exemption and/or exclusion.  See Federal Register publication for details.,900454,0 Acres or Miles
+8684,"Pocket gopher, Tenino",Thomomys mazama tumuli,Mammals,Region 1,Threatened,Final,Federal Register (2014-04-09),Download,900465,421.3 acres
+8685,"Pocket gopher, Yelm",Thomomys mazama yelmensis,Mammals,Region 1,Threatened,Final,Federal Register (2014-04-09),Download,900466,518.5 acres
+29,Rice rat,Oryzomys palustris natator,Mammals,Region 4,Endangered,Final,Federal Register (1993-08-31),Download,202379,9924.6 acres
+2891,"Seal, Hawaiian monk",Monachus schauinslandi,Mammals,NOAA,Endangered,Final,Federal Register (2015-08-21),Download,180661,1576422.5 acres
+7115,"Sea lion, Steller",Eumetopias jubatus,Mammals,NOAA,Endangered,Final,Federal Register (1999-03-23),Download,180625,111034928.0 acres
+56,"Sheep, Peninsular bighorn",Ovis canadensis nelsoni,Mammals,Region 8,Endangered,Final,Federal Register (2009-04-14),Download,898805,376082.6 acres
+57,"Sheep, Sierra Nevada bighorn",Ovis canadensis sierrae,Mammals,Region 8,Endangered,Final,Federal Register (2008-08-05),Download,898931,417684.8 acres
+58,"Shrew, Buena Vista Lake ornate",Sorex ornatus relictus,Mammals,Region 8,Endangered,Final,Federal Register (2013-07-02),Download,633864,2426.7 acres
+43,"Squirrel, Mount Graham red",Tamiasciurus hudsonicus grahamensis,Mammals,Region 2,Endangered,Final,Federal Register (1990-01-05),Download,202353,1854.0 acres
+28,"Vole, Amargosa",Microtus californicus scirpensis,Mammals,Region 8,Endangered,Final,Federal Register (1984-11-15),Download,202375,4491.8 acres
+9126,"Whale, killer",Orcinus orca,Mammals,NOAA,Endangered,Final,Federal Register (2006-11-29),Download,180469,2024416.8 acres
+2510,"Whale, North Atlantic Right",Eubalaena glacialis,Mammals,NOAA,Endangered,Final,Federal Register (2008-04-08),Download,180537,3958073.2 acres
+11,"Wolf, gray",Canis lupus,Mammals,Region 6,Endangered,Final,Federal Register (1978-03-09),,180596,
+12,"Wolf, gray",Canis lupus,Mammals,Region 3,Threatened,Final,Federal Register (1978-03-09),Download,180596,5780370.5 acres
+162,"Anole, Culebra Island giant",Anolis roosevelti,Reptiles,Region 4,Endangered,Final,Federal Register (1977-09-22),Download,202133,999.3 acres
+164,"Boa, Mona",Epicrates monensis monensis,Reptiles,Region 4,Threatened,Final,Federal Register (1978-02-03),Download,202182,13973.2 acres
+176,"Crocodile, American",Crocodylus acutus,Reptiles,Region 4,Threatened,Final,Federal Register (1977-09-22),Download,174361,781696.5 acres
+3271,"gartersnake, narrow-headed",Thamnophis rufipunctatus,Reptiles,Region 2,Threatened,Proposed,Federal Register (2013-07-10),Download,174148,190157.2 acres
+1783,"gartersnake, northern Mexican",Thamnophis eques megalops,Reptiles,Region 2,Threatened,Proposed,Federal Register (2013-07-10),Download,209125,407823.3 acres
+177,"Gecko, Monito",Sphaerodactylus micropithecus,Reptiles,Region 4,Endangered,Final,Federal Register (1982-10-15),Download,174080,21.5 acres
+165,"Iguana, Mona ground",Cyclura stejnegeri,Reptiles,Region 4,Threatened,Final,Federal Register (1978-02-03),Download,202150,13973.2 acres
+175,"Lizard, Coachella Valley fringe-toed",Uma inornata,Reptiles,Region 8,Threatened,Final,Federal Register (1980-09-25),Download,173948,11800.1 acres
+163,"Lizard, St. Croix ground",Ameiva polops,Reptiles,Region 4,Endangered,Final,Federal Register (1977-09-22),Download,174030,21.0 acres
+166,"Rattlesnake, New Mexican ridge-nosed",Crotalus willardi obscurus,Reptiles,Region 2,Threatened,Final,Federal Register (1978-08-04),Download,202178,2918.6 acres
+153,"Sea turtle, hawksbill",Eretmochelys imbricata,Reptiles,Region 4,Endangered,Final,Federal Register (1999-03-23),Download,173836,90061.4 acres
+154,"Sea turtle, leatherback",Dermochelys coriacea,Reptiles,Region 4,Endangered,Final,Federal Register (1999-03-23),Download,173843,15654.4 acres
+9707,"Sea turtle, loggerhead",Caretta caretta,Reptiles,Region 4,Threatened,Final,Federal Register (2014-07-10),Download,173830,707.5 miles
+185,"Tortoise, desert",Gopherus agassizii,Reptiles,Region 8,Threatened,Final,Federal Register (1994-02-08),Download,173856,6454134.0 acres
+170,"Turtle, Plymouth Redbelly",Pseudemys rubriventris bangsi,Reptiles,Region 5,Endangered,Final,Federal Register (1980-04-02),Download,202090,3849.8 acres
+183,"Whipsnake (=striped racer), Alameda",Masticophis lateralis euryxanthus,Reptiles,Region 8,Threatened,Final,Federal Register (2000-10-03),Download,209331,155857.9 acres
+406,"Cavesnail, Tumbling Creek",Antrobia culveri,Snails,Region 3,Endangered,Final,Federal Register (2011-06-28),Download,70671,37.3 acres
+3364,"Hornsnail, rough",Pleurocera foremani,Snails,Region 4,Endangered,Final,Federal Register (2010-11-02),Download,71557,22.2 miles
+2561,"Rocksnail, interrupted (=Georgia)",Leptoxis foremani,Snails,Region 4,Endangered,Final,Federal Register (2010-11-02),Download,71650,64.9 miles
+1989,"Snail, Lanai tree",Partulina semicarinata,Snails,Region 1,Endangered,Final,Federal Register (2016-03-30),0 Acres or Miles Designated,-886,0 Acres or Miles
+3385,"Snail, Lanai tree",Partulina variabilis,Snails,Region 1,Endangered,Final,Federal Register (2016-03-30),0 Acres or Miles Designated,-24,0 Acres or Miles
+387,"Snail, Morro shoulderband (=Banded dune)",Helminthoglypta walkeriana,Snails,Region 8,Endangered,Final,Federal Register (2001-02-07),Download,77783,2557.3 acres
+418,"Snail, Newcomb's",Erinna newcombi,Snails,Region 1,Threatened,Final,Federal Register (2002-08-20),Download,-1,4411.8 acres
+1245,"Snail, Pecos assiminea",Assiminea pecos,Snails,Region 2,Endangered,Final,Federal Register (2011-06-07),Download,567248,459.1 acres
+4162,"Springsnail, Chupadera",Pyrgulopsis chupaderae,Snails,Region 2,Endangered,Final,Federal Register (2012-07-12),Download,568194,0.3 acres
+1247,"Springsnail, Koster's",Juturnia kosteri,Snails,Region 2,Endangered,Final,Federal Register (2011-06-07),Download,-637,61.0 acres
+4479,"Springsnail, Phantom",Pyrgulopsis texana,Snails,Region 2,Endangered,Final,Federal Register (2013-07-09),Download,-1177,19.2 acres
+1246,"Springsnail, Roswell",Pyrgulopsis roswellensis,Snails,Region 2,Endangered,Final,Federal Register (2011-06-07),Download,568233,61.0 acres
+1380,"springsnail, San Bernardino",Pyrgulopsis bernardina,Snails,Region 2,Threatened,Final,Federal Register (2012-04-17),Download,568188,0.5 acres
+4766,"Springsnail, Three Forks",Pyrgulopsis trivialis,Snails,Region 2,Endangered,Final,Federal Register (2012-04-17),Download,568240,26.3 acres
+3876,"Tree snail, Newcomb's",Newcombia cumingi,Snails,Region 1,Endangered,Final,Federal Register (2016-03-30),Download,-51,65.1 acres
+4437,"Tryonia, Diamond",Pseudotryonia adamantina,Snails,Region 2,Endangered,Final,Federal Register (2013-07-09),Download,-1178,463.0 acres
+5362,"Tryonia, Gonzales",Tryonia circumstriata (=stocktonensis),Snails,Region 2,Endangered,Final,Federal Register (2013-07-09),Download,568402,463.0 acres
+6138,"Tryonia, Phantom",Tryonia cheatumi,Snails,Region 2,Endangered,Final,Federal Register (2013-07-09),Download,70601,19.2 acres
+"Salmon, Atlantic",2009,,,,,,,,,
+"Sturgeon, Atlantic",2016,,,,,,,,,
+Bocaccio,2014,Puget Sound/ Georgia Basin DPS,,,,,,,,
+Chinook Salmon,1993,,,,,,,,,
+,2005,California Coastal,,,,,,,,
+,2005,Central Valley Spring Run,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Chum Salmon,2005,,,,,,,,,
+Coho Salmon,1999,,,,,,,,,
+Coho Salmon ,2016,Lower Columbia River ESU,,,,,,,,
+Eulachon,2011,Southern DPS,,,,,,,,
+"Sturgeon, green",2009,Southern DPS,,,,,,,,
+"Sturgeon, gulf",2003,,,,,,,,,
+Sockeye Salmon,1993,,,,,,,,,
+Sockeye Salmon,,,,,,,,,,
+"Sawfish, smalltooth",2009,,,,,,,,,
+Steelhead,2000,Oncorhynchus (=Salmo) mykiss,,,,,,,,
+Steelhead,2005,Northern California,,,,,,,,
+Steelhead,2005,Central California Coastal,,,,,,,,
+Steelhead,2000,Oncorhynchus (=Salmo) mykiss,,,,,,,,
+Steelhead,2005,Southern California,,,,,,,,
+Steelhead,2000,Oncorhynchus (=Salmo) mykiss,,,,,,,,
+Steelhead,2005,Central Valley,,,,,,,,
+Steelhead,2000,Oncorhynchus (=Salmo) mykiss,,,,,,,,
+Steelhead,2005,Oncorhynchus (=Salmo) mykiss,,,,,,,,
+Steelhead,2000,Oncorhynchus (=Salmo) mykiss,,,,,,,,
+Steelhead,2016,Puget Sound DPS,,,,,,,,
+"rockfish, yelloweye",2014,Puget Sound/ Georgia Basin DPS,,,,,,,,
+"Abalone, black",2011,,,,,,,,,
+"Coral, elkhorn",2008,,,,,,,,,
+"Coral, staghorn",2008,,,,,,,,,
+"Seagrass, Johnson's",2000,,,,,,,,,
+"Turtle, green sea",1998,,,,,,,,,
+"Turtle, hawksbill",1998,,,,,,,,,
+"Turtle, leatherback",1979,U.S. Virgin Islands,,,,,,,,
+"Turtle, leatherback",2012,US West coast,,,,,,,,
+"Turtle, loggerhead",2014,Northwest Atlantic,,,,,,,,
+"Whale, beluga",2011,Cook Inlet,,,,,,,,
+"Seal, Hawaiian monk",1986,,,,,,,,,
+"Whale, killer",2006,Southern resident,,,,,,,,
+"Whale, North Atlantic Right",1994,Northeast,,,,,,,,
+"Whale, North Atlantic Right",2016,Southeast,,,,,,,,
+"Whale, North Pacific right",2006,,,,,,,,,
+"Seal, ringed",2014,,,,,,,,,
+"Sea lion, Steller",1993,Alaska,,,,,,,,
+"Sea lion, Steller",1993,California-Oregon,,,,,,,,
+"rockfish, canary",2016,,,,,,,,,

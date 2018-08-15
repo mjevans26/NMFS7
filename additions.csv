@@ -1,0 +1,905 @@
+NMFS.Tracking.Number,Common.Name,Population.Name,NMFS.Final.Determination..Species.,NMFS.Final.Determination..Critical.Habitat.
+790010,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+810014,"Whale, sei",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+820016,"Whale, sperm",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+830015,,,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+840009,,,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+840016,"Sturgeon, shortnose",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+840024,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+850006,"Turtle, green sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+880022,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+890014,"Whale, sperm",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+910045,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+910045,"Turtle, green sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+910045,"Turtle, hawksbill sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+910045,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+910045,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+910049,,,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+920033,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+920033,"Sturgeon, shortnose",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+920033,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+920033,"Turtle, green sea",Florida Breeding Populations,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+940074,,,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+950049,,,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+960042,"Turtle, unidentified sea",NA,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Whale, humpback",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Whale, fin",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Turtle, hawksbill sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Turtle, green sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960066,"Sturgeon, shortnose",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Whale, blue",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Whale, fin",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Whale, sperm",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+960067,"Whale, humpback",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+AKR-1998-1409,,,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+AKR-2000-978,"Salmon, sockeye",Snake River ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+AKR-2000-978,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+AKR-2000-978,"Whale, fin",Northeast Pacific Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+AKR-2000-978,"Whale, sei",Eastern North Pacific Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+AKR-2000-978,"Whale, sperm",North Pacific Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+AKR-2006-7616,"Sea lion, Steller",Eastern US DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+AKR-2016-9555,"Seal, ringed",Arctic Subspecies,"Jeopardy, No Adverse Mod",
+FPR-2002-1901,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1901,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,
+FPR-2002-1905,"Salmon, Chinook",,Jeopardy & Adverse Modification,
+FPR-2002-1905,"Salmon, chum",,Jeopardy & Adverse Modification,
+FPR-2002-1905,"Salmon, coho",,Jeopardy & Adverse Modification,
+FPR-2002-1905,"Salmon, sockeye",,Jeopardy & Adverse Modification,
+FPR-2002-1905,Steelhead,,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2002-1906,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2002-2724,"Salmon, sockeye",,Jeopardy & Adverse Modification,
+FPR-2002-2724,"Salmon, coho",,Jeopardy & Adverse Modification,
+FPR-2002-2724,"Salmon, chum",,Jeopardy & Adverse Modification,
+FPR-2002-2724,"Salmon, Chinook",,Jeopardy & Adverse Modification,
+FPR-2002-2724,"Sea lion, Steller",,Jeopardy & Adverse Modification,
+FPR-2002-2724,Steelhead,,Jeopardy & Adverse Modification,
+FPR-2003-2430,"Salmon, chum",,Jeopardy & Adverse Modification,
+FPR-2003-2430,"Salmon, Chinook",,Jeopardy & Adverse Modification,
+FPR-2003-2430,Steelhead,,Jeopardy & Adverse Modification,
+FPR-2003-2430,"Salmon, sockeye",,Jeopardy & Adverse Modification,
+FPR-2003-2430,"Salmon, coho",,Jeopardy & Adverse Modification,
+FPR-2003-2432,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2432,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2433,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2434,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2435,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-2436,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-427,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-428,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2003-430,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2637,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2639,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2641,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2643,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2672,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2674,"Salmon, Chinook",Sacramento River winter-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,"Salmon, Chinook",Snake River fall-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,"Salmon, coho",Central California Coast ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,"Salmon, coho",Oregon Coast ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,"Salmon, coho",Southern Oregon/Northern California Coast ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,"Salmon, sockeye",Snake River ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Central California Coast DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Lower Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Middle Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Northern California DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Central California Coast DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Southern California DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2674,Steelhead,Upper Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+FPR-2004-2675,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2675,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2676,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2004-2677,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,
+FPR-2004-2677,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,
+FPR-2004-2677,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,
+FPR-2006-6647,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Atlantic",Gulf of Maine DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2006-6647,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2008-4223,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2010-5328,"Whale, fin",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Whale, humpback",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Whale, North Atlantic right",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Whale, sei",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Whale, sperm",,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Turtle, Kemp's ridley sea",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Turtle, green sea",Range-wide,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Turtle, hawksbill sea",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Turtle, leatherback sea",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Turtle, loggerhead sea",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Abalone, white",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Atlantic",Gulf of Maine DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Sawfish, smalltooth",U.S. DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Sea lion, Steller",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Seagrass, Johnson's",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Seal, Guadalupe fur",,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Whale, bowhead",,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Whale, blue",,Jeopardy & Adverse Modification,
+FPR-2010-5328,Vaquita,Gulf of California,Jeopardy & Adverse Modification,
+FPR-2010-5328,"Turtle, olive ridley sea",Range-wide,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,
+FPR-2010-5328,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,
+FPR-2011-6426,"Whale, humpback",Range-wide,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+FPR-2013-9063,"Whale, gray",Western North Pacific DPS,"Jeopardy, No Adverse Mod",
+FPR-2014-9084,"Turtle, hawksbill sea",,"Adverse Mod, No Jeopardy",
+FPR-2014-9084,"Turtle, green sea",Florida Breeding Populations,"Adverse Mod, No Jeopardy",
+FPR-2014-9084,"Turtle, loggerhead sea",,"Adverse Mod, No Jeopardy",
+FPR-2014-9084,"Turtle, leatherback sea",,"Adverse Mod, No Jeopardy",
+FPR-2014-9094,"Sturgeon, Gulf",,"Jeopardy, No Adverse Mod",
+FPR-2014-9094,"Salmon, Chinook",California Coastal ESU,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+FPR-2016-9154,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+FPR-2016-9154,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Adverse Modification
+FPR-2016-9154,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Adverse Modification
+FPR-2016-9154,"Coral, elkhorn",Range-wide,"Jeopardy, No Adverse Mod",No Adverse Modification
+FPR-2016-9154,"Coral, staghorn",NA,"Jeopardy, No Adverse Mod",No Adverse Modification
+FPR-2016-9154,"Coral, Lobed Star",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Turtle, loggerhead sea",Northwest Atlantic Ocean DPS,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Coral, Rough Cactus",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Coral, Boulder Star",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Turtle, green sea",,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Turtle, hawksbill sea",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Sturgeon, shortnose",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Sturgeon, Atlantic",New York Bight DPS,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Sturgeon, Atlantic",Gulf of Maine DPS,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Coral, Mountainous Star",Range-wide,"Jeopardy, No Adverse Mod",
+FPR-2016-9154,"Coral, Pillar",Range-wide,Jeopardy & Adverse Modification,
+FPR-2016-9154,"Whale, killer",Southern Resident,"Adverse Mod, No Jeopardy",Adverse Modification
+FPR-2016-9182,"Sturgeon, Atlantic",Gulf of Maine DPS,"Jeopardy, No Adverse Mod",
+NER-2000-597,"Sturgeon, shortnose",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-1251,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-1251,"Whale, humpback",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-1251,"Whale, fin",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-1251,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-330,"Whale, North Atlantic right",Range-wide,"Jeopardy, No Adverse Mod",
+NER-2001-544,"Whale, North Atlantic right",Range-wide,"Jeopardy, No Adverse Mod",
+NER-2001-546,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Whale, sperm",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Whale, sei",Nova Scotia Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Turtle, green sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Turtle, hawksbill sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Whale, blue",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Whale, fin",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-546,"Whale, humpback",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Whale, sperm",North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Whale, sei",Nova Scotia Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Whale, blue",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Whale, fin",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Whale, humpback",Western North Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2001-651,"Whale, North Atlantic right",Western Atlantic Stock,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NER-2012-1151,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod",
+NER-2015-12532,"Sturgeon, Atlantic",Gulf of Maine DPS,"Jeopardy, No Adverse Mod",
+NWR-1993-128,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1993-135,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-91,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-91,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-91,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-92,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-92,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-92,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-93,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-93,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-93,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1994-94,"Salmon, Chinook",Snake River spring/summer-run ESU,"Adverse Mod, No Jeopardy",Adverse Modification
+NWR-1994-95,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-92,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-92,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-95,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-95,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-95,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-96,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-96,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-96,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-97,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-97,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1995-97,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1996-130,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1996-130,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1996-130,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1996-131,"Trout, cutthroat",Umpqua River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1997-1308,"Trout, cutthroat",Umpqua River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1878,"Salmon, Chinook",Upper Columbia River spring-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-1999-1878,Steelhead,Upper Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-1999-1901,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1901,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1901,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1901,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1901,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1901,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1901,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1902,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1903,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect
+NWR-1999-1903,Steelhead,Lower Columbia River DPS,"Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect
+NWR-1999-1909,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1909,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1909,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1910,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1910,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1910,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1910,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1910,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1910,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1911,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1911,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1911,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1911,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1911,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-1911,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-33,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-33,Steelhead,Oregon Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-884,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-884,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-884,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-884,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-884,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-1999-884,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2000-1105,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2000-1105,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2000-1484,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2000-1484,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2000-1484,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2000-2117,Steelhead,,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2000-2117,"Salmon, Chinook",,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2000-356,"Salmon, Chinook",Mid-Columbia River spring-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,"Salmon, Chinook",Upper Willamette River ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,"Salmon, sockeye",Snake River ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,Steelhead,Lower Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,Steelhead,Middle Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,Steelhead,Southwest Washington DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,"Salmon, Chinook",Lower Columbia River ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,Steelhead,Upper Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,Steelhead,Upper Willamette River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-356,"Trout, cutthroat",Southwestern Washington/Columbia River DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-911,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-911,"Salmon, sockeye",Snake River ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2000-911,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2001-830,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2001-932,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2001-932,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2003-1665,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2003-309,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,
+NWR-2003-575,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2004-1982,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1982,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2004-1983,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2004-1983,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2004-629,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2005-3513,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2005-5883,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-5883,"Sturgeon, green",Southern DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2005-61,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2006-472,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2006-472,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2006-472,"Salmon, sockeye",Ozette Lake ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2006-472,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2006-472,"Salmon, chum",Hood Canal summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2007-3397,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2008-148,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Sturgeon, green",Southern DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,Eulachon,Columbia River,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-148,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2008-6542,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod",
+NWR-2010-1259,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-1861,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+NWR-2011-243,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2011-243,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+NWR-2011-3197,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, coho",Oregon Coast ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, coho",Lower Columbia River ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, chum",Columbia River ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, Chinook",Snake River fall-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2011-3197,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2013-10095,"Salmon, Chinook",Puget Sound ESU,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2013-10095,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,Adverse Modification
+NWR-2013-10095,Steelhead,Puget Sound DPS,Jeopardy & Adverse Modification,Adverse Modification
+SER-2000-540,"Whale, sperm",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Whale, sei",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Whale, humpback",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Whale, fin",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Whale, blue",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Turtle, loggerhead sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Turtle, leatherback sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Turtle, hawksbill sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2000-540,"Turtle, green sea",Florida Breeding Populations,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SER-2010-3497,"Sturgeon, Gulf",Range-wide,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect
+SER-2010-3497,"Turtle, Kemp's ridley sea",Range-wide,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect
+SER-2010-3497,"Turtle, green sea",Range-wide,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect
+SER-2010-3497,"Turtle, loggerhead sea",,"Jeopardy, No Adverse Mod",May Affect - Not Likely to Adversely Affect
+SER-2012-3646,"Turtle, loggerhead sea",,"Jeopardy, No Adverse Mod",
+SWR-1991-317,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2001-2637,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2002-1652,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2002-1652,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2002-1652,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2002-1652,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2002-1652,Steelhead,Northern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2002-2704,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2006-7316,"Salmon, Chinook",California Coastal ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2006-7316,"Salmon, coho",Central California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2006-7316,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2007-3680,"Turtle, leatherback sea",,Jeopardy & Adverse Modification,May Affect - Not Likely to Adversely Affect
+SWR-2007-7325,"Salmon, coho",Southern Oregon/Northern California Coast ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-5455,Steelhead,Southern California DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-9022,"Sturgeon, green",Southern DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-9022,Steelhead,Central California Coast DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-9022,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-9022,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-9022,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2008-9022,"Salmon, Chinook",Sacramento River winter-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2009-1111,"Salmon, Chinook",Sacramento River winter-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SWR-2010-3496,Steelhead,,Jeopardy & Adverse Modification,Adverse Modification
+SWR-2011-2138,"Salmon, Chinook",Central Valley spring-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SWR-2011-2138,"Salmon, Chinook",Sacramento River winter-run ESU,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SWR-2011-2138,Steelhead,Central California Coast DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SWR-2011-2138,"Sturgeon, green",Southern DPS,"Jeopardy, No Adverse Mod","Jeopardy, No Adverse Mod"
+SWR-2011-4995,"Salmon, Chinook",Central Valley spring-run ESU,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2011-4995,Steelhead,California Central Valley DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2011-4995,"Sturgeon, green",Southern DPS,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2012-1258,Steelhead,,Jeopardy & Adverse Modification,May Affect - Likely to Adversely Affect
+SWR-2012-238,,,Jeopardy & Adverse Modification,Jeopardy & Adverse Modification
+SWR-2013-9500,Steelhead,,Jeopardy & Adverse Modification,
+WCR-2013-76,"Salmon, Chinook",Lower Columbia River ESU,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,"Salmon, Chinook",Upper Willamette River ESU,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,"Salmon, sockeye",Snake River ESU,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,Steelhead,Lower Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,Steelhead,Upper Willamette River DPS,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,Steelhead,Middle Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2013-76,"Whale, killer",Southern Resident,Jeopardy & Adverse Modification,No Effect
+WCR-2014-1480,Steelhead,California Central Valley DPS,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2014-1785,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod",May Affect - Likely to Adversely Affect
+WCR-2014-223,Steelhead,Upper Columbia River DPS,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2014-223,"Salmon, Chinook",Upper Columbia River spring-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2014-445,"Salmon, Chinook",,"Adverse Mod, No Jeopardy",
+WCR-2015-2400,"Salmon, coho",Central California Coast ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,"Salmon, Chinook",Central Valley spring-run ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,"Sturgeon, green",Southern DPS,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,Steelhead,Central California Coast DPS,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,Steelhead,Central California Coast DPS,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,Steelhead,California Central Valley DPS,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,"Salmon, coho",Southern Oregon/Northern California Coast ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,Eulachon,,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2400,"Salmon, Chinook",California Coastal ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2015-2794,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2016-4087,"Salmon, Chinook",Snake River spring/summer-run ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2016-4087,Steelhead,Snake River Basin DPS,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2016-4087,"Salmon, Chinook",Snake River fall-run ESU,"Jeopardy, No Adverse Mod",No Adverse Modification
+WCR-2016-4505,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2016-4712,"Salmon, Chinook",Snake River spring/summer-run ESU,Jeopardy & Adverse Modification,Adverse Modification
+WCR-2016-4712,Steelhead,Snake River Basin DPS,Jeopardy & Adverse Modification,Adverse Modification

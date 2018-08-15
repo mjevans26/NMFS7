@@ -1,0 +1,454 @@
+---
+title: "NMFS Section 7 Analysis"
+author: "Michael Evans"
+date: "`r Sys.Date()`"
+output:
+  rmarkdown::html_document:
+    df_print: paged
+    fig_caption: yes
+    fig_width: 7
+    highlight: tango
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+load("data/data.RData")
+
+library(cooccur)
+library(digest)
+library(dplyr)
+library(plotly)
+library(reshape2)
+library(stringr)
+library(tidyr)
+library(vegan)
+library(viridis)
+
+```
+
+# Abstract
+
+This paper analyzes consultations conducted by National Marine Fisheries Services under Section 7 of the Endangered Species Act.
+
+# Introduction
+
+Section 7 of the Endangered Species Act requires all federal agencies to ensure that they do not jeopardize a species or adversely modify species' critical habitat with actions that they fund, authorize, or carry out.  To fulfill this mandate, federal agencies must consult with the US Fish and Wildlife Service (FWS) or the National Marine Fisheries Service (NMFS) to determine whehter proposed actions are likely to result in jeopardy or adverse modification.  This process typically begins with informal consultation, which end if the Services determine that the proposed action is 'not likely to adversely affect' a species or critical habitat. Otherwise, the formal consultation process is initiated during which the Services evaulate whether the proposed action will violate the prohibitions on jeopardy or destruction/adverse modification.  If either of these outcomes is likely, the Service must suggest 'reasonable and prudent alternatives' (RPAs) that can be enacted by the action agency to reduce or offset harm caused by the proposed action.  If no alternatives are available, the action cannot legally proceed unless exempted from violation of the ESA by a special committee.  A 'biological opinion' (BiOp) is issued at the end of formal consultation providing the Services' analysis, and must be finalized within 135 days after formal consultation begins. 
+
+# Methods
+
+##Data Preparation
+Information recorded by NMFS during ESA section 7 consultations with federal agencies (hereafter consultations) is stored in the public consultation tracking system (PCTS). We hereafter refer to federal agencies engaged in the consultation process as action agencies, and the actions requiring consultation as proposed actions.  We obtained data from all formal and informal consultations as recorded in the PCTS database by NMFS biologists through June 2017. This dataset contained over 112,000 rows corresponding to each species evaluated in each consultation, as the effects of a proposed action may be evaluated for one or many listed species. These outcomes may differ among species within a consultation.  We refer to per species consultation outcomes as determinations, and consultation outcomes as conclusions.  In addition to the species involved in a consultation and the determinations made by NMFS, PCTS records include the action agency, type of proposed action, dates of consultation initiation and conclusion, and the determinations proposed by action agencies.  Refer to supplemental Table S1 for a full list and description of fields.  
+
+Records prior to 2000 were deemed potentially unreliable based on the frequency of data recorded and conversation with NMFS personnel, and we analyzed data from 2000 to 2018. We performed several quality control steps to correct errors that may have accummulated from > 2,000 people entering data over several decades.  We corrected apparent date errors (e.g. end dates earlier than start dates), homogenized the names of species, action agencies, and work types.  NMFS records a variety of information about the nature of consultations in a single 'Consultation Type' field.  We split this into a "Type" field that indicated whether a consultation was recorded as formal, informal, or combined and a "Complexity" field that indicated whether a consultation was standard, programmatic, conference, or early.  
+
+Species and critical habitat determinations are recorded in a variety of different ways in PCTS.  We therefore standardized these outcomes by re-coding species determinations into one of four categories; 'no effect', 'NLAA', 'no jeopardy', or 'jeopardy'.  We re-coded critical habitat determinations into 'no effect', 'NLAA', 'no adverse modification', or 'adverse modification'.  We coded determinations for species that did not have critical habitat designated at the time of the consultation as 'no critical habitat'.  To ensure that all reported instances of jeopardy or adverse modification were accurate, we examined the BiOps for these consultations and recorded proposed and final determinations, as well as work categories.  In addition, We manually inspected `r length(unique(spot_key$TrackingNumber))` consultations for which outcomes were unclear based on PCTS records. Thus, our results reflect the minimum number of jeopardy determinations as there may have been erroneous non-jeopardy determinations recorded.  Although this large dataset likely contains additional minor errors that we were unable to correct, we assume that those errors are unbiased and randomly distributed within the data.
+
+##Consultation Patterns
+We estimated changes in consultation frequency over time by fitting linear models with a log link and Poisson error distribution to the number of consultations recorded as informal and formal as a function of year. 
+
+```{r trends, echo = FALSE, warning = FALSE}
+dt <- filter(good_data, grepl("20", Fiscal.Year), Fiscal.Year != "2017", grepl("Informal", Type))%>%
+  group_by(NMFS.Tracking.Number)%>%
+  summarize(FY = first(Fiscal.Year), Type = first(Type), LR = first(NMFS.Lead.Region))%>%
+  mutate(newLR = ifelse(LR == "SWR", "WCR", ifelse(LR == "NWR", "WCR", as.character(LR))))%>%
+  group_by(FY, Type, newLR)%>%
+  summarize(count= n())
+
+lm_if <- lm(data = group_by(dt, FY)%>%summarize(count= sum(count)), count ~ as.numeric(FY))
+
+dt <- filter(good_data, grepl("20[0-9][0-9]", Fiscal.Year),
+             Fiscal.Year != "2017", grepl("Formal", Type))%>%
+  group_by(NMFS.Tracking.Number)%>%
+  summarize(FY = first(Fiscal.Year), Type = first(Type), LR = first(NMFS.Lead.Region))%>%
+  mutate(newLR = ifelse(LR == "SWR", "WCR", ifelse(LR == "NWR", "WCR", as.character(LR))))%>%
+  group_by(FY, Type, newLR)%>%
+  summarize(count= n())
+
+lm_f <- lm(data = group_by(dt, FY)%>%summarize(count= sum(count)), count ~ as.numeric(FY))
+
+dt <- filter(good_data, grepl("20[0-9][0-9]", Fiscal.Year),
+             Fiscal.Year != "2017", grepl("Formal", Type))%>%
+  group_by(NMFS.Tracking.Number, Fiscal.Year)%>%
+  summarize(Jeop = ifelse("Jeopardy" %in% Sp, 1, 0))%>%
+  group_by(Fiscal.Year)%>%
+  summarize(total = n_distinct(NMFS.Tracking.Number), count= sum(Jeop))%>%
+  mutate(prop = count/total)
+
+lm_rate <- lm(data = dt, prop ~ as.numeric(Fiscal.Year))
+```
+
+NMFS is organized into five geographic regions; Northeast, Southeast, Alaska, Pacific Island, and West Coast.  We used a Chi-square test to estimate differences in formal consultation rates among geographic regions.  Prior to 2013 the West Coast region consisted of the Southwest and Northwest regions, and we aggregated all consultations from these regions into a single West Coast bin for consistency across years.
+
+```{r regions, echo = FALSE, warning = FALSE}
+dt <- filter(good_data, grepl("20", Fiscal.Year), grepl("Formal", Type))%>%
+  group_by(NMFS.Tracking.Number)%>%
+  summarize(LR = first(NMFS.Lead.Region))%>%
+  mutate(newLR = ifelse(LR == "SWR", "WCR", ifelse(LR == "NWR", "WCR", as.character(LR))))%>%
+  group_by(newLR)%>%
+  summarize(count = n())%>%
+  select(count)
+
+reg_chi <- chisq.test(dt)
+```
+
+We also tested for differences in the frequency of consultation among species, action agencies, and work type using Chi-square goodness-of-fit tests, including only consultations for which a species was recorded.  Out of `r length(unique(good_data$Common.Name))` species consulted on by NMFS, `r length(unique(combos$Common.Name[combos$Population!= "Range-wide"]))` species had distinct population segments (DPSs) or evolutionarily significant units (ESUs) designated.  DPS/ESUs are distinct subsegments of a species that can be independently listed under the ESA, and consulted on under section 7.  For our analysis of species-specific consultaiton frequencies, we considered all DPS/ESUs of a given species together.  For instance, a consultation involving multiple coho salmon (*Oncorhynchus kisutch*) DPSs was counted as a single consultation for Coho salmon.  
+
+```{r freqtests, echo = FALSE, warning = FALSE}
+#Frequency of Consultations by Species
+sp_dt <- filter(good_data, grepl(".", Common.Name), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+  group_by(Common.Name)%>%
+  summarize(count = length(unique(NMFS.Tracking.Number)))%>%
+  top_n(10, count)
+
+sp_chi <- chisq.test(sp_dt$count)
+vec <- sp_dt$count
+names(vec) <- sp_dt$Common.Name
+
+sp_plot <- plot_ly(data = sp_dt, y = ~Common.Name, x = ~count, type= "bar", orientation = 'h',
+        text = ~Common.Name, textposition = c('inside', rep('outside', 2), 'inside', rep('outside', 6)),
+        textfont = list(color = c('white', rep('black', 2), 'white', rep('black', 6))))%>%
+  layout(title = "Species",
+         yaxis = list(categoryorder = 'array',
+                      categoryarray = names(sort(vec)),
+                      title = "",
+                      showticklabels = FALSE),
+         xaxis = list(title = "", range = c(0, 15000)),
+         margin = list(l = 0)
+  )
+
+#Frequency of Consultations by Work Type
+cat_dt <- filter(good_data, grepl(".", Category), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+  group_by(NMFS.Tracking.Number)%>%
+  summarize(Category = first(Category))%>%
+  group_by(Category)%>%
+  summarize(count = n())%>%
+  top_n(10, count)
+
+vec <- cat_dt$count
+names(vec) <- cat_dt$Category
+
+cat_plot <- plot_ly(data = cat_dt, y = ~Category, x = ~count, type= "bar", orientation = 'h',
+        text = ~Category, textposition = c(rep('outside', 9), 'inside'),
+        textfont = list(color = c(rep('black', 9), 'white')))%>%
+  layout(title = "Work Type",
+         yaxis = list(categoryorder = 'array',
+                      categoryarray = names(sort(vec)),
+                      title = "",
+                      showticklabels = FALSE),
+         xaxis = list(title = "# consultations"),
+         margin = list(l = 0)
+         )
+
+#Frequency of Consultations by Agency
+ag_dt <- filter(good_data, grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+  group_by(NMFS.Tracking.Number)%>%
+  summarize(Agency = first(Agency))%>%
+  group_by(Agency)%>%
+  summarize(count = n())%>%
+  top_n(10, count)
+
+ag_chi <- chisq.test(ag_dt$count)
+vec <- ag_dt$count
+names(vec) <- ag_dt$Agency
+
+ag_plot <- plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orientation = 'h',
+        text = ~Agency, textposition = c('inside', rep('outside', 9)),
+        textfont = list(color = c('white', rep('black', 9))))%>%
+  layout(title = "Agencies",
+         yaxis = list(categoryorder = 'array',
+                      categoryarray = names(sort(vec)),
+                      title = "",
+                      showticklabels = FALSE),
+         xaxis = list(title = ""),
+         margin = list(l = 0)
+  )
+```
+
+## Jeopardy Patterns
+We estimated rates of jeopardy determination (i.e., the number of jeopardy determinations relative to the number of determinations made during formal consultations) and jeopardy conclusion (the proportion of consultations with at least one jeopardy determination) among all data, and tested for changes over time using generalized linear models.  We tested for differences in jeopardy determination rates among species, and jeopardy conclusion rates among work types using Chi-square goodness-of-fit tests.  The subdivision of species into smaller DPS/ESUs could affect the jeopardy determination rates, and we hypothesized that rates would be higher among consultations evaluating action effects for individual units reative to those considering range-wide effects.  We tested this hypothesis using Pearson's chi-squared test for equal proportions. 
+
+```{r proptests, echo = FALSE, warning = FALSE}
+#Proportion of Jeopardy/NoJeopardy by Work type
+catprop_dt <- filter(good_data, grepl(".", Category), grepl("Formal", Type), Sp =="Jeopardy")%>%
+  group_by(Category, NMFS.Tracking.Number)%>%summarize(count = n())%>%
+  group_by(Category)%>%
+  summarize(count= n())%>%
+  left_join(filter(good_data, grepl(".", Category), grepl("Formal", Type), !is.na(Sp))%>%
+              group_by(Category, NMFS.Tracking.Number)%>%summarize(count = n())%>%
+              group_by(Category)%>%
+              summarize(total = n()), by = "Category")%>%
+  mutate(prop = count/total, non = total - count)%>%
+  top_n(10, prop)%>%arrange(prop)
+
+catprop_chi <- chisq.test(x = rbind(catprop_dt$count, catprop_dt$non))
+
+vec <- catprop_dt$prop
+names(vec) <- catprop_dt$Category
+
+catprop_plot <- plot_ly(data = catprop_dt, type = 'bar')%>%
+  add_trace(x = ~Category, y = ~ count, name = "Jeopardy",
+        marker = list(color = viridis(2)[2]))%>%
+  add_trace(x = ~Category, y = ~ non, name = "Other",
+            marker = list(color = viridis(2)[1]),
+            text = ~paste(round(prop * 100, 2), "%"), textposition = 'outside')%>%
+  layout(xaxis = list(title = "",
+                      categoryorder = 'array',
+                      categoryarray = names(sort(vec))),
+         yaxis = list(title = "Number of Consultations"),
+         margin = list(b = 100),
+         legend = list(x = 0.75, y = 1),
+         barmode = 'stack')
+
+#Proportion of Jeopardy/NoJeopardy by Species
+spprop_dt <- filter(good_data, grepl(".", Common.Name), grepl("Formal", Type),
+                    Sp =="Jeopardy")%>%
+  group_by(Common.Name, NMFS.Tracking.Number)%>%summarize(count = n())%>%
+  group_by(Common.Name)%>%
+  summarize(count= n())%>%
+  left_join(filter(good_data, grepl(".", Common.Name), grepl("Formal", Type), !is.na(Sp))%>%
+              group_by(Common.Name, NMFS.Tracking.Number)%>%summarize(count = n())%>%
+              group_by(Common.Name)%>%
+              summarize(total = n()), by = "Common.Name")%>%
+  mutate(prop = count/total, non = total - count)%>%
+  top_n(10, prop)%>%arrange(prop)
+
+spprop_chi <- chisq.test(x = rbind(spprop_dt$count, spprop_dt$non))
+
+vec <- spprop_dt$prop
+names(vec) <- spprop_dt$Common.Name
+
+spprop_plot <- plot_ly(data = spprop_dt, type = 'bar')%>%
+  add_trace(x = ~Common.Name, y = ~ count, name = "Jeopardy",
+            marker = list(color = viridis(2)[2]))%>%
+  add_trace(x = ~Common.Name, y = ~ non, name = "Other",
+            marker = list(color = viridis(2)[1]),
+            text = ~paste(round(prop * 100, 2), "%"), textposition = 'outside')%>%
+  layout(
+    showlegend = FALSE,
+    xaxis = list(title = "",
+                      categoryorder = 'array',
+                      categoryarray = names(sort(vec)),
+                      tickangle = 60),
+         yaxis = list(title = "Number of Consultations"),
+         margin = list(b = 150),
+         legend = list(x = 0.85, y = 1),
+         barmode = 'stack')
+```
+
+A consultation determining jeopardy for one species may be more likely to also reach a jeopardy determination for other closely related and/or spatially proximate species.  We quantified rates at which pairs of species were jeopardized by the same proposed action (i.e. in the same consultation), hereafter referred to as co-jeopardization.  Rates of co-jeopardization that were greater or less than random were determined using a matrix permutation test.  We organized consultation data into a binary species by consultation matrix in which cells indicated whether a species was jeopardized in a consultation.  We estimated the pairwise probabilities of co-jeopardization and effect sizes (i.e., the difference between observed and expected frequency of co-jeopardization) for species with at least one jeopardy determination using the *cooccur* package for R[^1].  We considered species for which the proportion of permutations in which two species were co-jeopardized more or less than observed *P* < 0.05 to exhibit significant association.  We hypothesized that probabilities of co-jeopardization would be higher among spatially proximate DPS/ESUs, and tested this hypothesis using a mantel test between pairwise matrices of co-jeopardization probability and range overlap.  We calculated the percent overlap for a pair of DPS/ESUs as $Oij = Aij/(Ai + Aj - Aij)$ where $A$ is the area of each unit using ArcGIS 10.5.  
+
+```{r cojeop_methods, echo = FALSE, warning = FALSE}
+#species_jeopardies <- filter(good_data, grepl(".", Common.Name),
+#                             Sp == "Jeopardy", grepl("20[0-9][0-9]",Fiscal.Year))%>%
+#  group_by(Common.Name, NMFS.Tracking.Number)%>%
+#  summarize(Category = first(Category))
+
+#species_x_category <- as.matrix(table(species_jeopardies$Common.Name[grepl(".", species_jeopardies$Category)],
+#                                      species_jeopardies$Category[grepl(".", species_jeopardies$Category)]))
+
+#species_x_biop <- table(species_jeopardies$Common.Name, species_jeopardies$NMFS.Tracking.Number)
+
+#comat_jeopardies <- table(good_data$Common.Name[grepl("20[0-9][0-9]", good_data$Fiscal.Year) & grepl(".", #good_data$Common.Name) & good_data$Sp == "Jeopardy"], good_data$NMFS.Tracking.Number[grepl("20[0-9][0-9]", #good_data$Fiscal.Year)& grepl(".", good_data$Common.Name) & good_data$Sp == "Jeopardy"])
+
+#comat_jeopardies.out <- cooccur(species_x_biop, type = "spp_site", thresh = FALSE, spp_names = TRUE,
+#                                only_effects = TRUE, eff_standard = FALSE, eff_matrix = TRUE)
+
+#coprob_jeopardies <- cooccur(species_x_biop, type = "spp_site", thresh = TRUE, spp_names = TRUE)
+
+coprob_table <- coprob_jeopardies$results
+
+cooccu_plot <- plot_ly(z = as.matrix(comat_jeopardies.out*ncol(comat_jeopardies)),
+        x = ~colnames(as.matrix(comat_jeopardies.out)),
+        y = ~rownames(as.matrix(comat_jeopardies.out)),
+        type = 'heatmap', zmin = -2, zmax = 8)%>%
+  layout(margin = list(b = 150, l = 150),
+         xaxis = list(title = "", tickangle = 60, tickfont = list(color = 'black', size = 8)),
+         yaxis = list(title = "", tickfont = list(color = 'black', size = 8))
+  )
+```
+
+We also used matrix permutation to identify instances in which specific species were disproportionatly jeopardized more frequently by particular work categories.  First, we constructed a matrix containing the frequency of jeopardy determinations per species-by-work cateogry combination.  To create a null distribution for the frequency of jeopardy determinations among species and work categories, we then randomized cell counts 1,000 times keeping row and column totals fixed, using the *vegan*[^2] package in R.  The probability that an observed frequency was greater than random change was calculated as the proportion of simulations in which the simulated frequency was greater than the observed frequency.  We considered combinations with *P* < 0.05 to exhibit significant positive association, and report effect sizes as the difference between the observed and mean cell frequencies.
+
+```{r spbycat_met, echo = FALSE, warning = FALSE}
+permtest <- permatfull(species_x_category, fixedmar = 'both', mtype = "count", times = 1000)
+permtests <- lapply(permtest$perm, function(i){return(i >= species_x_category)})
+permeff <- species_x_category - Reduce('+', permtest$perm)/1000
+permstats <- melt(Reduce('+', permtests)/1000, c("Species", "Category"))
+
+spbycat_plot <- plot_ly(z = permeff, #species_x_category
+        x = ~colnames(species_x_category),
+        y = ~rownames(species_x_category), type = 'heatmap',
+        zmin = -5, zmax = 10
+)%>%
+  layout(margin = list(b = 100, l = 200),
+         xaxis = list(title = "",
+                      tickfont = list(color = 'black', size = 12)),
+         yaxis = list(title = "",
+                      tickfont = list(color = 'black', size = 10)))
+```
+
+
+```{r echo = FALSE, warning = FALSE}
+pop_mantel <- mantel(prob_pop_mat, over_pop_mat, na.rm = TRUE, permutations = 999)
+
+nj <- nrow(unique(filter(good_data, Sp == "Jeopardy", grepl("20[0-9][0-9]", Fiscal.Year),
+                         Population != "Range-wide")%>%
+                    select(NMFS.Tracking.Number)))
+
+nrangej <- nrow(unique(filter(good_data, Sp == "Jeopardy", grepl("20[0-9][0-9]", Fiscal.Year),
+                              Population == "Range-wide")%>%
+                       select(NMFS.Tracking.Number)))
+
+n <- nrow(unique(filter(good_data, grepl("Formal", Type), grepl("20[0-9][0-9]", Fiscal.Year),
+                        Population != "Range-wide")%>%
+                   select(NMFS.Tracking.Number)))
+
+nrange <- nrow(unique(filter(good_data, grepl("Formal", Type), grepl("20[0-9][0-9]", Fiscal.Year),
+                             Population == "Range-wide")%>%
+                        select(NMFS.Tracking.Number)))
+
+pop_j_prop <- prop.test(x = c(nj, nrangej), n = c(n, nrange), alternative = 'greater')
+```
+
+Finally, to evaluate patterns of agreement between NMFS and action agencies, we tabulated the frequencies of all possible combinations of proposed determinations and final determinations made by NMFS. We created an ordinal 'discrepancy' variable to rank the degree of disagreement between action agencies and NMFS. Determinations for which the action agency underestimated effects were assigned a negative score, while those in which the action agency overestimated effects were assigned a positive score (Table 2).  Instances of agreement were assigned a score of zero, and included situations in which both NMFS and the action agency determined no effect or NLAA, or when the action agency determined LAA and NMFS subsequently made either a jeopardy or no jeopardy determination (Table 2).  We used Kolmogorov-Smirnov tests to compare the distribution of discrepancy scores for a given agency against the distribution of discrepancy scores among all agencies.  We restricted this analysis of discrepancy to agencies with at least 20 recorded consultations, and considered an agency to exhibit significant departure from overall rates of disagreemnt if the probability of the KS statistic was *P* < 0.05.  
+
+```{r agreement_met, echo = FALSE, warning = FALSE}
+agree_plot <- plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("Formal", Type))%>%
+          group_by(Agency, Discrepancy)%>%
+          summarize(count = n(), tot = n_distinct(NMFS.Tracking.Number))%>%
+          group_by(Agency)%>%
+          mutate(freq = count/sum(count))%>%
+          filter(sum(tot) > 20)%>%
+          bind_rows(filter(good_data, !is.na(Discrepancy), grepl("Formal", Type),
+                           grepl("20[0-9][0-9]",Fiscal.Year))%>%
+                      group_by(Discrepancy)%>%
+                      summarize(count = n())%>%
+                      mutate(freq = count/sum(count), Agency = "All Agencies")),
+        type = 'bar', x = ~freq, y = ~Agency, color = ~Discrepancy,
+        colors = c(plasma(12)[c(1,4,6)], 'grey', plasma(12)[c(8,10,12)]),
+        hoverinfo = 'text',
+        text = ~paste(Agency, count, round(freq, 2)),
+        showlegend = FALSE)%>%
+  layout(barmode = 'stack',
+         xaxis = list(title = "Proportion of Determinations",
+                      titlefont = list(color = 'black'),
+                      tickfont = list(color = 'black')),
+         yaxis = list(title = "",
+                      tickfont = list(color = 'black', size = 10)),
+         margin = list(l = 300, r = 0, t = 0))
+
+
+
+ktests <- bind_rows(
+  lapply(unique(good_data$Agency), function(i){
+  n <- filter(good_data, grepl("Formal", Type), Agency == i)%>%summarize(count = n_distinct(NMFS.Tracking.Number))
+  if(n >= 10){
+    tst <- ks.test(as.numeric(good_data$Discrepancy[good_data$Agency == i & grepl("Formal", good_data$Type)]),
+                   as.numeric(good_data$Discrepancy[grepl("Formal", good_data$Type)]))
+    p <- tst$p.value
+    stat <- tst$statistic
+  }else{
+    p <- NA
+    stat <- NA
+  }
+  out <- data.frame(Agency = i, count = n, KS = stat, sig = p)
+  return(out)
+  })
+)
+```
+
+# Results
+
+The PCTS database shows that `r length(unique(good_data$NMFS.Project.Lead))` NMFS biologists recorded `r nrow(unique(filter(good_data, Type == "Informal Consultation", grepl("20[0-9][0-9]", Fiscal.Year))%>%select(NMFS.Tracking.Number)))` informal and `r nrow(unique(filter(good_data, Type == "Formal Consultation", grepl("20[0-9][0-9]", Fiscal.Year))%>%select(NMFS.Tracking.Number)))` formal consultations from January 2000 through March 2018.  These numbers exclude consultations recorded as technical assistance over the same time period.  While the number of informal consultations has increased (mean change per year = `r round(lm_if$coefficients[2], 2)`, *SE* = `r round(summary(lm_if)$coefficients[2,2], 2)`, *F* = `r round(summary(lm_if)$fstatistic[1], 2)`, *df* = `r round(summary(lm_if)$fstatistic[1], 0)`,`r round(summary(lm_if)$fstatistic[2], 0)`, *P* = `r round(summary(lm_if)$coefficients[2,4], 3)`), the number of formal consultations has remained relatively constant (mean change per year = `r round(lm_f$coefficients[2], 2)`, *SE* = `r round(summary(lm_f)$coefficients[2,2], 2)`, *F* = `r round(summary(lm_f)$fstatistic[1], 2)`, *df* = `r round(summary(lm_f)$fstatistic[1], 0)`,`r round(summary(lm_f)$fstatistic[2], 0)`, *P* = `r round(summary(lm_f)$coefficients[2,4], 3)`) over time at the national level (Fig. 1).  The number of formal and informal consultations differed geographically by NMFS region (*X^2^* = `r round(reg_chi$statistic, 2)`, *df* = `r round(reg_chi$parameter, 2)`, *P* = `r round(reg_chi$p.value, 2)`), and were highest within the West Coast region (3,589 formal, 11,664 informal)
+
+```{r timeline, echo=FALSE}
+plot_ly(data = filter(good_data, grepl("20", Fiscal.Year))%>%
+                        group_by(NMFS.Tracking.Number)%>%
+          summarize(FY = first(Fiscal.Year), Type = first(Type))%>%
+          group_by(FY, Type)%>%
+          summarize(count= n()),
+        x = ~FY, y = ~count, color = ~ Type, type = 'bar', colors = viridis(5))%>%
+  layout(barmode = 'stack',
+         xaxis = list(title = "Fiscal Year"),
+         yaxis = list(title = "Consultations"),
+         legend = list(x = 0.1, y = 1),
+         margin = list(b = 100))
+
+```
+
+Consultations were unevenly distributed among species (*X^2^* = `r round(sp_chi$statistic, 2)`, df = `r sp_chi$parameter`, P = `r round(sp_chi$p.value, 3)`), federal agency (*X^2^* = `r round(ag_chi$statistic, 2)`, df = `r ag_chi$parameter`, P = `r round(ag_chi$p.value, 3)`), and work type (*X^2^* = `r round(cat_chi$statistic, 2)`, df = `r cat_chi$parameter`, P = `r round(cat_chi$p.value, 3)`).  The most commonly consulted on species were chinook salmon (*Oncorhynchus tshawytscha*) and steelhead trout (*Oncorhynchus mykiss*).  The most frequently consulting agency was the Army Corps of Engineers, and the most common work type requiring consultation was 'Waterway' (Fig. 2), which includes activities like flood control, bank stabilization, and dredging.  
+
+```{r frequencies, echo = FALSE}
+sp_plot
+
+ag_plot
+
+cat_plot
+
+```
+
+##Jeopardy Patterns
+Of the `r nrow(unique(filter(good_data, Type == "Formal Consultation", grepl("20[0-9][0-9]", Fiscal.Year))%>%select(NMFS.Tracking.Number)))` formal consultations, `r nrow(filter(good_data, grepl("20[0-9][0-9]", Fiscal.Year), Sp == "Jeopardy")%>%group_by(NMFS.Tracking.Number)%>%summarize(tn = first(NMFS.Tracking.Number)))` (`r round(72*100/4934, 2)`%) resulted in jeopardy and `r nrow(filter(good_data, grepl("20[0-9][0-9]", Fiscal.Year), CH == "Adverse Modification")%>%group_by(NMFS.Tracking.Number)%>%summarize(tn = first(NMFS.Tracking.Number)))` (`r round(55*100/4934, 2)`%) resulted in adverse modification of critical habitat.  These conclusions included `r nrow(filter(good_data, grepl("20[0-9][0-9]", Fiscal.Year), Sp == "Jeopardy"))` jeopardy and `r nrow(filter(good_data, grepl("20[0-9][0-9]", Fiscal.Year), CH == "Adverse Modification"))` adverse modificaiton determinations.  Three consultations resulted in adverse modification without jeopardy, and 37 resulted in jeopardy without adverse modification.  All projects were allowed to proceed if the permittee adopted RPAs to minimize and partially offset the adverse effects of the project. 
+
+Jeopardy conclusion rates have remained constant over time (mean change per year = `r round(lm_rate$coefficients[2], 3)`, *SE* = `r round(summary(lm_rate)$coefficients[2,2], 3)`, *F* = `r round(summary(lm_rate)$fstatistic[1], 2)`, *df* = `r round(summary(lm_rate)$fstatistic[2], 0)`,`r round(summary(lm_rate)$fstatistic[3], 0)`, *P* = `r round(summary(lm_rate)$coefficients[2,4], 3)`).  Rates of jeopardy determinations differed among species (*X^2^* = `r round(spprop_chi$statistic, 2)`, *df* = `r spprop_chi$parameter`, *P* = `r round(spprop_chi$p.value, 3)`),  and work categories (*X^2^* = `r round(catprop_chi$statistic, 2)`, *df* = `r catprop_chi$parameter`, *P* = `r round(catprop_chi$p.value, 3)`).  Federal actions related to fisheries management and agriculture were more likely to result in jeopardy conclusions than other work types.  Among species with at least 10 consultations, the beluga whale (*Delphinapterus leucas*) had the highest rates of jeopardy (Fig. 3), although Pacific salmonid species had the greatest number of jeopardy determinations (Table 1).
+
+```{r props, echo = FALSE}
+#Percentage of Jeopardy No-Jeopardy per Category
+catprop_plot
+
+spprop_plot
+
+filter(good_data, grepl(".", Common.Name), grepl("Formal", Type),
+                    Sp =="Jeopardy")%>%
+  group_by(Common.Name, NMFS.Tracking.Number)%>%summarize(count = n())%>%
+  group_by(Common.Name)%>%
+  summarize(count= n())%>%
+  left_join(filter(good_data, grepl(".", Common.Name), grepl("Formal", Type), !is.na(Sp))%>%
+              group_by(Common.Name, NMFS.Tracking.Number)%>%summarize(count = n())%>%
+              group_by(Common.Name)%>%
+              summarize(total = n()), by = "Common.Name")%>%
+  mutate(prop = count/total, non = total - count)%>%
+  top_n(10, count)%>%arrange(count)
+```
+
+Probabilities of co-jeopardization indicate the degree of interdependence in consultation outcomes among pairs of species.  Species for which frequency of jeopardy was high often exhibited significant interdependence in consultation outcomes.  `r as.data.frame(filter(coprob_table, prob_cooccur == max(prob_cooccur))%>%select(sp1_name))[1,1]` and `r as.data.frame(filter(coprob_table, prob_cooccur == max(prob_cooccur))%>%select(sp2_name))[1,1]` exhibited the highest probability of co-jeopardization (`r as.data.frame(filter(coprob_table, prob_cooccur == max(prob_cooccur))%>%select(prob_cooccur))[1,1]`) among all species (Fig. 4), and all Pacific salmonids exhibited significant positive (*Effect* > `r min(filter(coprob_table, grepl("Salmon|Steelehad", sp1_name), grepl("Salmon|Steelhead", sp2_name))%>%select(obs_cooccur, exp_cooccur)%>%mutate(diff = obs_cooccur - exp_cooccur))`, *P* < `r max(filter(coprob_table, grepl("Salmon|Steelehad", sp1_name), grepl("Salmon|Steelhead", sp2_name))%>%select(p_gt))`) co-jeopardization.  Additionally, killer whale (*Orcinus orca*) were co-jeopardized with all Pacific salmonids (*Effect* = 4.4, *P* < 0.018), except coho salmon.  Finally, significant co-jeopardization occurred between green sturgeon (*Acipenser medirostris*) and sockeye salmon (*Effect* = 2.9, *P* = 0.009), as well as eulachon (*Thaleichthys pacificus*) and coho salmon (*Effect* = 2.4, *P* = 0.024).
+
+```{r cojeop, echo = FALSE, warning = FALSE}
+cooccu_plot
+```
+
+There were a disproportionately high number of jeopardy determinations resulting from proposed actions categorized as 'agriculture' affecting chinook salmon (*Effect* = 8.6, *P* = 0.003), coho salmon (*Effect* = 10.9, *P* < 0.001), and steelehad (*Effect* = 8.7, *P* < 0.001). The 'agriculture' work type inludes pesticide registration and application.  Blue (*Balaenoptera musculus*), humpback (*Megaptera novaeangliae*), fin (*B. physalus*), North Atlantic right (*Eubalaena glacialis*), sei (*B. borealis*), and sperm whales (*Physeter macrocephalus*), as well as leatherback sea turtles (*Dermochelys coriacea*), were disproportionately jeopardized by actions in the 'fishery' cateogry (*Effect* > 1.5, *P* < 0.05).  Finally, gulf sturgeon (*A. oxyrinchus desotoi*) were disproportionately jeopardized by actions categorized as 'ocean' (*Effect* = 1.0, *P* = 0.030) and ringed seal (*Phoca hispida*) by actions categorized as 'utility' (*Effect* = 1.0, *P* = 0.038; Fig. 5).  
+
+```{r spbycat, echo = FALSE, warning = FALSE}
+spbycat_plot
+```
+
+Rates of jeopardy determination were significantly lower (*X^2^* = `r round(pop_j_prop$statistic, 2)`, *df* =  `r round(pop_j_prop$parameter, 2)`, *P* = `r round(pop_j_prop$p.value, 2)`) for consultations that evaluated proposed action effects at a range-wide scale (0.95%) relative to all formal consultations (1.62%).  The jeopardization rate among range-wide consultations was lower than any DPS/ESUs for which at least one jeopardy determination was made.  A mantel test indicated significant, positive correlation between the area of DPS/ESU overlap and co-jeopardization rates (*R^2^* = `r round(sqrt(pop_mantel$statistic), 2)`, *P* = `r round(pop_mantel$signif, 2)`).
+
+NMFS agreed with the proposed determinations of action agencies during consultation more frequently (rate = 79%) than they disagreed (Table 2).  The most frequent form of discrepancy occurred when an action agency determined an action was not likely to adversely affect (NLAA) a listed species, and NMFS subsequently determined the action was likely to adversely affect the species, leading to a jeopardy/no jeopardy determination (Table 2).  Agencies differed in the patterns of disagreement with NMFS regarding the effects of proposed actions (Fig. 6).  Among agencies with at least 20 determinations, the EPA (*P* = `r round(ktests[ktests$Agency == "Environmental Protection Agency" & !is.na(ktests$Agency), 4], 3)`), and National Park Service (*P* = `r round(ktests[ktests$Agency == "National Park Service" & !is.na(ktests$Agency), 4], 3)`) underestimated the effects of proposed actions.  Conversely, the Army Corps of Engineers (*P* = `r round(ktests[ktests$Agency == "Army Corps of Engineers" & !is.na(ktests$Agency), 4], 3)`) and Federal Energy Regulatory Commission  (*P* = `r round(ktests[ktests$Agency == "Federal Energy Regulatory Commission" & !is.na(ktests$Agency), 4], 3)`) overestimated effects.  The Federal Emergency Management Agency (*P* = `r round(ktests[ktests$Agency == "Federal Emergency Management Agency" & !is.na(ktests$Agency), 4], 3)`) both over and underestimated effects. Both the Bureau of Land Management (*P* = `r round(ktests[ktests$Agency == "Bureau of Land Management" & !is.na(ktests$Agency), 4], 3)`), Forest Service (*P* = `r round(ktests[ktests$Agency == "Forest Service" & !is.na(ktests$Agency), 4], 3)`), and National Marine Fisheries Service (*P* = `r round(ktests[ktests$Agency == "National Marine Fisheries Service" & !is.na(ktests$Agency), 4], 3)`) agreed with NMFS more than agencies on average (Fig. 6). 
+
+```{r agreement, echo = FALSE, warning = FALSE}
+table(good_data$Sp, good_data$Action.Agency.Proposed.Effect.Determination..Species.)[c(2,5,3,1), c(3,4,2,5,6)]
+
+agree_plot
+```
+
+# Discussion
+
+Rates of both formal consultation and jeopardy were higher for NMFS than FWS.
+
+Evidence that self-consultation would be largely detrimental to the conservation and recovery of endangered species.
+
+Even though jeopardy was used, through the recommendation and adoption of RPAs, NMFS did not prohibit the completion of a project due to the consultation process.
+
+Important for robust and regular species status data, and incidental take data be recorded such that the impact of section 7 consultation and take prohibitions can be compared and evaluated.
+
+NMFS attributes jeopardy calls to having comprehensive understanding of species biology and ecology, particularly Pacific salmonids, which is possible because of a high ratio of biologists to listed species.  This indicates the importance of properly funding agencies charged with carrying out the ESA as the number of listed species increases.
+
+<p style='font-size:small'>[^1]: Griffith, DM, Veech, JA, & Marsh, CJ (2016). [cooccur: Probabilistic species co-occurrence analysis in R.](dx.doi.org/10.18637/jss.v069.c02) _Journal of Statistical Software, 69_: doi:10.18637/jss.v069.c02.</p>
+
+<p style='font-size:small'>[^2]:   Jari Oksanen, F. Guillaume Blanchet, Michael Friendly, Roeland Kindt, Pierre Legendre, Dan McGlinn, Peter R. Minchin, R. B. O'Hara, Gavin L. Simpson, Peter Solymos, M. Henry H. Stevens, Eduard Szoecs and Helene Wagner (2018). vegan: Community Ecology Package. R package version 2.5-1. https://CRAN.R-project.org/package=vegan</p>
+

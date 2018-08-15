@@ -1,0 +1,28 @@
+,"Salmon, Chinook (California Coastal)","Salmon, Chinook (Central Valley spring-run)","Salmon, Chinook (Lower Columbia River)","Salmon, Chinook (Puget Sound)","Salmon, Chinook (Sacramento River winter-run)","Salmon, Chinook (Snake River fall-run)","Salmon, Chinook (Snake River spring/summer-run)","Salmon, Chinook (Upper Columbia River spring-run)","Salmon, Chinook (Upper Willamette River)","Salmon, chum (Columbia River)","Salmon, chum (Hood Canal summer-run)","Salmon, coho (Central California Coast)","Salmon, coho (Lower Columbia River)","Salmon, coho (Oregon Coast)","Salmon, coho (Southern Oregon/Northern California Coast)","Salmon, sockeye (Ozette Lake)","Salmon, sockeye (Snake River)",Steelhead (California Central Valley),Steelhead (Central California Coast),Steelhead (Lower Columbia River),Steelhead (Middle Columbia River),Steelhead (Northern California),Steelhead (Puget Sound),Steelhead (Snake River Basin),Steelhead (South Central California Coast),Steelhead (Southern California),Steelhead (Upper Columbia River)
+"Salmon, Chinook (Central Valley spring-run)",0.087,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Lower Columbia River)",0.079,0.096,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Puget Sound)",0.075,0.091,0.083,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Sacramento River winter-run)",0.09,0.11,0.1,0.095,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Snake River fall-run)",0.049,0.059,0.054,0.052,0.062,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Snake River spring/summer-run)",0.094,0.114,0.104,0.099,0.119,0.064,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Upper Columbia River spring-run)",0.079,0.096,0.087,0.083,0.1,0.054,0.104,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, Chinook (Upper Willamette River)",0.09,0.11,0.1,0.095,0.114,0.062,0.119,0.1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, chum (Columbia River)",0.038,0.046,0.042,0.04,0.048,0.026,0.05,0.042,0.048,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, chum (Hood Canal summer-run)",0.034,0.041,0.037,0.036,0.043,0.023,0.045,0.037,0.043,0.018,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, coho (Central California Coast)",0.079,0.096,0.087,0.083,0.1,0.054,0.104,0.087,0.1,0.042,0.037,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, coho (Lower Columbia River)",0.072,0.087,0.079,0.075,0.09,0.049,0.094,0.079,0.09,0.038,0.034,0.079,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, coho (Oregon Coast)",0.041,0.05,0.046,0.044,0.052,0.028,0.055,0.046,0.052,0.022,0.02,0.046,0.041,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, coho (Southern Oregon/Northern California Coast)",0.075,0.091,0.083,0.079,0.095,0.052,0.099,0.083,0.095,0.04,0.036,0.083,0.075,0.044,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, sockeye (Ozette Lake)",0,0,0,0,0.014,0,0.015,0,0.014,0,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salmon, sockeye (Snake River)",0.049,0.059,0.054,0.052,0.062,0.034,0.064,0.054,0.062,0.026,0.023,0.054,0.049,0.028,0.052,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Steelhead (California Central Valley),0.09,0.11,0.1,0.095,0.114,0.062,0.119,0.1,0.114,0.048,0.043,0.1,0.09,0.052,0.095,0.014,0.062,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Steelhead (Central California Coast),0.079,0.096,0.087,0.083,0.1,0.054,0.104,0.087,0.1,0.042,0.037,0.087,0.079,0.046,0.083,0,0.054,0.1,1,NA,NA,NA,NA,NA,NA,NA,NA
+Steelhead (Lower Columbia River),0.079,0.096,0.087,0.083,0.1,0.054,0.104,0.087,0.1,0.042,0.037,0.087,0.079,0.046,0.083,0,0.054,0.1,0.087,1,NA,NA,NA,NA,NA,NA,NA
+Steelhead (Middle Columbia River),0.09,0.11,0.1,0.095,0.114,0.062,0.119,0.1,0.114,0.048,0.043,0.1,0.09,0.052,0.095,0.014,0.062,0.114,0.1,0.1,1,NA,NA,NA,NA,NA,NA
+Steelhead (Northern California),0.026,0.032,0.029,0.028,0.033,0.018,0.035,0.029,0.033,0,0,0.029,0.026,0.015,0.028,0,0.018,0.033,0.029,0.029,0.033,1,NA,NA,NA,NA,NA
+Steelhead (Puget Sound),0.068,0.082,0.075,0.071,0.086,0.046,0.089,0.075,0.086,0.036,0.032,0.075,0.068,0.039,0.071,0,0.046,0.086,0.075,0.075,0.086,0.025,1,NA,NA,NA,NA
+Steelhead (Snake River Basin),0.087,0.105,0.096,0.091,0.11,0.059,0.114,0.096,0.11,0.046,0.041,0.096,0.087,0.05,0.091,0,0.059,0.11,0.096,0.096,0.11,0.032,0.082,1,NA,NA,NA
+Steelhead (South Central California Coast),0.072,0.087,0.079,0.075,0.09,0.049,0.094,0.079,0.09,0.038,0.034,0.079,0.072,0.041,0.075,0,0.049,0.09,0.079,0.079,0.09,0.026,0.068,0.087,1,NA,NA
+Steelhead (Southern California),0.09,0.11,0.1,0.095,0.114,0.062,0.119,0.1,0.114,0.048,0.043,0.1,0.09,0.052,0.095,0.014,0.062,0.114,0.1,0.1,0.114,0.033,0.086,0.11,0.09,1,NA
+Steelhead (Upper Columbia River),0.079,0.096,0.087,0.083,0.1,0.054,0.104,0.087,0.1,0.042,0.037,0.087,0.079,0.046,0.083,0,0.054,0.1,0.087,0.087,0.1,0.029,0.075,0.096,0.079,0.1,1
+Steelhead (Upper Willamette River),0.09,0.11,0.1,0.095,0.114,0.062,0.119,0.1,0.114,0.048,0.043,0.1,0.09,0.052,0.095,0.014,0.062,0.114,0.1,0.1,0.114,0.033,0.086,0.11,0.09,0.114,0.1
