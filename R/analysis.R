@@ -29,14 +29,16 @@ names(vec) <- ag_dt$Agency
 
 plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orientation = 'h',
         text = ~Agency, textposition = c('inside', rep('outside', 9)),
-        textfont = list(color = c('white', rep('black', 9))))%>%
-  layout(title = "Agencies",
+        textfont = list(color = c('white', rep('black', 9)), size = 14))%>%
+  layout(title = "Action Agency",
+         titlefont = list(color = 'black', size = 16),
          yaxis = list(categoryorder = 'array',
                       categoryarray = names(sort(vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "# consultations"),
-         margin = list(l = 0)
+         xaxis = list(title = "", range = c(0, 15000),
+                      showgrid = FALSE,
+                      tickfont = list(color = 'black', size = 12))
   )
 
 #Frequency of Consultations by Species
@@ -49,18 +51,25 @@ vec <- sp_dt$count
 names(vec) <- sp_dt$Common.Name
 
 plot_ly(data = sp_dt, y = ~Common.Name, x = ~count, type= "bar", orientation = 'h',
-        text = ~Common.Name, textposition = c('inside', rep('outside', 2), 'inside', rep('outside', 6)),
-        textfont = list(color = c('white', rep('black', 2), 'white', rep('black', 6))))%>%
+        text = ~Common.Name,
+        #textposition = 'outside',
+        #textfont = list(color = 'black', size = 14)
+        textposition = c('inside', rep('outside', 3), 'inside', rep('outside', 5)),
+        textfont = list(color = c('white', rep('black', 3), 'white', rep('black', 5)), size = 14)
+        )%>%
   layout(title = "Species",
+         titlefont = list(color = 'black', size = 16),
          yaxis = list(categoryorder = 'array',
                       categoryarray = names(sort(vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "", range = c(0, 15000))
+         xaxis = list(title = "", range = c(0, 15000),
+                      showgrid = FALSE,
+                      tickfont = list(color = 'black', size = 12))
   )
 
 #Frequency of Consultations by Work Category
-cat_dt <- filter(good_data, grepl(".", Category), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+cat_dt <- filter(good_data, grepl(".", Category), grepl("Formal", Type), grepl("20[0-9][0-9]", Fiscal.Year))%>%
   group_by(NMFS.Tracking.Number)%>%
   summarize(Category = first(Category))%>%
   group_by(Category)%>%
@@ -71,14 +80,20 @@ vec <- cat_dt$count
 names(vec) <- cat_dt$Category
 
 plot_ly(data = cat_dt, y = ~Category, x = ~count, type= "bar", orientation = 'h',
-        text = ~Category, textposition = c(rep('outside', 9), 'inside'),
-        textfont = list(color = c(rep('black', 9), 'white')))%>%
-  layout(title = "Work Type",
+        text = ~Category,
+        textposition = c(rep('outside', 9), 'inside'),
+        textfont = list(color = c(rep('black', 9), 'white'), size = 14))%>%
+  layout(barmode = 'stack',
+         title = "Work Type",
+         titlefont = list(color = 'black', size = 16),
          yaxis = list(categoryorder = 'array',
                       categoryarray = names(sort(vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "")
+         xaxis = list(title = "",
+                      tickfont = list(color = 'black', size = 12),
+                      showgrid = FALSE,
+                      range = c(0, 3000))
          )
 
 
@@ -157,13 +172,18 @@ plot_ly(data = catprop_dt, type = 'bar')%>%
         marker = list(color = viridis(2)[2]))%>%
   add_trace(x = ~Category, y = ~ non, name = "Other",
             marker = list(color = viridis(2)[1]),
-            text = ~paste(round(prop * 100, 2), "%"), textposition = 'outside')%>%
+            text = ~paste(round(prop * 100, 1), "%"), textposition = 'outside',
+            textfont = list(color = 'black', size = 12))%>%
   layout(xaxis = list(title = "Work Category",
+                      titlefont = list(color = 'black', size = 14),
                       categoryorder = 'array',
-                      categoryarray = names(sort(vec))),
-         yaxis = list(title = "Number of Consultations"),
+                      categoryarray = names(sort(vec)),
+                      tickfont = list(color = 'black', size = 12)),
+         yaxis = list(title = "Number of Consultations",
+                      titlefont = list(color = 'black', size = 14),
+                      tickfont = list(color = 'black', size = 12)),
          margin = list(b = 100),
-         legend = list(x = 0.75, y = 1),
+         legend = list(x = 0.75, y = 0.75, font = list(color = 'black', size = 14)),
          barmode = 'stack')
 
 #Percentage of Jeopardy No-Jeopardy by Species
@@ -189,13 +209,18 @@ plot_ly(data = spprop_dt, type = 'bar')%>%
             marker = list(color = viridis(2)[2]))%>%
   add_trace(x = ~Common.Name, y = ~ non, name = "Other",
             marker = list(color = viridis(2)[1]),
-            text = ~paste(round(prop * 100, 2), "%"), textposition = 'outside')%>%
+            text = ~paste(round(prop * 100, 1), "%"), textposition = 'outside',
+            textfont = list(color = 'black', size = 12))%>%
   layout(showlegend = FALSE,
          xaxis = list(title = "Species",
+                      titlefont = list(color = 'black', size = 14),
                       categoryorder = 'array',
                       categoryarray = names(sort(vec)),
-                      tickangle = 60),
-         yaxis = list(title = "Number of Consultations"),
+                      tickangle = 60,
+                      tickfont = list(color = 'black', size = 12)),
+         yaxis = list(title = "Number of Consultations",
+                      titlefont = list(color = 'black', size = 14),
+                      tickfont = list(color = 'black', size = 12)),
          margin = list(b = 150),
          legend = list(x = 0.85, y = 1),
          barmode = 'stack')
@@ -302,7 +327,8 @@ plot_ly(z = permeff, #species_x_category
          xaxis = list(title = "",
                       tickfont = list(color = 'black')),
          yaxis = list(title = "",
-                      tickfont = list(color = 'black')))
+                      tickfont = list(color = 'black')),
+         legend = list(orientation = 'h'))
 
 table(good_data$Sp[grepl("Formal", good_data$Type)], good_data$Action.Agency.Proposed.Effect.Determination..Species.[grepl("Formal", good_data$Type)])
 table(good_data$Agency[grepl("Formal", good_data$Type)])

@@ -28,6 +28,21 @@ library(viridis)
 
 good_data <- readRDS(file = 'data/gooddata.rds')
 species_x_category <- readRDS(file = "data/speciesxcat.rds")
+df <- reactiveVal(good_data)
+
+select_taxa <- selectInput('taxa', 'Select Taxon', unique(good_data$Common.Name), selected = "")
+select_category <- selectInput('category', 'Select Work Type', unique(good_data$Category), selected = "")
+select_agency <- selectInput('agency', 'Select Federal Agency', unique(good_data$Agency), selected = "")
+run_update <- actionButton('update', 'Update')
+
+observeEvent(input$update,
+             {d <- filter(good_data,
+                          grepl(input$category, Category),
+                          grepl(input$taxa, Common.Name),
+                          grepl(input$agency, Agency)
+             )
+             df(d)
+             })
 
 discrep_plot <- plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("Formal", Type))%>%
          group_by(Agency, Discrepancy)%>%
@@ -54,7 +69,8 @@ discrep_plot <- plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("For
          yaxis = list(title = "", tickfont = list(color = 'black', size = 10)),
          margin = list(l = 300, r = 0, t = 0))
 #TimeLine
-time_plot <- plot_ly(data = filter(good_data, grepl("20[0-16]", Fiscal.Year))%>%
+output$time_plot <- renderPlotly({
+  plot_ly(data = filter(df(), grepl("20[0-16]", Fiscal.Year))%>%
                         group_by(NMFS.Tracking.Number)%>%
           summarize(FY = first(Fiscal.Year), Type = first(Type))%>%
           group_by(FY, Type)%>%
@@ -65,6 +81,7 @@ time_plot <- plot_ly(data = filter(good_data, grepl("20[0-16]", Fiscal.Year))%>%
          yaxis = list(title = "Consultations"),
          legend = list(x = 0, y = 1),
          margin = list(b = 100))
+})
 
 #Frequency of Consultations by Work Category
 cat_dt <- filter(good_data, grepl(".", Category), grepl("20[0-9][0-9]", Fiscal.Year))%>%
@@ -77,7 +94,8 @@ cat_dt <- filter(good_data, grepl(".", Category), grepl("20[0-9][0-9]", Fiscal.Y
 cat_vec <- cat_dt$count
 names(cat_vec) <- cat_dt$Category
 
-category_plot <- plot_ly(data = cat_dt, y = ~Category, x = ~count, type= "bar", orientation = 'h',
+output$category_plot <- renderPlotly({
+  plot_ly(data = cat_dt, y = ~Category, x = ~count, type= "bar", orientation = 'h',
         text = ~Category, textposition = c(rep('outside', 9), 'inside'),
         textfont = list(color = c(rep('black', 9), 'white')))%>%
   layout(title = "Work Type",
@@ -87,6 +105,7 @@ category_plot <- plot_ly(data = cat_dt, y = ~Category, x = ~count, type= "bar", 
                       showticklabels = FALSE),
          xaxis = list(title = "")
          )
+})
 
 #Frequency of Consultations by Agency
 ag_dt <- filter(good_data, grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal.Year))%>%
@@ -99,7 +118,8 @@ ag_dt <- filter(good_data, grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal.Year
 ag_vec <- ag_dt$count
 names(ag_vec) <- ag_dt$Agency
 
-agency_plot <- plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orientation = 'h',
+output$agency_plot <- renderPlotly({
+  plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orientation = 'h',
         text = ~Agency, textposition = c('inside', rep('outside', 9)),
         textfont = list(color = c('white', rep('black', 9))))%>%
   layout(title = "Agencies",
@@ -107,9 +127,38 @@ agency_plot <- plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orien
                       categoryarray = names(sort(ag_vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "# consultations"),
-         margin = list(l = 0)
+         xaxis = list(title = "# consultations")
   )
+})
+
+#  Frequency of Consultations by Species
+sp_dt <- filter(good_data, grepl(".", Common.Name), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+  group_by(Common.Name)%>%
+  summarize(count = length(unique(NMFS.Tracking.Number)))%>%
+  top_n(10, count)
+
+sp_vec <- sp_dt$count
+names(sp_vec) <- sp_dt$Common.Name
+
+output$species_plot <- renderPlotly({
+  plot_ly(data = sp_dt, y = ~Common.Name, x = ~count, type= "bar", orientation = 'h',
+        text = ~Common.Name,
+        #textposition = 'outside',
+        #textfont = list(color = 'black', size = 14)
+        textposition = c('inside', rep('outside', 3), 'inside', rep('outside', 5)),
+        textfont = list(color = c('white', rep('black', 3), 'white', rep('black', 5)), size = 14)
+        )%>%
+  layout(title = "Species",
+         titlefont = list(color = 'black', size = 16),
+         yaxis = list(categoryorder = 'array',
+                      categoryarray = names(sort(sp_vec)),
+                      title = "",
+                      showticklabels = FALSE),
+         xaxis = list(title = "", range = c(0, 15000),
+                      showgrid = FALSE,
+                      tickfont = list(color = 'black', size = 12))
+  )
+})
 
 ###CREATE MATRICES AND PERMUTATION TESTS FOR SPECIES BY CATEGORY HEATMAP
 permtest <- permatfull(species_x_category, fixedmar = 'both', mtype = "count", times = 1000)
@@ -157,15 +206,18 @@ fluidPage(
 #fluidPage(
   fluidRow(
     column(2,
-           selectInput('taxa', 'Select Taxon', unique(good_data$Common.Name)),
-           selectInput('category', 'Select Work Type', unique(good_data$Category)),
-           selectInput('agency', 'Select Federal Agency', unique(good_data$Agency))
+           select_taxa,
+           select_category,
+           select_agency,
+           run_update
            ),
     column(1),
     column(9,
-           time_plot,
-           agency_plot,
-           category_plot)
+           plotlyOutput("time_plot"),
+           plotlyOutput("agency_plot"),
+           plotlyOutput("category_plot"),
+           plotlyOutput("species_plot")
+    )
   )
 #)
 
@@ -183,3 +235,6 @@ fluidPage(
   )
 )
 ```
+
+Advanced
+========
