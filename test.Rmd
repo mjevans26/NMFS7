@@ -30,9 +30,12 @@ good_data <- readRDS(file = 'data/gooddata.rds')
 species_x_category <- readRDS(file = "data/speciesxcat.rds")
 df <- reactiveVal(good_data)
 
-select_taxa <- selectInput('taxa', 'Select Taxon', unique(good_data$Common.Name), selected = "")
-select_category <- selectInput('category', 'Select Work Type', unique(good_data$Category), selected = "")
-select_agency <- selectInput('agency', 'Select Federal Agency', unique(good_data$Agency), selected = "")
+select_taxa <- selectInput('taxa', 'Select Taxon',
+                           sort(c("", unique(good_data$Common.Name))), selected = "")
+select_category <- selectInput('category', 'Select Work Type',
+                               sort(c("", unique(good_data$Category))), selected = "")
+select_agency <- selectInput('agency', 'Select Federal Agency',
+                             sort(c("", unique(good_data$Agency))), selected = "")
 run_update <- actionButton('update', 'Update')
 
 observeEvent(input$update,
