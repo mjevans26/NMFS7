@@ -71,6 +71,7 @@ discrep_plot <- plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("For
                       tickfont = list(color = 'black')),
          yaxis = list(title = "", tickfont = list(color = 'black', size = 10)),
          margin = list(l = 300, r = 0, t = 0))
+
 #TimeLine
 output$time_plot <- renderPlotly({
   plot_ly(data = filter(df(), grepl("20[0-16]", Fiscal.Year))%>%
@@ -87,68 +88,92 @@ output$time_plot <- renderPlotly({
 })
 
 #Frequency of Consultations by Work Category
-cat_dt <- filter(good_data, grepl(".", Category), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+cat_dt <- reactive({filter(df(), grepl(".", Category), grepl("20[0-9][0-9]", Fiscal.Year))%>%
   group_by(NMFS.Tracking.Number)%>%
   summarize(Category = first(Category))%>%
   group_by(Category)%>%
   summarize(count = n())%>%
-  top_n(10, count)
+  top_n(10, count)})
+cat_vec <-c()
 
-cat_vec <- cat_dt$count
-names(cat_vec) <- cat_dt$Category
+observeEvent(cat_dt(),
+             {cat_vec <- isolate({cat_dt()$count})
+             names(cat_vec) <- isolate({cat_dt()$Category})
+             })
 
 output$category_plot <- renderPlotly({
-  plot_ly(data = cat_dt, y = ~Category, x = ~count, type= "bar", orientation = 'h',
-        text = ~Category, textposition = c(rep('outside', 9), 'inside'),
-        textfont = list(color = c(rep('black', 9), 'white')))%>%
+  plot_ly(
+    data = cat_dt(),
+    y = ~Category,
+    x = ~count,
+    type= "bar",
+    orientation = 'h',
+    text = ~Category,
+    textposition = 'outside',
+    textfont = list(color = 'black'))%>%
   layout(title = "Work Type",
          yaxis = list(categoryorder = 'array',
                       categoryarray = names(sort(cat_vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "")
+         xaxis = list(title = ""
+                      #range = c(0, 6000)
+                      )
          )
 })
 
 #Frequency of Consultations by Agency
-ag_dt <- filter(good_data, grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+ag_dt <- reactive({filter(df(), grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal.Year))%>%
   group_by(NMFS.Tracking.Number)%>%
   summarize(Agency = first(Agency))%>%
   group_by(Agency)%>%
   summarize(count = n())%>%
-  top_n(10, count)
+  top_n(10, count)})
+ag_vec <- c()
 
-ag_vec <- ag_dt$count
-names(ag_vec) <- ag_dt$Agency
+observeEvent(ag_dt(),
+             {ag_vec <- isolate({ag_dt()$count})
+             names(ag_vec) <- isolate({ag_dt()$Agency})
+             })
+
+# ag_vec <- ag_dt$count
+# names(ag_vec) <- ag_dt$Agency
 
 output$agency_plot <- renderPlotly({
-  plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orientation = 'h',
-        text = ~Agency, textposition = c('inside', rep('outside', 9)),
+  plot_ly(data = ag_dt(), y = ~Agency, x = ~count, type= "bar", orientation = 'h',
+        text = ~Agency,
+        textposition = c('inside', rep('outside', 9)),
         textfont = list(color = c('white', rep('black', 9))))%>%
   layout(title = "Agencies",
          yaxis = list(categoryorder = 'array',
                       categoryarray = names(sort(ag_vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "# consultations")
+         xaxis = list(title = "")
   )
 })
 
 #  Frequency of Consultations by Species
-sp_dt <- filter(good_data, grepl(".", Common.Name), grepl("20[0-9][0-9]", Fiscal.Year))%>%
+sp_dt <- reactive({filter(df(), grepl(".", Common.Name), grepl("20[0-9][0-9]", Fiscal.Year))%>%
   group_by(Common.Name)%>%
   summarize(count = length(unique(NMFS.Tracking.Number)))%>%
-  top_n(10, count)
+  top_n(10, count)})
+sp_vec <- c()
 
-sp_vec <- sp_dt$count
-names(sp_vec) <- sp_dt$Common.Name
+observeEvent(sp_dt(),
+             {sp_vec <- isolate({sp_dt()$count})
+             names(sp_vec) <- isolate({sp_dt()$Common.Name})
+             })
+
+# sp_vec <- sp_dt$count
+# names(sp_vec) <- sp_dt$Common.Name
 
 output$species_plot <- renderPlotly({
-  plot_ly(data = sp_dt, y = ~Common.Name, x = ~count, type= "bar", orientation = 'h',
+  plot_ly(data = sp_dt(), y = ~Common.Name, x = ~count, type= "bar", orientation = 'h',
         text = ~Common.Name,
-        #textposition = 'outside',
-        #textfont = list(color = 'black', size = 14)
-        textposition = c('inside', rep('outside', 3), 'inside', rep('outside', 5)),
+        textposition = 'outside',
+        textfont = list(color = 'black', size = 14),
+        #textposition = c('inside', rep('outside', 3), 'inside', rep('outside', 5)),
         textfont = list(color = c('white', rep('black', 3), 'white', rep('black', 5)), size = 14)
         )%>%
   layout(title = "Species",
@@ -157,7 +182,8 @@ output$species_plot <- renderPlotly({
                       categoryarray = names(sort(sp_vec)),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "", range = c(0, 15000),
+         xaxis = list(title = "# Consultations",
+                      #range = c(0, 15000),
                       showgrid = FALSE,
                       tickfont = list(color = 'black', size = 12))
   )
@@ -204,7 +230,7 @@ fluidPage(
 )
 ```
 
-### Selectors {data-height=1400}
+### Selectors {data-height=2000}
 ```{r selectors, echo = FALSE}
 #fluidPage(
   fluidRow(

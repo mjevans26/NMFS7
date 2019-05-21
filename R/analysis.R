@@ -1,5 +1,6 @@
 library(dplyr)
 library(plotly)
+library(psych)
 library(viridis)
 library(cooccur)
 
@@ -162,6 +163,7 @@ catprop_dt <- filter(good_data, grepl(".", Category), grepl("Formal", Type), Sp 
               group_by(Category)%>%
               summarize(total = n()), by = "Category")%>%
   mutate(prop = count/total, non = total - count)%>%
+  filter(total >= 10)
   top_n(10, prop)%>%arrange(prop)
 
 vec <- catprop_dt$prop
@@ -197,6 +199,7 @@ spprop_dt <- filter(good_data, grepl(".", Common.Name), grepl("Formal", Type),
               group_by(Common.Name)%>%
               summarize(total = n()), by = "Common.Name")%>%
   mutate(prop = count/total, non = total - count)%>%
+  filter(total >= 10)%>%
   top_n(10, prop)%>%arrange(prop)
 
 spprop_chi <- chisq.test(x = rbind(spprop_dt$count, spprop_dt$non))
@@ -308,9 +311,14 @@ plot_ly(z = as.matrix(comat_jeopardies.out*ncol(comat_jeopardies)),
         x = ~colnames(as.matrix(comat_jeopardies.out)),
         y = ~rownames(as.matrix(comat_jeopardies.out)),
         type = 'heatmap', zmin = -2, zmax = 8)%>%
-  layout(margin = list(b = 150, l = 150),
-         xaxis = list(title = "", tickangle = 60, tickfont = list(color = 'black', size = 10)),
-         yaxis = list(title = "", tickfont = list(color = 'black', size = 10))
+  colorbar(title = "Effect <br>Size",
+           orientation = 'h',
+           titlefont = list(size = 16, color = 'black'),
+           tickfont = list(size = 14, color = 'black'))%>%
+  layout(legend = list(orientation = 'h'),
+         margin = list(b = 150, l = 150),
+         xaxis = list(title = "", tickangle = 60, tickfont = list(color = 'black', size = 12)),
+         yaxis = list(title = "", tickfont = list(color = 'black', size = 12))
   )
 
 permtest <- permatfull(species_x_category, fixedmar = 'both', mtype = "count", times = 1000)
@@ -318,17 +326,22 @@ permtests <- lapply(permtest$perm, function(i){return(i >= species_x_category)})
 permeff <- species_x_category - Reduce('+', permtest$perm)/1000
 permstats <- Reduce('+', permtests)/1000
 
-plot_ly(z = permeff, #species_x_category
+p <- plot_ly(z = permeff, #species_x_category
         x = ~colnames(species_x_category),
         y = ~rownames(species_x_category), type = 'heatmap',
         zmin = -5, zmax = 10
 )%>%
+  colorbar(title = "Effect<br>Size", titlefont = list(color = 'black', size = 16),
+           tickfont = list(color = 'black', size = 14))%>%
   layout(margin = list(b = 100, l = 200),
-         xaxis = list(title = "",
-                      tickfont = list(color = 'black')),
-         yaxis = list(title = "",
-                      tickfont = list(color = 'black')),
-         legend = list(orientation = 'h'))
+         xaxis = list(title = "Work Type",
+                      titlefont = list(color = 'black', size = 16),
+                      tickfont = list(color = 'black', size = 14),
+                      tickangle = 45),
+         yaxis = list(title = "Listed Species",
+                      titlefont = list(color = 'black', size = 16),
+                      tickfont = list(color = 'black', size = 14),
+                      tickangle = 330))
 
 table(good_data$Sp[grepl("Formal", good_data$Type)], good_data$Action.Agency.Proposed.Effect.Determination..Species.[grepl("Formal", good_data$Type)])
 table(good_data$Agency[grepl("Formal", good_data$Type)])
@@ -358,7 +371,7 @@ plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("Formal", Type))%>%
                       tickfont = list(color = 'black', size = 10)),
          margin = list(l = 300, r = 0, t = 0))
 
-ktests <- bind_rows(
+kstests <- bind_rows(
   lapply(unique(good_data$Agency), function(i){
   n <- filter(good_data, grepl("Formal", Type), Agency == i)%>%summarize(count = n_distinct(NMFS.Tracking.Number))
   if(n >= 10){
@@ -382,3 +395,90 @@ as.data.frame(filter(good_data, grepl("Formal", Type), grepl("20[0-9][0-9]", Fis
                 summarize(count = n_distinct(NMFS.Tracking.Number)))%>%
     mutate(p = count/total)%>%
     arrange(desc(p)))
+
+#Kappa statistics
+#starting point for weights matrix
+cktests <- bind_rows(
+  lapply(unique(kstests$Agency[!is.na(kstests$KS)]), function(i){
+    #n <- filter(good_data, grepl("Formal", Type), Agency == i)%>%summarize(count = n_distinct(NMFS.Tracking.Number))
+    Kap <- tryCatch({
+      dat <- filter(good_data, grepl("Formal", Type),
+                    Agency == "Bureau of Land Management", !is.na(Discrepancy),
+                    !grepl("Proposed", Action.Agency.Proposed.Effect.Determination..Species.))%>%
+        select(Action.Agency.Proposed.Effect.Determination..Species., Sp)
+      kweights <- cohen.kappa(dat,
+        w =  1-matrix(c(1.00,0.75,0.50,0.25,0.00,
+                      0.75,1.00,0.75,0.50,0.25,
+                      0.50,0.75,1.00,1.00,1.00,
+                      0.25,0.50,1.00,1.00,0.75,
+                      0.00,0.25,1.00,0.75,1.00),
+                    nrow = 5),
+        levels = c('No Effect', 'Not Likely to Adversely Affect', 'Likely to Adversely Affect', 'No Jeopardy', 'Jeopardy')
+      )
+      wk <- kweights$kappa
+    },
+    error = function(e){
+      return(NA)
+    }
+    )
+    out <- data.frame(Agency = i, Kap = Kap)
+    return(out)
+  }
+  )
+)
+
+
+##HOMEMADE KAPPA STATISTIC USING ALL CONSULTATIONS AS REFERENCE DISTRIBUTION
+total <- filter(good_data, grepl("Formal", Type),
+              !is.na(Discrepancy),
+              !grepl("Proposed", Action.Agency.Proposed.Effect.Determination..Species.))
+
+tot <- select(total, Action.Agency.Proposed.Effect.Determination..Species., Sp)
+
+levs <- c("No Effect", "Not Likely to Adversely Affect", "Likely to Adversely Affect", "No Jeopardy", "Jeopardy")
+
+expect <- table(tot)
+expect <- cbind(expect, "Likely to Adversely Affect" = c(0,0,0))%>%
+  rbind("Jeopardy" = c(0,0,0,0,0), "No Jeopardy" = c(0,0,0,0,0))
+expect <- expect[levs, levs]
+marg1 <- margin.table(expect/sum(expect), 1)
+marg2 <- margin.table(expect/sum(expect), 2)
+expect <- marg1%o%marg2
+w <-  1-matrix(c(1.00,0.75,0.50,0.25,0.00,
+                 0.75,1.00,0.75,0.50,0.25,
+                 0.50,0.75,1.00,1.00,1.00,
+                 0.25,0.50,1.00,1.00,0.75,
+                 0.00,0.25,1.00,0.75,1.00),
+               nrow = 5)
+
+cktests <- lapply(unique(kstests$Agency[!is.na(kstests$KS)]), function(i){
+  wKap <- tryCatch({
+    dat <- filter(total, Agency == i)%>%
+      select(Action.Agency.Proposed.Effect.Determination..Species., Sp)
+
+    obs <- table(dat)
+    row_to_add <- matrix(rep(0, 5*(5-nrow(obs))), nrow = 5-nrow(obs))
+    row.names(row_to_add) <- levs[!levs%in%row.names(obs)]
+    col_to_add <- matrix(rep(0, nrow(obs)*(5-ncol(obs))), ncol = 5-ncol(obs))
+    colnames(col_to_add) <- levs[!levs%in%colnames(obs)]
+
+    obs <- cbind(obs, col_to_add)%>%
+      rbind(row_to_add)
+
+    obs <- prop.table(obs[levs, levs])
+
+    wK <- 1-(sum(w*obs)/sum(w*expect))
+  },
+  error = function(e){
+    return(NA)
+    })
+  out <- data.frame(Agency = i, wKap = wKap)
+  return(out)
+}
+)%>%bind_rows()
+
+agree_tests <- left_join(kstests, cktests, by = "Agency")
+
+plot_ly(data = agree_tests, type = 'scatter', mode = 'markers',
+        x = ~KS, y = ~wKap,
+        text = ~Agency, hoverinfo = 'text')
