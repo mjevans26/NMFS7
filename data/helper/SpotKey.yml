@@ -1,0 +1,36 @@
+Dataset: SpotKey.csv
+Title: Consultation Outcome Data from Manual Biological Opinion Inspection
+Version: 1.0
+Date: 2019-05-23
+SHA-256: 8623af410fad4fc14ebf136edf7f5cf63dcf1b7ecd28da764a65e67e482039dc
+License: CC-BY
+Source: NMFS Biological opinions, www.fws.gov/endangered/esa-library
+URL: NA
+Authors: person(first = Michael, last = Evans, email = mevans@defenders.org,
+    role = c(aut, cre))
+Description: The National Marine Fisheries Service (NMFS) records data associated with
+    section 7 consultation process under the US Endangered Species Actrequests in the
+    Public COnsultation Tracking System (PCTS) database.  Biological opinions are written
+    at the end of all formal consultations.  This dataset contains a set of consultation records
+    for which determination data (Jeopardy, No Jeopardy, Adverse Modificaiton, etc.) recorded in
+    PCTS was cross-checked with determinations recorded in associated biological opinions.
+Archives:
+    figshare: NA
+    Zenodo: NA
+    OSF: doi
+Applications:
+    NMFS_s7: url
+Variables:
+    NMFS.Tracking.Number: Unique record identifier per consultation in PCTS database
+    Common.Name: Name of species
+    Population.Name: Sub-population/DPS/ESU recorded in PCTS
+    Jeopardy: Species effect determination recorded in PCTS
+    Criticalhabitat: Critical habitat determination recorded in PCTS
+    CH: Critical habitat effect determination recorded in Biological Opinion
+    Spp: Species effect determination recorded in Biologica Opinion
+    CH_cons: Simplified critical habitat effect determination recorded in Biological Opinion (Adverse Modification/No Adverse Modification)
+    Spp_cons: Simplified species effect determination recorded in Biologica Opinion (Jeopardy/No Jeopardy)
+Related: NA
+Depends: NA
+
+

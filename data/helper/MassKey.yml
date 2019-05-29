@@ -1,0 +1,36 @@
+Dataset: MassKey.csv
+Title: Verification of NMFS Jeopardy Conclusions (2000 - 2017)
+Version: 1.0
+Date: 2019-05-23
+SHA-256: 
+License: CC-BY
+Source: NMFS Biological opinions, PCTS url
+URL: NA
+Authors: person(first = Michael, last = Evans, email = mevans@defenders.org,
+    role = c(aut, cre))
+Description: The National Marine Fisheries Service (NMFS) records data associated with
+    section 7 consultations under the US Endangered Species Act (ESA) in the
+    Public Consultation Tracking System (PCTS) database.  Biological opinions describing the consultation 
+    process and outcomes per species are written at the end of all formal consultations.
+    This dataset contains serves as a crosswalk for contradictory/confusing combinations of jeopardy and
+    adverse modification determinations recorded in PCTS to true determinations.  True determinations were
+    ascertained by reading sample biological opinions.  If conversions between recorded combinations and true determinations were 
+    inconsistent, crosswalks were constructed per NMFS region.
+Archives:
+    figshare: NA
+    Zenodo: NA
+    OSF: doi
+Applications:
+    NMFS_s7: url
+Variables:
+    Jeopardy: Species effect determination recorded in PCTS
+    CriticalHabitat: Critical habitat determination recorded in PCTS
+    Region: NMFS Region
+    CH: New critical habitat effect determination indicated by Biological Opinions
+    Spp: New species effect determination indicated by Biologica Opinions
+    CH_cons: Simplified critical habitat effect determination recorded in Biological Opinion (Adverse Modification/No Adverse Modification)
+    Spp_cons: Simplified species effect determination recorded in Biologica Opinion (Jeopardy/No Jeopardy)
+Related: NA
+Depends: NA
+
+
