@@ -278,10 +278,10 @@ pop_x_category <- as.matrix(table(pop_jeopardies$Name[grepl(".", pop_jeopardies$
 combos <- as.data.frame(group_by(good_data, Common.Name, Population)%>%summarize(count = n()))
 
 comat <- table(good_data$Common.Name[grepl("20[0-9][0-9]", good_data$Fiscal.Year) & grepl(".", good_data$Common.Name)], good_data$NMFS.Tracking.Number[grepl("20[0-9][0-9]", good_data$Fiscal.Year)& grepl(".", good_data$Common.Name)])
-comat.out <- cooccur(comat, type = "spp_site", thresh = FALSE, spp_names = TRUE, only_effects = TRUE, eff_matrix = TRUE)
+comat_out <- cooccur(comat, type = "spp_site", thresh = FALSE, spp_names = TRUE, only_effects = TRUE, eff_matrix = TRUE)
 
 comat_jeopardies <- table(good_data$Common.Name[grepl("20[0-9][0-9]", good_data$Fiscal.Year) & grepl(".", good_data$Common.Name) & good_data$Sp == "Jeopardy"], good_data$NMFS.Tracking.Number[grepl("20[0-9][0-9]", good_data$Fiscal.Year)& grepl(".", good_data$Common.Name) & good_data$Sp == "Jeopardy"])
-comat_jeopardies.out <- cooccur(species_x_biop, type = "spp_site", thresh = FALSE, spp_names = TRUE, only_effects = TRUE, eff_standard = FALSE, eff_matrix = TRUE)
+comat_jeopardies_out <- cooccur(species_x_biop, type = "spp_site", thresh = FALSE, spp_names = TRUE, only_effects = TRUE, eff_standard = FALSE, eff_matrix = TRUE)
 comat_pop_jeopardies <- cooccur(pop_x_biop[grepl("Steelhead|Salmon", rownames(pop_x_biop)),], type = "spp_site", thresh = FALSE, spp_names = TRUE, only_effects = TRUE, eff_standard = TRUE, eff_matrix = TRUE)
 coprob_jeopardies <- cooccur(species_x_biop, type = "spp_site", thresh = TRUE, spp_names = TRUE)
 coprob_pop_jeopardies <- cooccur(pop_x_biop[grepl("Steelhead|Salmon", rownames(pop_x_biop)),], type = "spp_site", thresh = TRUE, spp_names = TRUE)
@@ -307,9 +307,9 @@ plot_ly(z = as.matrix(comat.out),
          xaxis = list(title = ""),
          yaxis = list(title = ""))
 
-plot_ly(z = as.matrix(comat_jeopardies.out*ncol(comat_jeopardies)),
-        x = ~colnames(as.matrix(comat_jeopardies.out)),
-        y = ~rownames(as.matrix(comat_jeopardies.out)),
+plot_ly(z = as.matrix(comat_jeopardies_out*ncol(comat_jeopardies)),
+        x = ~colnames(as.matrix(comat_jeopardies_out)),
+        y = ~rownames(as.matrix(comat_jeopardies_out)),
         type = 'heatmap', zmin = -2, zmax = 8)%>%
   colorbar(title = "Effect <br>Size",
            orientation = 'h',
@@ -321,9 +321,32 @@ plot_ly(z = as.matrix(comat_jeopardies.out*ncol(comat_jeopardies)),
          yaxis = list(title = "", tickfont = list(color = 'black', size = 12))
   )
 
+#Create 1000 simulated speciex x category jeopardy frequency matrices
 permtest <- permatfull(species_x_category, fixedmar = 'both', mtype = "count", times = 1000)
+#For each simulation, record whether the observed frequency was lower
 permtests <- lapply(permtest$perm, function(i){return(i >= species_x_category)})
-permeff <- species_x_category - Reduce('+', permtest$perm)/1000
+
+#calculate mean and variance for simulations
+arr <- array(NA, dim = c(45, 9, 1000))
+for (i in 1:length(permtest$perm)){
+  arr[, , i] <- permtest$perm[[i]]
+}
+
+permmean <- apply(arr, c(1,2), mean)
+dimnames(permmean) <- dimnames(permeff)
+permsd <- apply(arr, c(1,2), sd)
+dimnames(permsd) <- dimnames(permeff)
+
+#Calculate the difference between the observed frequencies and mean simulated frequency
+permeff <- species_x_category - permmean
+
+permupper <- species_x_category - (permmean+permsd)
+permlower <- species_x_category - (permmean-permsd)
+
+#mean frequency from simulations
+permmean <- Reduce('+', permtest$perm)/1000
+
+#p-value
 permstats <- Reduce('+', permtests)/1000
 
 p <- plot_ly(z = permeff, #species_x_category
