@@ -28,9 +28,20 @@ ag_dt <- filter(good_data, grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal.Year
 vec <- ag_dt$count
 names(vec) <- ag_dt$Agency
 
+text_format <- function(df){
+  max <- max(ag_dt$count, rm.na = TRUE)
+  bool <- df$count >= max * 0.75
+  textcolor <- ifelse(bool, 'white', 'black')
+  textpos <- ifelse(bool, 'inside', 'outside')
+  return(list(textcolor, textpos))
+}
+
+
 plot_ly(data = ag_dt, y = ~Agency, x = ~count, type= "bar", orientation = 'h',
-        text = ~Agency, textposition = c('inside', rep('outside', 9)),
-        textfont = list(color = c('white', rep('black', 9)), size = 14))%>%
+        text = ~Agency,
+        textposition = text_format(ag_dt)[[2]],
+        textfont = list(color = text_format(ag_dt)[[1]])
+        )%>%
   layout(title = "Action Agency",
          titlefont = list(color = 'black', size = 16),
          yaxis = list(categoryorder = 'array',
@@ -129,7 +140,9 @@ plot_ly(data = filter(good_data, grepl("20[0-16]", Fiscal.Year))%>%
           summarize(FY = first(Fiscal.Year), Type = first(Type))%>%
           group_by(FY, Type)%>%
           summarize(count= n()),
-        x = ~FY, y = ~count, color = ~ Type, type = 'bar', colors = viridis(5))%>%
+        x = ~FY, y = ~count, color = ~ Type, type = 'bar', colors = viridis(5),
+        text = ~paste(count, " ", Type, "s in ", FY, sep = ""),
+        hoverinfo = 'text')%>%
   layout(barmode = 'stack',
          xaxis = list(title = "Fiscal Year"),
          yaxis = list(title = "Consultations"),
@@ -386,13 +399,14 @@ plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("Formal", Type))%>%
         text = ~paste(Agency, count, round(freq, 2))
         )%>%
   layout(barmode = 'stack',
-         legend = list(orientation = 'h', x = 0.5, y = 100),
+         legend = list(orientation = 'h', traceorder = 'reversed', x = 0, y = 1.1),
+         title = "Discrepancy Score",
          xaxis = list(title = "Proportion of Determinations",
                       titlefont = list(color = 'black'),
                       tickfont = list(color = 'black')),
          yaxis = list(title = "",
                       tickfont = list(color = 'black', size = 10)),
-         margin = list(l = 300, r = 0, t = 0))
+         margin = list(l = 50, r = 0, t = 100))
 
 kstests <- bind_rows(
   lapply(unique(good_data$Agency), function(i){

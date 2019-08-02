@@ -1,10 +1,12 @@
 ---
 title: "Analysis of NMFS Consultations"
-author: "Michael Evans and Meg Evansen"
-date: "`r Sys.Date()`"
+author: "Michael Evans"
+date: "July 23, 2019"
 output: 
-  flexdashboard::flex_dashboard:
-    vertical_layout: scroll
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float: true
     css: custom.css
     social: menu
     df_print: paged
@@ -65,7 +67,7 @@ discrep_plot <- plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("For
        text = ~paste(Agency, count, round(freq, 2))
      )%>%
   layout(barmode = 'stack',
-         legend = list(orientation = 'h', x = 0.5, y = 100),
+         legend = list(orientation = 'h', x = 0.3, y = 1.2, traceorder = "reversed", title = 'Discrepancy'),
          xaxis = list(title = "Proportion of Determinations",
                       titlefont = list(color = 'black'),
                       tickfont = list(color = 'black')),
@@ -74,12 +76,13 @@ discrep_plot <- plot_ly(data = filter(good_data, !is.na(Discrepancy), grepl("For
 
 #TimeLine
 output$time_plot <- renderPlotly({
-  plot_ly(data = filter(df(), grepl("20[0-16]", Fiscal.Year))%>%
+  plot_ly(data = filter(df(), grepl("20[0-16]", Fiscal.Year),
+                        Type == "Formal Consultation"| Type == "Informal Consultation")%>%
                         group_by(NMFS.Tracking.Number)%>%
           summarize(FY = first(Fiscal.Year), Type = first(Type))%>%
           group_by(FY, Type)%>%
           summarize(count= n()),
-        x = ~FY, y = ~count, color = ~ Type, type = 'bar', colors = viridis(5))%>%
+        x = ~FY, y = ~count, color = ~ Type, type = 'bar', colors = rev(viridis(2)))%>%
   layout(barmode = 'stack',
          xaxis = list(title = "Fiscal Year"),
          yaxis = list(title = "Consultations"),
@@ -94,11 +97,13 @@ cat_dt <- reactive({filter(df(), grepl(".", Category), grepl("20[0-9][0-9]", Fis
   group_by(Category)%>%
   summarize(count = n())%>%
   top_n(10, count)})
-cat_vec <-c()
+
+cat_names <- reactiveVal(c())
 
 observeEvent(cat_dt(),
              {cat_vec <- isolate({cat_dt()$count})
              names(cat_vec) <- isolate({cat_dt()$Category})
+             cat_names(names(sort(cat_vec)))
              })
 
 output$category_plot <- renderPlotly({
@@ -113,10 +118,10 @@ output$category_plot <- renderPlotly({
     textfont = list(color = 'black'))%>%
   layout(title = "Work Type",
          yaxis = list(categoryorder = 'array',
-                      categoryarray = names(sort(cat_vec)),
+                      categoryarray = cat_names(),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = ""
+         xaxis = list(title = "# of Consultations"
                       #range = c(0, 6000)
                       )
          )
@@ -129,11 +134,13 @@ ag_dt <- reactive({filter(df(), grepl(".", Agency), grepl("20[0-9][0-9]", Fiscal
   group_by(Agency)%>%
   summarize(count = n())%>%
   top_n(10, count)})
-ag_vec <- c()
+
+ag_names <- reactiveVal(c())
 
 observeEvent(ag_dt(),
              {ag_vec <- isolate({ag_dt()$count})
              names(ag_vec) <- isolate({ag_dt()$Agency})
+             ag_names(names(sort(ag_vec)))
              })
 
 # ag_vec <- ag_dt$count
@@ -142,14 +149,14 @@ observeEvent(ag_dt(),
 output$agency_plot <- renderPlotly({
   plot_ly(data = ag_dt(), y = ~Agency, x = ~count, type= "bar", orientation = 'h',
         text = ~Agency,
-        textposition = c('inside', rep('outside', 9)),
-        textfont = list(color = c('white', rep('black', 9))))%>%
-  layout(title = "Agencies",
+        textposition = 'outside',
+        textfont = list(color = 'black'))%>%
+  layout(title = "Federal Agencies",
          yaxis = list(categoryorder = 'array',
-                      categoryarray = names(sort(ag_vec)),
+                      categoryarray = ag_names(),
                       title = "",
                       showticklabels = FALSE),
-         xaxis = list(title = "")
+         xaxis = list(title = "# of Consultations")
   )
 })
 
@@ -158,11 +165,13 @@ sp_dt <- reactive({filter(df(), grepl(".", Common.Name), grepl("20[0-9][0-9]", F
   group_by(Common.Name)%>%
   summarize(count = length(unique(NMFS.Tracking.Number)))%>%
   top_n(10, count)})
-sp_vec <- c()
+
+sp_names <- reactiveVal(c())
 
 observeEvent(sp_dt(),
              {sp_vec <- isolate({sp_dt()$count})
              names(sp_vec) <- isolate({sp_dt()$Common.Name})
+             sp_names(names(sort(sp_vec)))
              })
 
 # sp_vec <- sp_dt$count
@@ -172,14 +181,14 @@ output$species_plot <- renderPlotly({
   plot_ly(data = sp_dt(), y = ~Common.Name, x = ~count, type= "bar", orientation = 'h',
         text = ~Common.Name,
         textposition = 'outside',
-        textfont = list(color = 'black', size = 14),
+        textfont = list(color = 'black', size = 14)
         #textposition = c('inside', rep('outside', 3), 'inside', rep('outside', 5)),
-        textfont = list(color = c('white', rep('black', 3), 'white', rep('black', 5)), size = 14)
+        #textfont = list(color = c('white', rep('black', 3), 'white', rep('black', 5)), size = 14)
         )%>%
   layout(title = "Species",
          titlefont = list(color = 'black', size = 16),
          yaxis = list(categoryorder = 'array',
-                      categoryarray = names(sort(sp_vec)),
+                      categoryarray = sp_names(),
                       title = "",
                       showticklabels = FALSE),
          xaxis = list(title = "# Consultations",
@@ -196,9 +205,9 @@ permeff <- species_x_category - Reduce('+', permtest$perm)/1000
 permstats <- Reduce('+', permtests)/1000
 
 
-spbycat_plot <- plot_ly(z = permeff, #species_x_category
-            x = ~colnames(species_x_category),
-            y = ~rownames(species_x_category), type = 'heatmap',
+spbycat_plot <- plot_ly(z = t(permeff), #species_x_category
+            y = ~colnames(species_x_category),
+            x = ~rownames(species_x_category), type = 'heatmap',
             zmin = -5, zmax = 10
             )%>%
       layout(margin = list(b = 100, l = 200),
@@ -210,60 +219,82 @@ spbycat_plot <- plot_ly(z = permeff, #species_x_category
 
 ```
 
-Basic
-=====
+## Consultation and the Endangered Species Act
 
-### Discrepancies
-
-```{r discrep_txt, echo = FALSE}
+```{r intro, echo = FALSE}
 fluidPage(
   fluidRow(
-    column(3,
-           p("Federal agencies get to propose a determination for each species that may be affected
-             by their actions.  NMFS may agree or disagree with these proposals.  We scored these
-             discrepancies by the severity of the disagreement with -3 indicating severe underestimation
-             of effects by the action agency, and 3 indicating severe overestimation.")
+    column(6,
+           p("The U.S. Endangered Species Act (ESA) requires that federal agencies consult with the U.S. Fish and Wildlife Service or National Marine Fisheries Service (NMFS) to ensure federal actions do not jeopardize the existence of listed species. In a recent", tags$a("paper", href = 'https://www.biorxiv.org/content/10.1101/424911v1.article-info')," We analyzed all the consultations recorded by NMFS from 2000–2017 to understand how this important part of the ESA is implemented, and to investigate the role of expert review and analysis in the consultation process.")
            ),
     column(1),
-    column(8, discrep_plot)
+    column(5,
+           img(src = 'Box1.png', width = 400, height = 400, alt = 'Conceptual diagram of the section 7 consultation process under the Endangered Species Act')
+           )
+    
   )
 )
 ```
 
-### Selectors {data-height=2000}
-```{r selectors, echo = FALSE}
-#fluidPage(
+## Agreement among Agencies
+
+```{r discrep_txt, echo = FALSE}
+fluidPage(
   fluidRow(
-    column(2,
+    p("When formal consultation is initiated, federal agencies propose a determination as to how their planned actions will affect listed species. During consultation NMFS may agree or disagree with these proposals.  We scored the degree of agreement on an ordinal -3 to 3 scale, with -3 representing the most severe underestimation of effects by agencies possible, and 3 representing the most severe overestimation of effects by agencies relative to NMFS conclusion")
+  ),
+  fluidRow(
+    discrep_plot
+  ),
+  fluidRow(
+    p("Many agencies agreed with NMFS. However, our analyses revealed that NMFS disagreed with some agencies more frequently than others - with some agencies regularly overestimating, and others regularly underestimating the effect of their actions on listed species.")
+  )
+)
+```
+
+## General Patterns
+```{r selectors, echo = FALSE}
+fluidPage(
+  fluidRow(
+    column(3,
            select_taxa,
            select_category,
            select_agency,
            run_update
            ),
-    column(1),
     column(9,
-           plotlyOutput("time_plot"),
-           plotlyOutput("agency_plot"),
-           plotlyOutput("category_plot"),
+           plotlyOutput("time_plot")
+           )
+    ),
+  fluidRow(
+    column(4,
+           plotlyOutput("agency_plot")
+           ),
+    column(4,
+           plotlyOutput("category_plot")
+           ),
+    column(4,
            plotlyOutput("species_plot")
     )
-  )
-#)
+    )
+
+)
 
 ```
 
-### Species x work type matrix
+
+## Species and Work Types
 ```{r matrix, echo = FALSE}
 fluidPage(
   fluidRow(
-    column(8, spbycat_plot),
+    column(9, spbycat_plot),
     column(1),
-    column(3, p('Certain types of proposed actions may be more likely to jeopardize particular listed species.
-                This heatmap illustrated which combinations of work types and species resulted in more (yellow)
-                or fewer (purple) jeopardy determinations than would be expected by random chance.'))
+    column(2, 
+           div(
+             br(),
+             p("Different listed species were jeopardized by different types of proposed actions.  This heatmap illustrates which combinations of work types and species resulted in more (yellow) or fewer (purple) jeopardy determinations than would be expected by random chance.")
+           )
+    )
   )
 )
 ```
-
-Advanced
-========
